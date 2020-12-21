@@ -21,11 +21,6 @@
 	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
-
 	<!-- Document Title
 	============================================= -->
 	<title>QAX</title>
@@ -950,19 +945,6 @@
 	============================================= -->
 	<script src="js/functions.js"></script>
 
-	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
-	<script src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-	<script src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
-	<script src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
-
 	<!-- For mail sending
 	============================================= -->
 	<script src="https://smtpjs.com/v3/smtp.js"></script>
@@ -973,31 +955,6 @@
 		var tpj = jQuery;
 		tpj.noConflict();
 		var $ = jQuery.noConflict();
-
-
-		tpj(document).ready(function () {
-			var apiRevoSlider = tpj('#rev_slider_k_fullwidth').show().revolution(
-				{
-					sliderType: "standard",
-					sliderLayout: "fullwidth",
-					delay: 4000,
-					navigation: {
-						arrows: { enable: true }
-					},
-					responsiveLevels: [1240, 1024, 778, 480],
-					visibilityLevels: [1240, 1024, 778, 480],
-					gridwidth: [1240, 1024, 778, 480],
-					gridheight: [600, 768, 960, 720],
-				});
-
-			apiRevoSlider.on("revolution.slide.onloaded", function (e) {
-				setTimeout(function () { SEMICOLON.slider.sliderDimensions(); }, 400);
-			});
-
-			apiRevoSlider.on("revolution.slide.onchange", function (e, data) {
-				SEMICOLON.slider.revolutionSliderMenu();
-			});
-		});
 
 		// for email sending
 		/*
