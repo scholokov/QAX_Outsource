@@ -2250,3 +2250,93 @@ var SEMICOLON = SEMICOLON || {};
 	});
 
 })(jQuery);
+$(function(){
+    $('#validName').hide();
+    $("#errorName").hide();
+    $('#validEmail').hide();
+    $("#errorEmail").hide();
+    $("#enterName").hide()
+    $("#enterEmail").hide()
+    var error_name=false;
+    var error_email=false;
+    $("#name").focusout(function(){
+        check_name();
+    });
+    $("#email").focusout(function(){
+        check_email();
+    });
+    function check_name(){
+        var name_length=$("#name").val().length;
+        var patternName=new RegExp(/^[a-zA-Zа-яА-яàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð '-]+$/i);
+        if(name_length<2 || name_length>50 || !patternName.test($("#name").val())){
+            $("#name").css({"border-color": "red","color": "red","box-shadow":"none"});
+            $("#errorName").show();
+            $("#validName").hide();
+            $("#enterName").hide();
+            error_name=true;
+        } else {
+            $("#name").css({"border-color": "green","color": "green","box-shadow":"none"});
+            $("#errorName").hide();
+            $("#validName").show();
+            $("#enterName").hide();
+        }
+    }
+    var patternEmail=new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i)
+    function check_email(){
+        if(!patternEmail.test($("#email").val())){
+            $("#email").css({"border-color": "red","color": "red","box-shadow":"none"});
+            $("#errorEmail").show();
+            $("#validEmail").hide();
+            $("#enterEmail").hide();
+            error_name=true;
+        } else {
+            $("#email").css({"border-color": "green","color": "green","box-shadow":"none"});
+                $("#errorEmail").hide();
+                $("#validEmail").show();
+                $("#enterEmail").hide();
+            }
+        }
+        $("#sendMail").on("click", function(){
+            var testName=check_name();
+            var testEmail=check_email();
+            var name = $("#name").val();
+            var email = $("#email").val();
+            var phone = $("#phone").val();
+            var message = $("#message").val();
+            if(name=="" ){
+                $('#name').css('border-color', 'red');
+				$("#enterName").show();
+				$("#errorName").hide();
+                
+                return false;
+            }else if(email==""){
+				$('#email').css('border-color', 'red');
+				$("#enterEmail").show();
+				$("#errorEmail").hide();
+
+				return false;
+			}
+            $.ajax({
+                url: 'mail.php',
+                type: 'POST',
+                cache: false,
+                data: { 'name': name, 'email': email, 'phone': phone, 'message': message} ,
+                error:function(){$("#errorSending").html("Произошла ошибка!");},
+                beforeSend: function(){
+                    $("#sendMail").prop("disabled",true);
+                    $("#errorSending").html("Go");
+                },
+                success: function(data){
+                    if(!data){
+                        alert("Error")
+                    } else { 
+                        $('#erconts').html(result);  
+                        $("form").submit(function(){
+                            $(this).find("input[type=text], select").val("");
+                        });
+                    };
+                    $("#sendMail").prop("disabled",false);
+                }
+            })
+        })
+    })

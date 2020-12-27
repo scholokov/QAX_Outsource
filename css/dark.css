@@ -386,13 +386,13 @@ body #side-panel.dark {
 }
 
 .dark .top-search-form input {
-	color: #F7F7F7 !important;
+	color: #f7f7f7 !important;
 }
 
 @media (min-width: 992px) {
 	.dark .transparent-header:not(.sticky-header):not(.full-header):not(.floating-header) .top-search-form input,
 	.transparent-header.dark:not(.sticky-header):not(.full-header):not(.floating-header) .top-search-form input {
-		border-bottom-color: rgba(255,255,255,0.15);
+		border-bottom-color: rgba(179, 174, 174, 0.15);
 	}
 }
 
@@ -2124,3 +2124,31 @@ body #side-panel.dark {
 
 .dark .popover.left > .arrow:after { border-left-color: #282828; }
 
+input[type=text]{
+	background-color: rgba(255,255,255,0.7);
+	color: black;
+
+}
+.valid_input{
+	background-color: darkgrey;
+    border-color: green;
+    color: green;
+    box-shadow: none;
+  }
+  
+input:invalid {
+	background-color: darkgrey;
+    border-color: red;
+  }
+#errorEmail, #errorName, #name:invalid, input:invalid, #enterName, #enterEmail {
+    color: red;
+}
+#validName{
+    color: green;
+}
+#validEmail{
+    color: green;
+}
+#forma{
+	margin: auto;
+}

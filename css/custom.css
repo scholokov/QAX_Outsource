@@ -18,3 +18,42 @@ h1 {
 h6{
 	color:blueviolet;
 }
+
+.valid_input{
+	background-color: unset;
+    border-color: green;
+    color: green;
+    box-shadow: none;
+  }
+  
+input:invalid {
+    border-color: red;
+  }
+#errorEmail, #errorName, #name:invalid, input:invalid, #enterName, #enterEmail {
+    color: red;
+}
+#validName{
+    color: green;
+}
+#validEmail{
+    color: green;
+}
+#forma{
+	margin: auto;
+}
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid rgb(0, 0, 0);
+  -webkit-text-fill-color: rgb(255, 240, 240);
+  -webkit-box-shadow: background-color 0 0 0px 1000px rgb(255, 255, 255) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
