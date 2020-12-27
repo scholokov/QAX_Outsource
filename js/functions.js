@@ -2320,7 +2320,6 @@ $(function(){
             $.ajax({
 				data: { 'name': name, 'email': email, 'phone': phone, 'message': message} ,
 				sending: function(){
-					data => alert(data)
 					Email.send({
 						SecureToken: "d694b3af-9be7-4ca8-a285-05a8b271046a",
 						To: 'scholokov@gmail.com',
