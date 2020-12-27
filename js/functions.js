@@ -2326,7 +2326,9 @@ $(function(){
 						From: "scholokov@gmail.com",
 						Subject: "New mail from QAX",
 						Body: data
-					  })
+					  }).then(
+						data => alert(data)
+					);
 				}
             })
         })
