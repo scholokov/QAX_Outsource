@@ -2298,7 +2298,8 @@ $(function(){
         }
         $("#sendMail").on("click", function(){
             var testName=check_name();
-            var testEmail=check_email();
+			var testEmail=check_email();
+			var errorM=$("#errorSending")
             var name = $("#name").val();
             var email = $("#email").val();
             var phone = $("#phone").val();
@@ -2317,26 +2318,16 @@ $(function(){
 				return false;
 			}
             $.ajax({
-                url: 'mail.php',
-                type: 'POST',
-                cache: false,
-                data: { 'name': name, 'email': email, 'phone': phone, 'message': message} ,
-                error:function(){$("#errorSending").html("Произошла ошибка!");},
-                beforeSend: function(){
-                    $("#sendMail").prop("disabled",true);
-                    $("#errorSending").html("Go");
-                },
-                success: function(data){
-                    if(!data){
-                        alert("Error")
-                    } else { 
-                        $('#erconts').html(result);  
-                        $("form").submit(function(){
-                            $(this).find("input[type=text], select").val("");
-                        });
-                    };
-                    $("#sendMail").prop("disabled",false);
-                }
+				data: { 'name': name, 'email': email, 'phone': phone, 'message': message} ,
+				sending: function(){
+					Email.send({
+						SecureToken: "d694b3af-9be7-4ca8-a285-05a8b271046a",
+						To: 'scholokov@gmail.com',
+						From: "scholokov@gmail.com",
+						Subject: "New mail from QAX",
+						Body: data
+					  })
+				}
             })
         })
     })
