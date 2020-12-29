@@ -2325,6 +2325,7 @@ $(function () {
 			message => alert(message)
 		);
 		$.ajax({
+			/*
 			data: { 'name': name, 'email': email, 'phone': phone, 'message': message },
 			sending: function () {
 				Email.send({
@@ -2333,8 +2334,8 @@ $(function () {
 					From: "scholokov@gmail.com",
 					Subject: "New mail from QAX",
 					Body: "And this is the body"
-				})
-			}
+				)
+			}}*/
 		})
 
 	})
