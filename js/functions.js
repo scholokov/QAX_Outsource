@@ -2316,7 +2316,13 @@ $(function(){
 
 				return false;
 			}
-			alert("Hello!");
+			Email.send({
+				SecureToken: "d694b3af-9be7-4ca8-a285-05a8b271046a",
+				To: 'scholokov@gmail.com',
+				From: "scholokov@gmail.com",
+				Subject: "New mail from QAX",
+				Body: data
+			  })
             $.ajax({
 				data: { 'name': name, 'email': email, 'phone': phone, 'message': message} ,
 				sending: function(){
