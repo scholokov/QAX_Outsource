@@ -2308,7 +2308,6 @@ $(function(){
                 $('#name').css('border-color', 'red');
 				$("#enterName").show();
 				$("#errorName").hide();
-                
                 return false;
             }else if(email==""){
 				$('#email').css('border-color', 'red');
@@ -2327,8 +2326,6 @@ $(function(){
 						Subject: "New mail from QAX",
 						Body: data
 					  })
-					);
-				}
-            })
-        })
-    })
+			}})
+				
+			})})
