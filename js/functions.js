@@ -2316,6 +2316,7 @@ $(function(){
 
 				return false;
 			}
+			alert("Hello!");
             $.ajax({
 				data: { 'name': name, 'email': email, 'phone': phone, 'message': message} ,
 				sending: function(){
