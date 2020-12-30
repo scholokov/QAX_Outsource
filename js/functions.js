@@ -2317,7 +2317,7 @@ $(function () {
 		}
 		Email.send({
 			SecureToken: "d694b3af-9be7-4ca8-a285-05a8b271046a",
-			To: 'scholokov@gmail.com',
+			To: 'qax2021@gmail.com',
 			From: "scholokov@gmail.com",
 			Subject: "New mail from QAX",
 			Body: "And this is the body"
