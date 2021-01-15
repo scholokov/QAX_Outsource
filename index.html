@@ -20,6 +20,8 @@
 
 	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
 
 	<!-- Document Title
 	============================================= -->
@@ -142,6 +144,74 @@
 					</section><!-- #page-title end -->
 					<article id="our_services">
 						<!-- Our Services -->
+
+						<h2 class="text-center">Our Services</h2>
+
+						<div id="our_services_block" class="row col-mb-50 mb-0">
+							<div class="col-md-6">
+								<div class="border boarder-margin">
+									<h3>Full Testing Cycle</h3>
+									<div data-readmore="true"
+										data-readmore-trigger-open="<i class='icon-angle-down i-plain i-large m-0 float-none'></i>"
+										data-readmore-trigger-close="<i class='icon-angle-up i-plain i-large m-0 float-none'></i>">
+										<p>
+											High quality of a product can be guaranteed only by verifying it very
+											accurately.
+											Our team can provide full range of test services. Mobile testing will be
+											performed
+											on most popular iOs and Android devices (tablets and phones), and Windows
+											mobile if
+											needed. Desktop applications and Web services will be verified on any
+											required OS
+											and browser.<br>
+											<br>
+											- Desktop, Web and Mobile testing<br>
+											- Requirements testing<br>
+											- Functional testing<br>
+											- Usability testing<br>
+											- Configuration testing<br>
+											- Localization / translation testing
+										</p>
+										<a href="#" class="read-more-trigger"></a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 offset-md-0">
+								<div class="border boarder-margin">
+									<h3>Test Process Optimization</h3>
+									<div data-readmore="true"
+										data-readmore-trigger-open="<i class='icon-angle-down i-plain i-large m-0 float-none'></i>"
+										data-readmore-trigger-close="<i class='icon-angle-up i-plain i-large m-0 float-none'></i>">
+										<p>
+											To guarantee product quality, it should be verified very clearly. But it
+											require
+											a
+											lot of time and resources, and you still getting issues from production that
+											costs a
+											lot to fix. We can help you to solve this problem. Our optimized approaches
+											to
+											testing process will allow you to increase product quality, reduce overall
+											testing
+											time and number of issues from production. As result you will get valuable
+											profit
+											and great product quality.<br><br>
+
+											First, we analyze existing test process of a company and define its
+											weaknesses.
+											Then, based on research results, we make suggestions about optimization and
+											reorganization of testing strategies. Implementation of new test processes
+											is
+											essential part of our activities in this case.</p>
+
+										<a href="#" class="read-more-trigger"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<!--
 						<div class="fancy-title title-bottom-border">
 							<h1>Our Services</h1>
 						</div>
@@ -205,6 +275,8 @@
 								</div>
 							</div>
 						</div>
+						-->
+
 						<!--
 
 						Detailed view:
@@ -742,34 +814,40 @@
 		<footer id="footer" class="dark">
 			<div class="container">
 				<div id="forma" class="col-md-5 col-md-offset-3 text-center">
-				<h1>Form</h1>
-				<form id="form" action="js/telegram.php" method="POST" >
-				  <div class="form-group">
-				  <label for="name">Name:</label>
-					<input type="text" id="name" name="name" placeholder="Your name" class="form-control" >
-					<div id="errorName">The field "Name" accepts input: Latin and Cyrillic characters (upper and lower case), special characters "space", "-", " '", the minimum number of characters - 2, the maximum number of characters - 50.</div>
-					<div id="validName">Good</div>
-					<div id="enterName">*This field is required.</div>
-				  </div>
-				  <div class="form-group">
-					<label for="email">Email:</label>
-					<input type="text" id="email" name="email" placeholder="name@example.com" class="form-control" >
-					<div id="errorEmail" >The “e-mail” field accepts input: Latin characters (upper and lower case), special characters “_”, “. ”,“ - “,“ @ “, Arabic numerals from 0 to 9.</div>
-					<div id="validEmail">Good</div>
-					<div id="enterEmail">*This field is required.</div>
-				  <div class="form-group">
-					<label for="phone">Phone number:</label>
-					<input type="phone" id="phone" name="phone" placeholder="Phone" class="form-control" optional>
-				  </div>
-				  <div class="form-group">
-					<label for="message">Your message:</label>
-					<textarea type="message" id="message" name="Message" placeholder="Message" class="form-control" optional></textarea>
-				  </div>
-					<button type="submit" id="sendMail" name="button" class="btn btn-success">Submit</button>
-					 <div id="errorSending"></div>
-				  </form>
+					<h1>Form</h1>
+					<form id="form" action="js/telegram.php" method="POST">
+						<div class="form-group">
+							<label for="name">Name:</label>
+							<input type="text" id="name" name="name" placeholder="Your name" class="form-control">
+							<div id="errorName">The field "Name" accepts input: Latin and Cyrillic characters (upper and
+								lower case), special characters "space", "-", " '", the minimum number of characters -
+								2, the maximum number of characters - 50.</div>
+							<div id="validName">Good</div>
+							<div id="enterName">*This field is required.</div>
+						</div>
+						<div class="form-group">
+							<label for="email">Email:</label>
+							<input type="text" id="email" name="email" placeholder="name@example.com"
+								class="form-control">
+							<div id="errorEmail">The “e-mail” field accepts input: Latin characters (upper and lower
+								case), special characters “_”, “. ”,“ - “,“ @ “, Arabic numerals from 0 to 9.</div>
+							<div id="validEmail">Good</div>
+							<div id="enterEmail">*This field is required.</div>
+							<div class="form-group">
+								<label for="phone">Phone number:</label>
+								<input type="phone" id="phone" name="phone" placeholder="Phone" class="form-control"
+									optional>
+							</div>
+							<div class="form-group">
+								<label for="message">Your message:</label>
+								<textarea type="message" id="message" name="Message" placeholder="Message"
+									class="form-control" optional></textarea>
+							</div>
+							<button type="submit" id="sendMail" name="button" class="btn btn-success">Submit</button>
+							<div id="errorSending"></div>
+					</form>
 				</div>
-				</div>
+			</div>
 			<!-- Copyrights
 			============================================= -->
 			<div id="copyrights">
@@ -836,7 +914,7 @@
 	<!-- For mail sending
 	============================================= -->
 	<script src="https://smtpjs.com/v3/smtp.js"></script>
-	
+
 
 	<!-- Footer Scripts
 	============================================= -->

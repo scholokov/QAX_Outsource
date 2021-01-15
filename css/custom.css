@@ -4,14 +4,27 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
-/* formatting */
-h1 {
-	color: red;
-}
-.red{
-	color: red;
+#our_services{
+  margin-top: 100px;
 }
 
+#our_services_block{
+  margin-top: 100px;
+}
+
+.boarder-margin{
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h2,h3{
+  font-family: 'Rubik', sans-serif;
+}
+
+html{
+  font-family: 'Roboto', sans-serif;
+}
 
 
 /* temp formatting */
