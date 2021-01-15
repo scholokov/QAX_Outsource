@@ -4,64 +4,103 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
-#our_services{
+#our_services {
   margin-top: 100px;
 }
 
-#our_services_block{
+#our_services_block {
   margin-top: 100px;
 }
 
-.boarder-margin{
+.boarder-margin {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-h2,h3{
+#cooperation_offer_box {
+  background: url(../images/cooperation_offer_background.svg);
+  background-repeat: repeat-n;
+  padding: 80px;
+}
+
+.h-colored{
+  color: rgba(244, 148, 34, 1)
+}
+
+.block-color{
+  background-color: #FFFFFF;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.block-height{
+  height: 100%;
+}
+
+
+
+
+
+
+
+
+
+h2,
+h3 {
   font-family: 'Rubik', sans-serif;
 }
 
-html{
+html {
   font-family: 'Roboto', sans-serif;
 }
 
 
 /* temp formatting */
-h6{
-	color:blueviolet;
+h6 {
+  color: blueviolet;
 }
 
-.valid_input{
-	background-color: unset;
-    border-color: green;
-    color: green;
-    box-shadow: none;
-  }
-  
+.valid_input {
+  background-color: unset;
+  border-color: green;
+  color: green;
+  box-shadow: none;
+}
+
 input:invalid {
-    border-color: red;
-  }
-#errorEmail, #errorName, #name:invalid, input:invalid, #enterName, #enterEmail {
-    color: red;
+  border-color: red;
 }
-#validName{
-    color: green;
+
+#errorEmail,
+#errorName,
+#name:invalid,
+input:invalid,
+#enterName,
+#enterEmail {
+  color: red;
 }
-#validEmail{
-    color: green;
+
+#validName {
+  color: green;
 }
-#forma{
-	margin: auto;
+
+#validEmail {
+  color: green;
 }
+
+#forma {
+  margin: auto;
+}
+
 /* Change Autocomplete styles in Chrome*/
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus
-input:-webkit-autofill, 
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill,
 textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover
-textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
