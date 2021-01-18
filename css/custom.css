@@ -4,6 +4,30 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
+#hero-text{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 70px;
+  letter-spacing: 0.03em;
+  color: #F49422;
+  margin-left: 50px;
+}
+
+
+#hero-longread{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FFF9F2;
+  margin-left: 50px;
+}
+
+
+
 #our_services {
   margin-top: 100px;
 }
