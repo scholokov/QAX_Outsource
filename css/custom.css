@@ -72,13 +72,11 @@ h3 {
 html {
   font-family: 'Roboto', sans-serif;
 }
-
-
-/* temp formatting */
-h6 {
-  color: blueviolet;
+/*
+.content-wrap{
+  background-color: black;
 }
-
+*/
 .valid_input {
   background-color: unset;
   border-color: green;
