@@ -3084,7 +3084,7 @@ html[xmlns] .slider-wrap {
 #header {
 	position: relative;
 	background-color: #FFF;
-	border-bottom: 1px solid #F5F5F5;
+/*	border-bottom: 1px solid #F5F5F5; */
 }
 
 #header-wrap {
@@ -3154,7 +3154,7 @@ html[xmlns] .slider-wrap {
 	#header.transparent-header,
 	#header.transparent-header:not(.sticky-header) #header-wrap {
 		background: transparent;
-		border-bottom: 1px solid transparent;
+		/*border-bottom: 1px solid transparent;*/
 		z-index: 299;
 	}
 
@@ -3208,11 +3208,11 @@ html[xmlns] .slider-wrap {
 	}
 
 	#header.transparent-header.full-header #header-wrap {
-		border-bottom: 1px solid rgba(0,0,0,0.1);
+		/*border-bottom: 1px solid rgba(0,0,0,0.1);*/
 	}
 
 	#slider + #header.transparent-header.full-header #header-wrap {
-		border-top: 1px solid rgba(0,0,0,0.1);
+		/*border-top: 1px solid rgba(0,0,0,0.1);*/
 		border-bottom: none;
 	}
 
@@ -3242,7 +3242,7 @@ html[xmlns] .slider-wrap {
 	}
 
 	.sticky-header.full-header #header-wrap {
-		border-bottom: 1px solid #EEE;
+		/*border-bottom: 1px solid #EEE;*/
 	}
 
 	.sticky-header.semi-transparent { background-color: transparent; }
@@ -3300,7 +3300,7 @@ html[xmlns] .slider-wrap {
 		left: 0;
 		z-index: 299;
 		background-color: #FFF;
-		border-bottom: 1px solid #EEE;
+		/*border-bottom: 1px solid #EEE;*/
 		-webkit-transform: translateZ(0);
 		-webkit-backface-visibility: hidden;
 	}
@@ -3381,10 +3381,10 @@ html[xmlns] .slider-wrap {
 
 	.full-header #logo {
 		padding-right: 30px;
-		border-right: 1px solid #EEE;
+		/*border-right: 1px solid #EEE;*/
 	}
 
-	#header.transparent-header.full-header #logo { border-right-color: rgba(0,0,0,0.1); }
+	#header.transparent-header.full-header #logo { /*border-right-color: rgba(0,0,0,0.1);*/ }
 
 	.sticky-header-shrink #header-wrap #logo img {
 		height: 60px;
@@ -3466,7 +3466,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .primary-menu + .primary-menu {
-	border-top: 1px solid #EEE;
+	/*border-top: 1px solid #EEE;*/
 }
 
 #primary-menu-trigger,
@@ -3716,7 +3716,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 		top: 0 !important;
 		padding: 35px 25px 60px !important;
 		background-color: #FFF;
-		border-right: 1px solid #EEE !important;
+		/*border-right: 1px solid #EEE !important;*/
 		overflow-y: scroll;
 		-webkit-overflow-scrolling: touch;
 		-webkit-transform: translate(-280px,0);
@@ -3729,8 +3729,8 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	#header:not(.sticky-header) .mobile-menu-off-canvas.from-right .menu-container {
 		left: auto !important;
 		right: 0;
-		border-right: 0 !important;
-		border-left: 1px solid #EEE !important;
+		/*border-right: 0 !important;
+		border-left: 1px solid #EEE !important;*/
 		-webkit-transform: translate(280px,0);
 		-o-transform: translate(280px,0);
 		transform: translate(280px,0);
@@ -3783,11 +3783,11 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	.full-header .primary-menu .menu-container {
 		padding-right: 0.5rem;
 		margin-right: 0.5rem;
-		border-right: 1px solid #EEE;
+		/*border-right: 1px solid #EEE;*/
 	}
 
-	.transparent-header.full-header .primary-menu .menu-container { border-right-color: rgba(0,0,0,0.1); }
-
+/*	.transparent-header.full-header .primary-menu .menu-container { border-right-color: rgba(0,0,0,0.1); }
+*/
 	.mega-menu { position: inherit; }
 
 	.menu-container > .menu-item:not(:first-child) {
@@ -4255,7 +4255,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 		width: 100%;
 		height: 100%;
 		background-color: #1ABC9C;
-		border-top: 5px solid rgba(0,0,0,0.1);
+		/*border-top: 5px solid rgba(0,0,0,0.1);*/
 	}
 
 
@@ -4916,7 +4916,7 @@ body:not(.top-search-open) .top-search-parent .header-misc > *:not(#top-search) 
 	left: auto;
 	width: 260px;
 	background-color: #FFF;
-	border-left: 1px solid #EEE;
+	/*border-left: 1px solid #EEE;*/
 	box-shadow: 0px 20px 50px 10px rgba(0, 0, 0, 0.05);
 	-webkit-transition: right .3s ease;
 	-o-transition: right .3s ease;
@@ -7688,7 +7688,7 @@ body:not(.device-touch) .entry-link {
 		top: 0;
 		left: 50%;
 		width: 0;
-		border-left: 1px dashed #CCC;
+		/*border-left: 1px dashed #CCC;*/
 		height: 100%;
 		transform: translateX(-50%);
 	}
@@ -11422,7 +11422,7 @@ body:not(.device-touch) .social-icon i {
 	margin: 0 0 -1px;
 	padding: 11px 20px 11px 14px;
 	border: 1px solid #E5E5E5;
-	border-right-width: 2px;
+	/*border-right-width: 2px;*/
 	color: #666;
 }
 
