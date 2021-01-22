@@ -92,7 +92,10 @@ Cooperation Offer
   margin-bottom: 40px;
 }
 .image-padding{
-  padding-right: 8px;
+  max-width: 50px; 
+}
+.row-magrin{
+  margin-top: -30px;
 }
 /* ----------------------------------------------------------------
 Cooperation Offer
