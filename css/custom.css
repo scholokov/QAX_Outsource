@@ -2,28 +2,26 @@
 Common
 -----------------------------------------------------------------*/
 h2{
-  font-family: 'Rubik', sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 80px;
   line-height: 95px;
-  color: #120C04;
 }
+h1,
 h2,
 h3 {
   font-family: 'Rubik', sans-serif;
 }
-
-html {
+body {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #120C04;
 }
 /* ----------------------------------------------------------------
 Header
 -----------------------------------------------------------------*/
 #logo{
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 800;
+  font-weight: bold;
   font-size: 32px;
   line-height: 124%;
   letter-spacing: 0.05em;
@@ -32,21 +30,17 @@ Header
 /* ----------------------------------------------------------------
 Hero
 -----------------------------------------------------------------*/
+#hero-box{
+  color: #FFFFFF;
+}
 #hero-text{
-  font-family: 'Rubik', sans-serif;
-  font-style: normal;
   font-weight: bold;
   font-size: 120px;
   line-height: 100%;
-  color: #FFFFFF;
 }
 #hero-longread{
-  font-family: 'Rubik', sans-serif;
-  font-style: normal;
-  font-weight: normal;
   font-size: 22px;
   line-height: 150%;
-  color: #FFFFFF;
   max-width: 629px;
 }
 /* ----------------------------------------------------------------
@@ -56,21 +50,16 @@ Our Services
 
 
 
-
-
 /* ----------------------------------------------------------------
 Cooperation Offer
 -----------------------------------------------------------------*/
 .cooperation_offer-title{
-  font-family: Rubik;
-  font-style: normal;
   font-weight: bold;
   font-size: 54px;
   line-height: 120%;
   color: #F49422;
 }
 .cooperation_offer-normal-text{
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -78,7 +67,6 @@ Cooperation Offer
   color: #0B132A;
 }
 .cooperation_offer-small-text{
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -86,8 +74,6 @@ Cooperation Offer
   color: #0B132A;
 }
 .cooperation_offer-advantage-text{
-  font-family: Rubik;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
