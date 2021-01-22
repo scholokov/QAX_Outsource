@@ -4,26 +4,33 @@
 	Add all your Custom Styled CSS here for New Styles or
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
+#logo{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 124%;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
 #hero-text{
   font-family: Rubik;
   font-style: normal;
   font-weight: bold;
-  font-size: 50px;
-  line-height: 70px;
-  letter-spacing: 0.03em;
-  color: #F49422;
-  margin-left: 50px;
+  font-size: 120px;
+  line-height: 100%;
+  color: #FFFFFF;
+
 }
-
-
 #hero-longread{
-  font-family: Rubik;
+  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
-  color: #FFF9F2;
-  margin-left: 50px;
+  font-size: 22px;
+  line-height: 150%;
+  color: #FFFFFF;
+  max-width: 629px;
+
 }
 
 
@@ -72,11 +79,6 @@ h3 {
 html {
   font-family: 'Roboto', sans-serif;
 }
-/*
-.content-wrap{
-  background-color: black;
-}
-*/
 .valid_input {
   background-color: unset;
   border-color: green;
