@@ -93,6 +93,18 @@ Cooperation Offer
   line-height: 30px;
   color: #120C04;
 }
+#cooperation_offer_line1{
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+#cooperation_offer_line2{
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+#cooperation_offer_line3{
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
 
 /* ----------------------------------------------------------------
 Cooperation Offer
