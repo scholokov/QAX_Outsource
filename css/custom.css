@@ -70,7 +70,7 @@ Cooperation Offer
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 130%;
   color: #0B132A;
 }
 .cooperation_offer-advantage-text{
@@ -91,7 +91,9 @@ Cooperation Offer
   margin-top: 0px;
   margin-bottom: 40px;
 }
-
+.image-padding{
+  padding-right: 12px;
+}
 /* ----------------------------------------------------------------
 Cooperation Offer
 -----------------------------------------------------------------*/
