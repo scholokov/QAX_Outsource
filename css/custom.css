@@ -1,8 +1,24 @@
 /* ----------------------------------------------------------------
-	Custom CSS
+Common
+-----------------------------------------------------------------*/
+h2{
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 95px;
+  color: #120C04;
+}
+h2,
+h3 {
+  font-family: 'Rubik', sans-serif;
+}
 
-	Add all your Custom Styled CSS here for New Styles or
-	Overwriting Default Theme Styles for Better Handling Updates
+html {
+  font-family: 'Roboto', sans-serif;
+}
+/* ----------------------------------------------------------------
+Header
 -----------------------------------------------------------------*/
 #logo{
   font-family: Montserrat;
@@ -13,72 +29,98 @@
   letter-spacing: 0.05em;
   color: #FFFFFF;
 }
+/* ----------------------------------------------------------------
+Hero
+-----------------------------------------------------------------*/
 #hero-text{
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 120px;
   line-height: 100%;
   color: #FFFFFF;
-
 }
 #hero-longread{
-  font-family: Roboto;
+  font-family: 'Rubik', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 150%;
   color: #FFFFFF;
   max-width: 629px;
-
 }
+/* ----------------------------------------------------------------
+Our Services
+-----------------------------------------------------------------*/
 
 
 
-#our_services {
-  margin-top: 100px;
-}
 
-#our_services_block {
-  margin-top: 100px;
-}
 
-.boarder-margin {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
-#cooperation_offer_box {
-  background: url(../images/cooperation_offer_background.svg);
-  background-repeat: repeat-n;
-  padding: 80px;
-}
-
-.h-colored{
-  color: rgba(244, 148, 34, 1)
-}
-
-.block-color{
-  background-color: #FFFFFF;
-}
-
-.text-bold{
+/* ----------------------------------------------------------------
+Cooperation Offer
+-----------------------------------------------------------------*/
+.cooperation_offer-title{
+  font-family: Rubik;
+  font-style: normal;
   font-weight: bold;
+  font-size: 54px;
+  line-height: 120%;
+  color: #F49422;
+}
+.cooperation_offer-normal-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 150%;
+  color: #0B132A;
+}
+.cooperation_offer-small-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #0B132A;
+}
+.cooperation_offer-advantage-text{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #120C04;
 }
 
-.block-height{
-  height: 100%;
-}
+/* ----------------------------------------------------------------
+Cooperation Offer
+-----------------------------------------------------------------*/
 
-h2,
-h3 {
-  font-family: 'Rubik', sans-serif;
-}
 
-html {
-  font-family: 'Roboto', sans-serif;
-}
+/* ----------------------------------------------------------------
+Cooperation Offer Detailes
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+About US
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+Why US
+-----------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+Cooperation procedure
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+Form
+-----------------------------------------------------------------*/
 .valid_input {
   background-color: unset;
   border-color: green;
@@ -125,3 +167,7 @@ select:-webkit-autofill:focus {
   -webkit-box-shadow: background-color 0 0 0px 1000px rgb(255, 255, 255) inset;
   transition: background-color 5000s ease-in-out 0s;
 }
+
+/* ----------------------------------------------------------------
+Footer
+-----------------------------------------------------------------*/
