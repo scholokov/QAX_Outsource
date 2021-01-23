@@ -97,6 +97,10 @@ Cooperation Offer
 .row-magrin{
   margin-top: -30px;
 }
+#cooperation_offer{
+  background-color:#F7F7F7;
+  padding-top: 200px;
+}
 /* ----------------------------------------------------------------
 Cooperation Offer
 -----------------------------------------------------------------*/
@@ -167,6 +171,7 @@ select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   border: 1px solid rgb(0, 0, 0);
   -webkit-text-fill-color: rgb(255, 240, 240);
+  box-shadow: background-color 0 0 0px 1000px rgb(255, 255, 255) inset;
   -webkit-box-shadow: background-color 0 0 0px 1000px rgb(255, 255, 255) inset;
   transition: background-color 5000s ease-in-out 0s;
 }
