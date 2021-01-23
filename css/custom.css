@@ -120,7 +120,18 @@ Cooperation Offer Detailes
 /* ----------------------------------------------------------------
 About US
 -----------------------------------------------------------------*/
-
+#about_us1{
+  background: #F49422;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+#about_us2{
+  background: #F6F6F6;
+  font-size: 22px;
+  line-height: 150%;
+}
 
 /* ----------------------------------------------------------------
 Why US
