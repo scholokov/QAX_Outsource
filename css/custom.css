@@ -46,8 +46,21 @@ Hero
 /* ----------------------------------------------------------------
 Our Services
 -----------------------------------------------------------------*/
+#our_services_line{
 
+}
+.our_services-sub-title{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+}
 
+#our_services_block2{
+  font-size: 24px;
+  line-height: 120%;
+  color: #FFFFFF;
+  background: #F49422;
+}
 
 
 /* ----------------------------------------------------------------
@@ -60,24 +73,17 @@ Cooperation Offer
   color: #F49422;
 }
 .cooperation_offer-normal-text{
-  font-style: normal;
-  font-weight: normal;
   font-size: 22px;
   line-height: 150%;
-  color: #0B132A;
 }
 .cooperation_offer-small-text{
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 130%;
-  color: #0B132A;
 }
 .cooperation_offer-advantage-text{
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
-  color: #120C04;
 }
 #cooperation_offer_line1{
   margin-top: 90px;
