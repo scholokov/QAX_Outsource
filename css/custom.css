@@ -32,10 +32,10 @@ Header
   color: #FFFFFF; */
 }
 #logo_white{
-  display: none
+  display: none;
 }
 .dark #logo_dark{
-	display: none
+	display: none;
 }
 .dark #logo_white{
 	display: -ms-flexbox;
