@@ -25,12 +25,34 @@ body {
 Header
 -----------------------------------------------------------------*/
 #logo{
-  font-weight: bold;
+  /* font-weight: bold;
   font-size: 32px;
   line-height: 124%;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #FFFFFF; */
 }
+#logo_white{
+  display: none
+}
+.dark #logo_dark{
+	display: none
+}
+.dark #logo_white{
+	display: -ms-flexbox;
+	display: flex;
+}
+
+/*
+.not-dark #logo_dark{
+	display: -ms-flexbox;
+	display: flex;
+}
+*/
+/*
+.sticky-header #logo_light{
+	display: none;
+}
+*/
 /* ----------------------------------------------------------------
 Hero
 -----------------------------------------------------------------*/
@@ -51,8 +73,8 @@ Hero
 /* ----------------------------------------------------------------
 Our Services
 -----------------------------------------------------------------*/
-#our_services_line{
-
+#our_services{
+  margin-top: 100px;
 }
 .our_services-sub-title{
   font-weight: bold;
