@@ -1,45 +1,105 @@
 /* ----------------------------------------------------------------
 Common
 -----------------------------------------------------------------*/
-h2{
+h1 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+}
+
+h2 {
   font-weight: bold;
   font-size: 80px;
   line-height: 95px;
 }
-h1,
-h2,
+
 h3 {
   font-family: 'Rubik', sans-serif;
   color: #120C04;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   color: #120C04;
 }
-.no-padding{
+
+.no-padding {
   padding: 0;
 }
+
+@media (max-width: 575px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 100px;
+  }
+
+  h2 {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 120px;
+  }
+
+  h2 {
+    font-size: 80px;
+  }
+}
+
 /* ----------------------------------------------------------------
 Header
 -----------------------------------------------------------------*/
-#logo{
+#logo {
   /* font-weight: bold;
   font-size: 32px;
   line-height: 124%;
   letter-spacing: 0.05em;
   color: #FFFFFF; */
 }
-#logo_white{
+
+#logo_white {
   display: none;
 }
-.dark #logo_dark{
-	display: none;
+
+.dark #logo_dark {
+  display: none;
 }
-.dark #logo_white{
-	display: -ms-flexbox;
-	display: flex;
+
+.dark #logo_white {
+  display: -ms-flexbox;
+  display: flex;
 }
 
 /*
@@ -56,48 +116,54 @@ Header
 /* ----------------------------------------------------------------
 Hero
 -----------------------------------------------------------------*/
-#hero-box{
+#hero-box {
   color: #FFFFFF;
+  height: 100%;
 }
-#hero-text{
+
+#hero-text {
   font-weight: bold;
-  font-size: 120px;
   line-height: 100%;
-  font-family: 'Rubik', sans-serif;
 }
-#hero-longread{
+
+#hero-longread {
   font-size: 22px;
   line-height: 150%;
   max-width: 629px;
 }
+
 /* ----------------------------------------------------------------
 Our Services
 -----------------------------------------------------------------*/
-#our_services{
+#our_services {
   margin-top: 100px;
 }
-.our_services-sub-title{
+
+.our_services-sub-title {
   font-weight: bold;
   font-size: 40px;
   line-height: 120%;
 }
 
-#our_services_block2{
+#our_services_block2 {
   font-size: 24px;
   line-height: 120%;
   color: #FFFFFF;
   background: #F49422;
 }
-#our_services_text-block2{
+
+#our_services_text-block2 {
   padding-top: 150px;
   padding-bottom: 120px;
   margin-top: 100px;
 }
-#our_services2_text1{
+
+#our_services2_text1 {
   font-size: 24px;
   line-height: 190%;
 }
-#our_services2_text2{
+
+#our_services2_text2 {
   font-size: 32px;
   line-height: 120%;
 }
@@ -105,47 +171,57 @@ Our Services
 /* ----------------------------------------------------------------
 Cooperation Offer
 -----------------------------------------------------------------*/
-.cooperation_offer-title{
+.cooperation_offer-title {
   font-weight: bold;
   font-size: 54px;
   line-height: 120%;
   color: #F49422;
 }
-.cooperation_offer-normal-text{
+
+.cooperation_offer-normal-text {
   font-size: 22px;
   line-height: 150%;
 }
-.cooperation_offer-small-text{
+
+.cooperation_offer-small-text {
   font-size: 16px;
   line-height: 130%;
 }
-.cooperation_offer-advantage-text{
+
+.cooperation_offer-advantage-text {
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
 }
-#cooperation_offer_line1{
+
+#cooperation_offer_line1 {
   margin-top: 90px;
   margin-bottom: 40px;
 }
-#cooperation_offer_line2{
+
+#cooperation_offer_line2 {
   margin-top: 0px;
   margin-bottom: 40px;
 }
-#cooperation_offer_line3{
+
+#cooperation_offer_line3 {
   margin-top: 0px;
   margin-bottom: 40px;
 }
-.image-padding{
-  max-width: 50px; 
+
+.image-padding {
+  max-width: 50px;
 }
-.row-magrin{
+
+.row-magrin {
   margin-top: -30px;
 }
-#cooperation_offer{
-  background-color:#F7F7F7;
+
+#cooperation_offer {
+  background-color: #F7F7F7;
   padding-top: 200px;
 }
+
 /* ----------------------------------------------------------------
 Cooperation Offer
 -----------------------------------------------------------------*/
@@ -159,26 +235,28 @@ Cooperation Offer Detailes
 /* ----------------------------------------------------------------
 About US
 -----------------------------------------------------------------*/
-#about_us{
+#about_us {
   margin-top: 50px;
 }
-#about_us-box{
 
-}
-#about_us1{
+#about_us-box {}
+
+#about_us1 {
   background: #F49422;
   font-size: 22px;
   line-height: 150%;
   color: #FFFFFF;
   padding-top: 50px;
 }
-#about_us2{
+
+#about_us2 {
   background: #F6F6F6;
   font-size: 22px;
   line-height: 150%;
   padding-top: 50px;
 }
-#about_us-after-text{
+
+#about_us-after-text {
   margin-top: 50px;
 }
 

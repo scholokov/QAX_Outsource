@@ -175,7 +175,7 @@ iframe {
 	Basic Layout Styles
 -----------------------------------------------------------------*/
 
-
+/*
 h1,
 h2,
 h3,
@@ -188,7 +188,7 @@ h6 {
 	margin: 0 0 30px 0;
 	font-family: 'Poppins', sans-serif;
 }
-
+*/
 h5,
 h6 { margin-bottom: 20px; }
 
@@ -6356,7 +6356,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 #page-title .container {
 	position: relative;
 }
-
+/*
 #page-title h1 {
 	padding: 0;
 	margin: 0;
@@ -6367,7 +6367,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 	font-size: 2rem;
 	text-transform: uppercase;
 }
-
+*/
 #page-title span {
 	display: block;
 	margin-top: 10px;
@@ -6534,16 +6534,6 @@ body:not(.has-plugin-html5video) .video-wrap video {
 .page-title-video .video-wrap video { width: 100%; }
 
 @media (max-width: 767.98px) {
-	#page-title {
-		padding: 2rem 0;
-		text-align: center;
-	}
-
-	#page-title h1 {
-		line-height: 1.5;
-		font-size: calc( 1rem + 2vw );
-	}
-
 	.page-title-parallax span {
 		font-size: 1rem;
 	}
