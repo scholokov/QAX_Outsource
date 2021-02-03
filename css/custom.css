@@ -17,6 +17,30 @@ h3 {
   color: #120C04;
 }
 
+
+
+/* JUST FOR TESTING */
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+/* Small text */
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  
+}
+/* ------------------ */
+
+
+
+
+
+
+
+
+
+
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -272,6 +296,179 @@ Cooperation procedure
 /* ----------------------------------------------------------------
 Form
 -----------------------------------------------------------------*/
+/* ----------------------------------------------------------------
+	write to us
+------------------------------------------------------------------*/
+.write_to_us-block {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 858px;
+  width: 100%;
+  padding-bottom: 60px;
+  background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%);
+}
+
+.write_to_us-title-form {
+  margin-top: 15px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#write_to_us-block-small {
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.write_to_us-name {
+  width: 100%;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.write_to_us-name-line {
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FFFFFF;
+}
+
+.write_to_us-phone {
+  width: 100%;
+  margin-top: 40px;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+.write_to_us-phone-line {
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FFFFFF;
+}
+
+
+.write_to_us-comment {
+  margin-top: 40px;
+  width: 100%;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+.write_to_us-comment-line {
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FFFFFF;
+}
+
+.write_to_us-personal-data {
+  margin-top: 45px;
+  width: 50%;
+  color: #FFFFFF;
+}
+
+.write_to_us-button-send {
+  margin-top: 45px;
+  text-align: center;
+  padding-left: 45px;
+  padding-right: 45px;
+  max-height: 56px;
+
+  background-color: transparent;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+
+  color: #FFFFFF;
+}
+
+.write_to_us-button-send:hover {
+  background-color: white;
+  border: 1px solid #FFFFFF;
+  color: #EA5455;
+}
+
+@media (max-width: 767px) {
+  .write_to_us-personal-data {
+      width: 100%;
+  }
+  .form-group{
+      display: block !important;
+  }
+}
+@media (min-width: 768px) {
+  .write_to_us-personal-data {
+      width: 50%;
+  }
+  .form-group{
+      justify-content: space-between;
+  }
+}
+
+
+
+
+
+input[type=text] {
+  border: none;
+
+}
+
+input::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+input::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+input::-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+input:-moz-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+input:-ms-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input:focus::-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input:focus:-moz-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input:focus:-ms-input-placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: white;
+}
+/*
 .valid_input {
   background-color: unset;
   border-color: green;
@@ -303,8 +500,9 @@ input:invalid,
 #forma {
   margin: auto;
 }
-
+*/
 /* Change Autocomplete styles in Chrome*/
+/*
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus input:-webkit-autofill,
@@ -319,6 +517,7 @@ select:-webkit-autofill:focus {
   -webkit-box-shadow: background-color 0 0 0px 1000px rgb(255, 255, 255) inset;
   transition: background-color 5000s ease-in-out 0s;
 }
+*/
 
 /* ----------------------------------------------------------------
 Footer
