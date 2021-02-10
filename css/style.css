@@ -189,6 +189,7 @@ h6 {
 	font-family: 'Poppins', sans-serif;
 }
 */
+/*
 h5,
 h6 { margin-bottom: 20px; }
 
@@ -208,7 +209,7 @@ h4 { font-weight: 600; }
 
 h5,
 h6 { font-weight: bold; }
-
+*/
 @media (max-width: 767.98px) {
 
 	h1 {
