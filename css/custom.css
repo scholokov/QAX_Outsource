@@ -100,6 +100,116 @@ body {
   }
 }
 
+
+/* ----------------------------------------------------------------
+Animation fadeIn
+-----------------------------------------------------------------*/
+
+.animation-fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+
+
+@keyframes animation-fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes animation-fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animation-fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes animation-fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes animation-fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* ----------------------------------------------------------------
+Animation fadeUp
+-----------------------------------------------------------------*/
+@keyframes fadeInUp {
+  from {
+      transform: translate3d(0,30px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+      transform: translate3d(0,30px,0)
+  }
+
+  to {
+      transform: translate3d(0,0,0);
+      opacity: 1
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.animatedFadeInUp {
+  opacity: 0
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
 /* ----------------------------------------------------------------
 Header
 -----------------------------------------------------------------*/
@@ -303,13 +413,13 @@ Cooperation procedure
   margin-top: 80px;
 }
 
-#img-cooperation_procedure_1{
+#img-cooperation_procedure_1 {
   max-width: 290px;
   max-width: 100%;
 
 }
 
-#img-cooperation_procedure_2{
+#img-cooperation_procedure_2 {
   margin-top: 57px;
   max-width: 100%;
   max-height: 339px;
@@ -334,7 +444,7 @@ our-support
   font-size: 40px;
 }
 
-#our-support-button{
+#our-support-button {
   color: #FFFFFF;
   border: 1px solid #FFFFFF;
   border-style: solid;
@@ -347,10 +457,11 @@ our-support
   max-width: 200px;
 }
 
-#our-support-button:hover{
+#our-support-button:hover {
   background: #FFFFFF;
   color: #120C04;
 }
+
 /* ----------------------------------------------------------------
 Form
 -----------------------------------------------------------------*/
