@@ -1,6 +1,15 @@
 /* ----------------------------------------------------------------
 Common
 -----------------------------------------------------------------*/
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./css/fonts/Rubik-VariableFont_wght.ttf) format('truetype'),
+}
+
+
 h1 {
   font-family: 'Rubik', sans-serif;
   font-weight: bold;
