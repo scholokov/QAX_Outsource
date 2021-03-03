@@ -2332,10 +2332,12 @@ input[type=text] {
     box-shadow: none;
 }
 
+/*
 input:invalid {
     background-color: darkgrey;
     border-color: red;
 }
+*/
 
 #errorEmail,
 #errorName,

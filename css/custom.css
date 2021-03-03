@@ -485,17 +485,23 @@ Form
   max-width: 858px;
   width: 100%;
   padding-bottom: 60px;
-  background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%);
+  /* background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%); */
+  box-shadow: 0px 10px 40px rgba(17, 19, 35, 0.08);
+}
+
+.write_to_us-error-message {
+  color: #FF2828;
+  font-size: 14px;
 }
 
 .write_to_us-title-form {
-  margin-top: 15px;
+  padding-top: 45px;
   text-align: center;
-  color: #FFFFFF;
+  color: black;
 }
 
 #write_to_us-block-small {
-  margin-top: 90px;
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -504,7 +510,7 @@ Form
 .write_to_us-name {
   width: 100%;
   background-color: transparent;
-  color: #ffffff;
+  color: black;
 }
 
 .write_to_us-name-line {
@@ -518,35 +524,40 @@ Form
   width: 100%;
   margin-top: 40px;
   background-color: transparent;
-  color: #FFFFFF;
+  color: black;
 }
 
 .write_to_us-phone-line {
   width: 100%;
   border-width: 1px;
   border-style: solid;
-  border-color: #FFFFFF;
+  border-color: black;
 }
 
 
 .write_to_us-comment {
   margin-top: 40px;
   width: 100%;
+  min-height: 21px;
   background-color: transparent;
-  color: #FFFFFF;
+  color: black;
+  resize: none;
+  border: none;
+  overflow: hidden;
 }
 
 .write_to_us-comment-line {
   width: 100%;
   border-width: 1px;
   border-style: solid;
-  border-color: #FFFFFF;
+  border-color: black;
 }
 
 .write_to_us-personal-data {
   margin-top: 45px;
-  width: 50%;
-  color: #FFFFFF;
+  width: 53%;
+  color: black;
+  font-weight: normal;
 }
 
 .write_to_us-button-send {
@@ -557,39 +568,41 @@ Form
   max-height: 56px;
 
   background-color: transparent;
-  border: 1px solid #FFFFFF;
+  border: 1px solid black;
   box-sizing: border-box;
 
-  color: #FFFFFF;
+  color: black;
 }
 
 .write_to_us-button-send:hover {
   background-color: white;
-  border: 1px solid #FFFFFF;
+  border: 1px solid black;
   color: #EA5455;
 }
 
 @media (max-width: 767px) {
   .write_to_us-personal-data {
-    width: 100%;
+      width: 100%;
   }
 
   .form-group {
-    display: block !important;
+      display: block !important;
   }
 }
 
 @media (min-width: 768px) {
   .write_to_us-personal-data {
-    width: 50%;
+      width: 53%;
   }
 
   .form-group {
-    justify-content: space-between;
+      justify-content: space-between;
   }
 }
 
-
+#button_text {
+  font-weight: bold;
+}
 
 
 
@@ -599,7 +612,7 @@ input[type=text] {
 }
 
 input::-webkit-input-placeholder {
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
 }
 
 input::-webkit-input-placeholder {
@@ -647,59 +660,64 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 5000s ease-in-out 0s;
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: black;
 }
 
-/*
-.valid_input {
-  background-color: unset;
-  border-color: green;
-  color: green;
-  box-shadow: none;
+textarea::-webkit-input-placeholder {
+  /* color: rgb(255, 255, 255); */
 }
 
-input:invalid {
-  border-color: red;
+textarea:-moz-placeholder {
+  /* color: rgb(255, 255, 255); */
 }
 
-#errorEmail,
-#errorName,
-#name:invalid,
-input:invalid,
-#enterName,
-#enterEmail {
-  color: red;
+
+
+.textarea {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  margin-top: 40px;
+  color: black;
 }
 
-#validName {
-  color: green;
+.textarea[contenteditable]:empty::before {
+  content: "Message*";
 }
 
-#validEmail {
-  color: green;
+.write_to_us-block-thanks{
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+
+  max-width: 858px;
+  width: 100%;
+  padding-bottom: 60px;
+  /* background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%); */
+  min-height: 494px;
 }
 
-#forma {
-  margin: auto;
+#write_to_us-done-img{
+  padding-top: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
-*/
-/* Change Autocomplete styles in Chrome*/
-/*
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus input:-webkit-autofill,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
-  border: 1px solid rgb(0, 0, 0);
-  -webkit-text-fill-color: rgb(255, 240, 240);
-  box-shadow: background-color 0 0 0px 1000px rgb(255, 255, 255) inset;
-  -webkit-box-shadow: background-color 0 0 0px 1000px rgb(255, 255, 255) inset;
-  transition: background-color 5000s ease-in-out 0s;
+
+.write_to_us-thanks-top-text{
+  text-align: center;
+  color: black;
+  padding-top: 45px;
 }
-*/
+
+.write_to_us-thanks-bottom-text{
+  text-align: center;
+  color: black;
+  padding-top: 90px;
+}
 
 /* ----------------------------------------------------------------
 Footer

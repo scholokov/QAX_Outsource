@@ -596,43 +596,63 @@
 				</article>
 
 				<!----------------------------------------->
-				<section>
-					<div class="write_to_us-block" id="write_to_us">
+					<!----------------------------------------->
+					<section>
+						<div class="write_to_us-block" id="write_to_us">
 
-						<h2 class="write_to_us-title-form">Contact Us</h2>
+							<h2 class="write_to_us-title-form">Contact Us</h2>
 
-						<form>
-							<div id="write_to_us-block-small">
-								<h4>
-									<div class="form-group">
-										<input type="text" id="name_input" name="fname" class="write_to_us-name"
-											placeholder="Ім’я*" required>
-										<div id="name_line" class="write_to_us-name-line"></div>
+							<form>
+								<div id="write_to_us-block-small">
+									<h4>
+										<div class="form-group">
+											<input type="text" id="name_input" name="fname" class="write_to_us-name"
+												placeholder="Name*" required>
+											<div id="name_line" class="write_to_us-name-line"></div>
+											<div id='error_message_name' class="write_to_us-error-message">This field is required</div>
+										</div>
+										<div class="form-group">
+											<input type="text" id="email_input" name="fphone" class="write_to_us-email"
+												placeholder="Email**" required>
+											<div id="email_line" class="write_to_us-email-line"></div>
+											<div id='error_message_email' class="write_to_us-error-message">This field is required</div>
+										</div>
+										<div class="form-group">
+											<input type="text" id="phone_input" name="fphone" class="write_to_us-phone"
+												placeholder="Phone number*" required>
+											<div id="phone_line" class="write_to_us-phone-line"></div>
+											<div id='error_message_phone' class="write_to_us-error-message">This field is required</div>
+										</div>
+										<div class="form-group">
+											<!-- <textarea id="comment_input" name="fcomment" class="write_to_us-comment"
+												maxlength="500" placeholder="Коментар" contenteditable></textarea>
+											-->
+											<span class="textarea" role="textbox" contenteditable id="comment_input"
+												name="fcomment"></span>
+											<div id="comment_line" class="write_to_us-comment-line"></div>
+										</div>
+									</h4>
+									<div class="form-group d-flex justify-content-md-between">
+										<div><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></div>
+										<h5 class="write_to_us-personal-data">* I agree to the processing of personal data</h5>
 									</div>
-									<div class="form-group">
-										<input type="text" id="phone_input" name="fphone" class="write_to_us-phone"
-											placeholder="Мобільний номер або Email*" required>
-										<div id="phone_line" class="write_to_us-phone-line"></div>
-									</div>
-									<div class="form-group">
-										<input type="text" id="comment_input" name="fcomment"
-											class="write_to_us-comment" placeholder="Коментар*" required>
-										<div id="comment_line" class="write_to_us-comment-line"></div>
-									</div>
-								</h4>
-								<div class="form-group d-flex justify-content-md-between">
-									<h5 class="write_to_us-personal-data">Натиснувши кнопку “Відправити” ви даєте
-										згоду
-										на обробку <b>персональних даних</b></h5>
-									<button class="write_to_us-button-send " id="button_send">
-										<div class="write_to_us-button-send-text" id="button_text">Відправити</div>
-									</button>
+									<button class="write_to_us-button-send" id="button_send">Send</button>
+								</div>
+
+							</form>
+						</div>
+
+
+						<div class="no-display" id="write_to_us-thanks-block">
+							<div class="write_to_us-block-thanks" id="write_to_us-thanks">
+								<h2 class="write_to_us-thanks-top-text">Thank you for your message! 
+									We will contact you soon.</h2>
+								<div>
+									<img src="images/sent.png" alt="Done" id="write_to_us-done-img">
 								</div>
 							</div>
-
-						</form>
-					</div>
-				</section>
+						</div>
+					</section>
 
 
 				<!-- Copyrights
