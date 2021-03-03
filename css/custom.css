@@ -28,8 +28,6 @@ h3 {
   color: #120C04;
 }
 
-
-
 /* JUST FOR TESTING */
 h4 {
   font-family: 'Montserrat', sans-serif;
@@ -179,23 +177,23 @@ Animation fadeUp
 -----------------------------------------------------------------*/
 @keyframes fadeInUp {
   from {
-      transform: translate3d(0,30px,0)
+    transform: translate3d(0, 30px, 0)
   }
 
   to {
-      transform: translate3d(0,0,0);
-      opacity: 1
+    transform: translate3d(0, 0, 0);
+    opacity: 1
   }
 }
 
 @-webkit-keyframes fadeInUp {
   from {
-      transform: translate3d(0,30px,0)
+    transform: translate3d(0, 30px, 0)
   }
 
   to {
-      transform: translate3d(0,0,0);
-      opacity: 1
+    transform: translate3d(0, 0, 0);
+    opacity: 1
   }
 }
 
@@ -219,6 +217,7 @@ Animation fadeUp
   animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp;
 }
+
 /* ----------------------------------------------------------------
 Header
 -----------------------------------------------------------------*/
@@ -254,6 +253,20 @@ Header
 	display: none;
 }
 */
+#header-contact-us-button {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-style: solid;
+  font-size: 20px;
+  padding-left: 48px;
+  padding-right: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  max-width: 200px;
+}
+
+
+
 /* ----------------------------------------------------------------
 Hero
 -----------------------------------------------------------------*/
@@ -582,21 +595,21 @@ Form
 
 @media (max-width: 767px) {
   .write_to_us-personal-data {
-      width: 100%;
+    width: 100%;
   }
 
   .form-group {
-      display: block !important;
+    display: block !important;
   }
 }
 
 @media (min-width: 768px) {
   .write_to_us-personal-data {
-      width: 53%;
+    width: 53%;
   }
 
   .form-group {
-      justify-content: space-between;
+    justify-content: space-between;
   }
 }
 
@@ -686,7 +699,7 @@ textarea:-moz-placeholder {
   content: "Message*";
 }
 
-.write_to_us-block-thanks{
+.write_to_us-block-thanks {
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
@@ -698,7 +711,7 @@ textarea:-moz-placeholder {
   min-height: 494px;
 }
 
-#write_to_us-done-img{
+#write_to_us-done-img {
   padding-top: 80px;
   display: block;
   margin-left: auto;
@@ -707,13 +720,13 @@ textarea:-moz-placeholder {
 
 }
 
-.write_to_us-thanks-top-text{
+.write_to_us-thanks-top-text {
   text-align: center;
   color: black;
   padding-top: 45px;
 }
 
-.write_to_us-thanks-bottom-text{
+.write_to_us-thanks-bottom-text {
   text-align: center;
   color: black;
   padding-top: 90px;
@@ -722,3 +735,33 @@ textarea:-moz-placeholder {
 /* ----------------------------------------------------------------
 Footer
 -----------------------------------------------------------------*/
+
+#footer-contact-us-button {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-style: solid;
+  font-size: 20px;
+  padding-left: 48px;
+  padding-right: 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  max-width: 200px;
+}
+
+
+
+
+
+#header.sticky-on-scrollup #header-wrap {
+  -webkit-transition: height .4s ease, opacity .3s ease, margin-top .4s ease;
+  -o-transition: height .4s ease, opacity .3s ease, margin-top .4s ease;
+  transition: height .4s ease, opacity .3s ease, margin-top .4s ease;
+}
+
+#header.sticky-on-scrollup.sticky-header #header-wrap {
+  margin-top: -60px;
+}
+
+#header.sticky-on-scrollup.show-sticky-onscroll.sticky-header #header-wrap {
+  margin-top: 0px;
+}
