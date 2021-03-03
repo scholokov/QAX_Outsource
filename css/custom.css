@@ -407,19 +407,52 @@ About US
 
 #about_us-box {}
 
-#about_us1 {
+#about_us3 {
+  margin-top: 80px;
+}
+
+#about_us1-box {
   background: #F49422;
   font-size: 22px;
   line-height: 150%;
   color: #FFFFFF;
   padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  width: 48.5%;
+  margin-right: 3%;
 }
 
-#about_us2 {
+#about_us2-box {
   background: #F6F6F6;
   font-size: 22px;
   line-height: 150%;
   padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 80px;
+  width: 48.5%;
+  
+}
+#about_us1-text{
+  max-width: 460px;
+  float:right; 
+  clear:right;
+}
+
+#about_us2-text{
+  max-width: 460px;
+}
+
+@media (max-width: 768px) {
+  #about_us1 {
+    width: 100%;
+    margin-right: 0%;
+  }
+  #about_us2 {
+    width: 100%;
+  }
 }
 
 #about_us-after-text {
