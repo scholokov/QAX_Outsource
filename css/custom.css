@@ -433,15 +433,16 @@ About US
   padding-right: 80px;
   padding-bottom: 80px;
   width: 48.5%;
-  
-}
-#about_us1-text{
-  max-width: 460px;
-  float:right; 
-  clear:right;
+
 }
 
-#about_us2-text{
+#about_us1-text {
+  max-width: 460px;
+  float: right;
+  clear: right;
+}
+
+#about_us2-text {
   max-width: 460px;
 }
 
@@ -450,6 +451,7 @@ About US
     width: 100%;
     margin-right: 0%;
   }
+
   #about_us2 {
     width: 100%;
   }
@@ -767,6 +769,21 @@ textarea:-moz-placeholder {
   color: black;
   padding-top: 90px;
 }
+
+
+
+#button_send {
+  width: 180px;
+  height: 60px;
+  background: #F49422;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+
 
 /* ----------------------------------------------------------------
 Footer
