@@ -561,7 +561,7 @@ Form
 .write_to_us-name {
   width: 100%;
   background-color: transparent;
-  color: black;
+  color: #120C04;
 }
 
 .write_to_us-name-line {
@@ -575,7 +575,7 @@ Form
   width: 100%;
   margin-top: 40px;
   background-color: transparent;
-  color: black;
+  color: #120C04;
 }
 
 .write_to_us-phone-line {
@@ -591,7 +591,7 @@ Form
   width: 100%;
   min-height: 21px;
   background-color: transparent;
-  color: black;
+  color: #120C04;
   resize: none;
   border: none;
   overflow: hidden;
@@ -659,7 +659,13 @@ Form
 
 input[type=text] {
   border: none;
+  font-size: 16px;
+  color: #120C04;
+}
 
+::placeholder{
+  font-size: 16px;
+  color: #120C04;
 }
 
 input::-webkit-input-placeholder {
@@ -772,6 +778,7 @@ textarea:-moz-placeholder {
 
 
 
+
 #button_send {
   width: 180px;
   height: 60px;
@@ -781,9 +788,6 @@ textarea:-moz-placeholder {
   font-weight: 500;
   font-size: 18px;
 }
-
-
-
 
 /* ----------------------------------------------------------------
 Footer
