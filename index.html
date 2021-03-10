@@ -635,27 +635,52 @@
 								<h3 class="write_to_us-title-form">Contact Us</h3>
 								<img src="images/envelope.svg" alt="Image" class="mb-4">
 							</div>
-							<form>
+							<form novalidate>
 								<div class="form-group">
-									<input type="text" id="name_input" name="fname" class="write_to_us-name"
+									<input type="text" id="name_input" name="fname" class="write_to_us-field"
 										placeholder="Name*" required>
-									<div id="name_line" class="write_to_us-name-line"></div>
-									<div id='error_message_name' class="write_to_us-error-message">This field is
-										required</div>
+									<div id='error_message_name_empty' class="write_to_us-error-message">
+										This field is required
+									</div>
+									<div id='error_message_name_short' class="write_to_us-error-message">
+										At least 3 characters long
+									</div>
+									<div id='error_message_name_long' class="write_to_us-error-message">
+										Max 30 characters long
+									</div>
+									<div id='error_message_name_only_numbers' class="write_to_us-error-message">
+										Must only contain letters and numbers (no special characters)
+									</div>
+
 								</div>
 								<div class="form-group">
-									<input type="text" id="email_input" name="fphone" class="write_to_us-email"
+									<input type="text" id="email_input" name="fphone" class="write_to_us-field"
 										placeholder="Email**" required>
-									<div id="email_line" class="write_to_us-email-line"></div>
-									<div id='error_message_email' class="write_to_us-error-message">This field is
-										required</div>
+									<div id='error_message_email_empty' class="write_to_us-error-message">
+										This field is required
+									</div>
+									<div id='error_message_email_invalid' class="write_to_us-error-message">
+										Invalid email address entered
+									</div>
+									<div id='error_message_email_long' class="write_to_us-error-message">
+										Max 30 characters long
+									</div>
 								</div>
 								<div class="form-group">
-									<input type="text" id="phone_input" name="fphone" class="write_to_us-phone"
+									<input type="text" id="phone_input" name="fphone" class="write_to_us-field"
 										placeholder="Phone number*" required>
-									<div id="phone_line" class="write_to_us-phone-line"></div>
-									<div id='error_message_phone' class="write_to_us-error-message">This field is
-										required</div>
+									<div id='error_message_phone_empty' class="write_to_us-error-message">
+										This field is required
+									</div>
+									<div id='error_message_phone_short' class="write_to_us-error-message">
+										At least 3 characters long
+									</div>
+									<div id='error_message_phone_long' class="write_to_us-error-message">
+										Max 30 characters long
+									</div>
+									<div id='error_message_phone_only_numbers' class="write_to_us-error-message">
+										Must only contain numbers
+									</div>
 								</div>
 								<div class="form-group">
 									<!-- <textarea id="comment_input" name="fcomment" class="write_to_us-comment"
