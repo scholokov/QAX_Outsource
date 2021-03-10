@@ -547,7 +547,9 @@ Form
 
 .write_to_us-title-form {
   padding-top: 45px;
-  color: #120C04;;
+  color: #120C04;
+  display: inline-block;
+  margin-right: 40px;
 }
 
 #write_to_us-block-small {
