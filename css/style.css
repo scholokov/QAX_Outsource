@@ -12985,6 +12985,7 @@ fieldset[disabled] .sm-form-control {
 	box-shadow: none;
 }
 
+/*
 label {
 	display: inline-block;
 	font-size: 13px;
@@ -12996,6 +12997,7 @@ label {
 	margin-bottom: 10px;
 	cursor: pointer;
 }
+*/
 
 label.label-muted {
 	color: #999;

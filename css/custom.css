@@ -547,7 +547,6 @@ Form
 
 .write_to_us-title-form {
   padding-top: 45px;
-
   color: #120C04;;
 }
 
@@ -585,6 +584,10 @@ Form
   border-color: black;
 }
 
+label {
+	display: inline-block;
+	cursor: pointer;
+}
 
 .write_to_us-comment {
   margin-top: 40px;
@@ -654,8 +657,6 @@ Form
 #button_text {
   font-weight: bold;
 }
-
-
 
 input[type=text] {
   border: none;
