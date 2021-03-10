@@ -814,3 +814,15 @@ Footer
   Color: #120C04;
   background-color: #120C04;
 }
+
+#footer-block{
+  margin-top: 55px;
+}
+
+.footer-links{
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-links:hover{
+  color: rgba(244, 148, 34, 1);
+}
