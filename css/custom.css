@@ -807,20 +807,7 @@ Footer
   max-width: 200px;
 }
 
-
-
-
-
-#header.sticky-on-scrollup #header-wrap {
-  -webkit-transition: height .4s ease, opacity .3s ease, margin-top .4s ease;
-  -o-transition: height .4s ease, opacity .3s ease, margin-top .4s ease;
-  transition: height .4s ease, opacity .3s ease, margin-top .4s ease;
-}
-
-#header.sticky-on-scrollup.sticky-header #header-wrap {
-  margin-top: -60px;
-}
-
-#header.sticky-on-scrollup.show-sticky-onscroll.sticky-header #header-wrap {
-  margin-top: 0px;
+#footer{
+  font-size: 14px;
+  Color: #120C04
 }
