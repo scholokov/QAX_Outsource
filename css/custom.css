@@ -799,7 +799,7 @@ Footer
 
 #footer-contact-us-button {
   color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  border: 1px solid rgba(244, 148, 34, 1);
   border-style: solid;
   font-size: 20px;
   padding-left: 48px;
@@ -808,6 +808,11 @@ Footer
   padding-bottom: 12px;
   max-width: 200px;
 }
+
+#footer-contact-us-button:hover{
+  background: linear-gradient(90deg, #F49422 0%, #ED8100 100%);
+}
+
 
 #footer{
   font-size: 14px;
