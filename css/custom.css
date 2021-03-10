@@ -46,6 +46,11 @@ h5 {
   color: #F49422;
 }
 
+.no-display {
+  display: none;
+}
+
+
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
