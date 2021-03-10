@@ -784,6 +784,7 @@ textarea:-moz-placeholder {
   height: 60px;
   background: #F49422;
   border-radius: 4px;
+  border: none;
   color: #FFFFFF;
   font-weight: 500;
   font-size: 18px;
