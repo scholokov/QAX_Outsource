@@ -2,26 +2,28 @@
 $('form').submit(function (e) {
     tokenID = sessionStorage.getItem('tokenID');
     chatID = sessionStorage.getItem('chatID');
-
+    envName = sessionStorage.getItem('envName');
+    
     var comment = document.getElementById("comment_input").innerText;
-
+  
     /* var brversion_text = "Browser:" + platform.name +
       " v" + platform.version +
       " on " + platform.os; */
-
+  
     /*
     '\nBrowser: ' + platform.name + ' v' + platform.version +
     '\nOS: ' + platform.os + */
-
+  
     var sum_text = 'Hi!\nI`m QAX Camp bot.\n' +
-        'Please read message below.\n' +
-        'Somebody wait your answer!\n\n' +
-        'Name: ' + $('#name_input').val() +
-        '\nPhone: ' + $('#phone_input').val() +
-        '\nComment: ' + comment;   /* +  
-    '\nBrowser: ' + platform.name + " v" + platform.version +
-    '\nOS: ' + platform.os;
-    */
+      'Enviroment: ' + envName +
+      '\nPlease read message below.\n' +
+      'Somebody wait your answer!\n\n' +
+      'Name: ' + $('#name_input').val() +
+      '\nPhone: ' + $('#phone_input').val() +
+      '\nComment: ' + comment;   /* +  
+      '\nBrowser: ' + platform.name + " v" + platform.version +
+      '\nOS: ' + platform.os;
+      */
 
     e.preventDefault();
     $.ajax({
