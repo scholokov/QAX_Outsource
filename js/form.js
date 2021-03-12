@@ -381,7 +381,7 @@ function check_phone() {
     console.log('phone-digits-length: ' + phone_length);
     console.log('phone-correctness: ' + phone_clear);
     var phone_length_all = phone_clear.length;
-
+/*
     if (phone_length_all == 0) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_empty.show();
@@ -398,15 +398,15 @@ function check_phone() {
         error_message_phone_long.hide();
         return false;
     }
-    else if (phone_length > 30) {
+    else if (phone_length > 20) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_long.show();
         error_message_phone_empty.hide();
         error_message_phone_short.hide();
         error_message_phone_only_numbers.hide();
         return false;
-    }
-    else if (phone_length < 2) {
+    } */
+    if (phone_length < 10 || phone_length > 0 ) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_short.show();
         error_message_phone_empty.hide();
