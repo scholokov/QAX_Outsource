@@ -74,8 +74,9 @@ function countDigits(n) {
 }
 
 
-$(function () {
 
+$(function () {
+/*
     var name_input = $("#name_input");
     var name_line = $("#name_input");
     var error_message_name_empty = $("#error_message_name_empty");
@@ -90,10 +91,10 @@ $(function () {
     var error_message_email_invalid = $("#error_message_email_invalid");
     var error_message_email_long = $("#error_message_email_long");
 
-
+    var error_message_agree_empty = $("#error_message_agree_empty");
 
     var comment_input = $("#comment_input");
-    var comment_line = $("#comment_line");
+    // var comment_line = $("#comment_line");
     var error_message_comment_long = $("#error_message_comment_long");
 
     var phone_input = $("#phone_input");
@@ -104,7 +105,7 @@ $(function () {
     var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
 
 
-    // var agree_input = $("#agree-checkbox");
+    var agree_input = $("#agree-checkbox");
     var error_message_agree_empty = $("#error_message_agree_empty");
 
 
@@ -125,8 +126,8 @@ $(function () {
     error_message_comment_long.hide();
 
     error_message_agree_empty.hide();
-
-
+*/
+/*
     //Functions for lines in form 
     name_input.focus(function () {
         name_line.css({ "border-width": "1px" });
@@ -150,17 +151,18 @@ $(function () {
         check_email();
     });
     comment_input.focus(function () {
-        /* comment_line.css({ "border-width": "1px" }); */
+        // comment_line.css({ "border-width": "1px" }); 
     });
     comment_input.focusout(function () {
-        /* comment_line.css({ "border-width": "1px" }); */
+        // comment_line.css({ "border-width": "1px" }); 
         check_comment();
     });
-    /*
+    
     agree_input.focusout(function () {
         check_agree();
     });
-*/
+    */
+
 
 
 
