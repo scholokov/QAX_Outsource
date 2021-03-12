@@ -262,13 +262,15 @@ function check_name() {
     var error_message_name_short = $("#error_message_name_short");
     var error_message_name_long = $("#error_message_name_long");
     var error_message_name_only_numbers = $("#error_message_name_only_numbers");
+    
+    var name_clear = name_input.val().trim();
 
-    var name_length = name_input.val().length;
+    var name_length = name_clear.length;
     var patternName = new RegExp(/^[a-zA-Zа-яА-яàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ðіїІ '-]+$/i);
-    let name = patternName.test(name_input.val());
+    let name = patternName.test(name_clear);
 
     console.log('name-length: ' + name_length);
-    console.log('name-correctness: ' + name);
+    console.log('name-correctness: ' + name_clear);
 
     if (name_length == 0) {
         name_line.css({ "border-color": "red" });
@@ -325,11 +327,12 @@ function check_email() {
     var error_message_email_long = $("#error_message_email_long");
     
     var patternEmail = new RegExp(/^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i);
-    let email = patternEmail.test(email_input.val());
-    var email_length = email_input.val().length;
+    var email_clear = email_input.val().trim();
+    let email = patternEmail.test(email_clear);
+    var email_length = email_clear.length;
 
     console.log('email-length: ' + email_length);
-    console.log('email-correctness: ' + email);
+    console.log('email-correctness: ' + email_clear);
 
     if (email_length == 0) {
         email_line.css({ "border-color": "red" });
@@ -371,12 +374,13 @@ function check_phone() {
     var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
     
     var patternPhone = new RegExp(/((\+)?\b(38)?(0[\d-]{2}))([\d-]{5,8})([\d-]{2})/);
-    let phone = patternPhone.test(phone_input.val());
-    var phone_length = countDigits(phone_input.val());
+    var phone_clear = phone_input.val().trim();
+    let phone = patternPhone.test(phone_clear);
+    var phone_length = countDigits(phone_clear);
 
-    console.log('phone-length: ' + phone_length);
-    console.log('phone-correctness: ' + phone);
-    var phone_length_all = phone_input.val().length;
+    console.log('phone-digits-length: ' + phone_length);
+    console.log('phone-correctness: ' + phone_clear);
+    var phone_length_all = phone_clear.length;
 
     if (phone_length_all == 0) {
         phone_line.css({ "border-color": "red" });
@@ -424,16 +428,16 @@ function check_phone() {
 
 
 function check_comment() {
-    var comment_input = $("#comment_input");
     var comment_line = $("#comment_line");
     var error_message_comment_long = $("#error_message_comment_long");
     
     var comment_text = document.getElementById("comment_input").textContent;
+    var comment_clear = comment_text.trim();
 
-    var comment_length = comment_text.length;
+    var comment_length = comment_clear.length;
 
     console.log('comment_length: ' + comment_length);
-    console.log('text: ' + comment_text)
+    console.log('text: ' + comment_clear)
 
     if (comment_length > 3) {
         comment_line.css({ "border-color": "red" });
