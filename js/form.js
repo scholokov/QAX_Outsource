@@ -373,13 +373,14 @@ function check_phone() {
     var error_message_phone_long = $("#error_message_phone_long");
     var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
     
-    var patternPhone = new RegExp(/((\+)?\b(38)?(0[\d-]{2}))([\d-]{5,8})([\d-]{2})/);
+    var patternPhone = new RegExp(/^\d{10}$/);
     var phone_clear = phone_input.val().trim();
     let phone = patternPhone.test(phone_clear);
     var phone_length = countDigits(phone_clear);
 
     console.log('phone-digits-length: ' + phone_length);
-    console.log('phone-correctness: ' + phone_clear);
+    console.log('phone-correctness: ' + phone);
+    console.log('phone: ' + phone_clear);
     var phone_length_all = phone_clear.length;
 /*
     if (phone_length_all == 0) {
@@ -390,7 +391,9 @@ function check_phone() {
         error_message_phone_only_numbers.hide();
         return false;
     }
-    else if (phone == false) {
+    */
+   /*
+    if (phone == false) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_only_numbers.show();
         error_message_phone_empty.hide();
@@ -398,15 +401,17 @@ function check_phone() {
         error_message_phone_long.hide();
         return false;
     }
-    else if (phone_length > 20) {
+    */
+    
+    if (phone_length > 25) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_long.show();
         error_message_phone_empty.hide();
         error_message_phone_short.hide();
         error_message_phone_only_numbers.hide();
         return false;
-    } */
-    if (phone_length < 10 || phone_length > 0 ) {
+    }
+    else if (phone_length < 7 && phone_length > 0 ) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_short.show();
         error_message_phone_empty.hide();
