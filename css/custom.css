@@ -801,6 +801,14 @@ textarea:-moz-placeholder {
   font-size: 18px;
 }
 
+#comment_line{
+  margin-top: 0px;
+  border-width: 1px;
+  border-color: #B9B6B6;
+  margin-bottom: 0px;
+}
+
+
 /* ----------------------------------------------------------------
 Footer
 -----------------------------------------------------------------*/

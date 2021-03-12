@@ -638,7 +638,7 @@
 							<form novalidate>
 								<div class="form-group">
 									<input type="text" id="name_input" name="fname" class="write_to_us-field"
-										placeholder="Name*" required>
+										placeholder="Name*" required onblur="check_name()">
 									<div id='error_message_name_empty' class="write_to_us-error-message">
 										This field is required
 									</div>
@@ -655,7 +655,7 @@
 								</div>
 								<div class="form-group">
 									<input type="text" id="email_input" name="fphone" class="write_to_us-field"
-										placeholder="Email**" required>
+										placeholder="Email**" required onblur="check_email()">
 									<div id='error_message_email_empty' class="write_to_us-error-message">
 										This field is required
 									</div>
@@ -668,7 +668,7 @@
 								</div>
 								<div class="form-group">
 									<input type="text" id="phone_input" name="fphone" class="write_to_us-field"
-										placeholder="Phone number*" required>
+										placeholder="Phone number*" required onblur="check_phone()">
 									<div id='error_message_phone_empty' class="write_to_us-error-message">
 										This field is required
 									</div>
@@ -687,14 +687,22 @@
 												maxlength="500" placeholder="Коментар" contenteditable></textarea>
 											-->
 									<span class="textarea" role="textbox" contenteditable id="comment_input"
-										name="fcomment"></span>
-									<div id="comment_line" class="write_to_us-comment-line"></div>
+										name="fcomment" onblur="check_comment()"></span>
+									<!-- <div id="comment_line" class="write_to_us-comment-line"></div> -->
+									<div id="comment_line" class="line"></div>
+									<div id='error_message_comment_long' class="write_to_us-error-message">
+										Max 30 characters long
+									</div>
 								</div>
 
 								<div class="form-group">
 									<input type="checkbox" id="form-agree" name="form-agree-name"
 										value="form-agree-value">
-									<label for="form-agree">* I agree to the processing of personal data</label><br>
+									<label for="form-agree" id="agree-checkbox" onclick="check_agree()">* I agree to the
+										processing of personal data</label>
+									<div id='error_message_agree_empty' class="write_to_us-error-message">
+										This field is required
+									</div>
 								</div>
 								<button type="submit" class="write_to_us-button-send" id="button_send">Send</button>
 
@@ -818,6 +826,7 @@
 	<script src="js/process-form.js"></script>
 	<script src="js/form.js"></script>
 
+	<!-- 
 	<script>
 		var tpj = jQuery;
 		tpj.noConflict();
@@ -836,6 +845,7 @@
 		);
 		*/
 	</script>
+	-->
 
 </body>
 
