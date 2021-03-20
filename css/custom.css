@@ -846,3 +846,12 @@ Footer
 .footer-links:hover{
   color: rgba(244, 148, 34, 1);
 }
+
+.col-10.col-sm-11 {
+  padding-left: 9px;
+}
+
+.col-1.col-sm-1 {
+  padding-right: 18px;
+  max-width: 20px;
+}
