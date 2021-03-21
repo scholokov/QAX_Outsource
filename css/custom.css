@@ -464,6 +464,7 @@ About US
 
 #about_us-after-text {
   margin-top: 50px;
+  margin-bottom: 150px;
 }
 
 /* ----------------------------------------------------------------
@@ -471,14 +472,42 @@ Why US
 -----------------------------------------------------------------*/
 #why_us {
   background-color: #F7F7F7;
-  padding-top: 200px;
+  padding-top: 150px;
 }
+#why_us_box {
+  padding-top: 100px;
+}
+
 #why_us1-box {
   background: linear-gradient(270deg, #F49422 0%, #ED8100 100%);;
   color: #FFFFFF;
-  
+  text-align: center;
+  padding: 0px;
   
 }
+div#why_us1-box  div {
+  margin: 0;
+  padding-top: 70px; 
+  padding-bottom: 70px;
+  padding-left: 110px;
+  padding-right: 110px;
+  text-align: left;
+  
+}
+
+.why-us-boxes{
+  max-width: 620px;
+  padding-right: 40px;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 150%;
+}
+
+.why-us-img{
+  padding-bottom: 20px;
+}
+
 /* ----------------------------------------------------------------
 Cooperation procedure
 -----------------------------------------------------------------*/
