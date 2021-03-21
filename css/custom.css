@@ -259,18 +259,26 @@ Header
 }
 */
 #header-contact-us-button {
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  color: #120C04;
+  border: 1px solid #F49422;
   border-style: solid;
-  font-size: 20px;
-  padding-left: 48px;
-  padding-right: 32px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  max-width: 200px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 19px;
+  Font-Weight: 500;
+  margin: 16px 0px;
+  padding-left: 47px;
+  padding-right: 47px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  max-width: 180px;
+  max-height: 48px;
 }
 
-
+#header-contact-us-button:hover{
+  background-color: #F49422;
+  color:#FFFFFF;
+}
 
 /* ----------------------------------------------------------------
 Hero
@@ -402,6 +410,8 @@ Non - disclosure
   margin-top: 50px;
   margin-bottom: 30px;
 }
+
+
 
 /* ----------------------------------------------------------------
 About US
