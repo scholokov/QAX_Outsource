@@ -210,7 +210,7 @@ Animation fadeUp
   -webkit-animation-delay: 1s;
   -moz-animation-delay: 1s;
   -o-animation-delay: 1s;
-  animation-delay: 1s;
+  animation-delay: 0.1s;
 }
 
 .animatedFadeInUp {
@@ -221,6 +221,77 @@ Animation fadeUp
   opacity: 0;
   animation-name: fadeInUp;
   -webkit-animation-name: fadeInUp;
+}
+/* ----------------------------------------------------------------
+Animation Pulse
+-----------------------------------------------------------------*/
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 transparent;
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px transparent;
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 transparent;
+	}
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -o-animation-name: pulse;
+  animation-name: pulse;
+  /* Задержка перед началом */
+  -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  -o-animation-delay: 0s;
+  animation-delay: 0s;
+  /* Продолжительность анимации */
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
+ }
+
+ /* ----------------------------------------------------------------
+Animation Bounce
+-----------------------------------------------------------------*/
+
+@keyframes bounce {
+  0%   { 
+    transform: translateY(0); 
+  }
+
+  50%  { 
+    transform: translateY(-10px); 
+  }
+
+  100% { 
+    transform: translateY(0); 
+  }
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  -moz-animation-name: bounce;
+  -o-animation-name: bounce;
+  animation-name: bounce;
+  /* Задержка перед началом */
+  -webkit-animation-delay: 0.1s;
+  -moz-animation-delay: 0.1s;
+  -o-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+  /* Продолжительность анимации */
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -o-animation-duration: 2s;
+  animation-duration: 2s;
 }
 
 /* ----------------------------------------------------------------
@@ -330,6 +401,7 @@ Our Services
   line-height: 190%;
   font-family: 'Rubik', sans-serif;
 }
+
 
 #our_services2_text2 {
   font-size: 32px;
@@ -474,9 +546,12 @@ About US
 
 #about_us-after-text {
   margin-top: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 80px;
 }
 
+#about-us-after-arrow {
+  margin-bottom: 50px;
+}
 /* ----------------------------------------------------------------
 Why US
 -----------------------------------------------------------------*/
