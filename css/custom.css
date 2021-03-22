@@ -657,12 +657,14 @@ Form
 ------------------------------------------------------------------*/
 .write_to_us-block {
   margin-top: 80px;
+  margin-bottom: 80px;
   margin-left: auto;
   margin-right: auto;
 
-  max-width: 858px;
+  max-width: 1280px;
   width: 100%;
-  padding-bottom: 60px;
+  max-height: 884px;
+  padding: 100px 330px;
   /* background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%); */
   box-shadow: 0px 10px 40px rgba(17, 19, 35, 0.08);
 }
@@ -673,17 +675,15 @@ Form
 }
 
 .write_to_us-title-form {
-  padding-top: 45px;
   color: #120C04;
   display: inline-block;
   margin-right: 40px;
 }
 
 #write_to_us-block-small {
-  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 100%;
 }
 
 .write_to_us-field {
