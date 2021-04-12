@@ -689,6 +689,7 @@
 								<img src="images/envelope.svg" alt="Image" class="mb-4 pulse">
 							</div>
 							<form novalidate>
+								<div class="row col-mb-50 mb-0 row-cols-1">
 								<div class="form-group">
 									<input type="text" id="name_input" name="fname" class="write_to_us-field"
 										placeholder="Name*" required onblur="check_name()">
@@ -706,6 +707,8 @@
 										Must only contain letters (no special characters)
 									</div>
 								</div>
+								</div>
+								<div class="row col-mb-50 mb-0 row-cols-2">
 								<div class="form-group">
 									<input type="text" id="email_input" name="fphone" class="write_to_us-field"
 										placeholder="Email**" required onblur="check_email()">
@@ -729,6 +732,8 @@
 										The phone is to long
 									</div>
 								</div>
+							</div>
+							<div class="row col-mb-50 mb-0 row-cols-1">
 								<div class="form-group">
 									<span class="textarea" role="textbox" contenteditable id="comment_input"
 										name="fcomment" onblur="check_comment()"></span>
@@ -736,6 +741,7 @@
 									<div id='error_message_comment_long' class="write_to_us-error-message no-display">
 										Max 30 characters long
 									</div>
+								</div>
 								</div>
 
 								<div class="form-group">
