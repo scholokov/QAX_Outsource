@@ -300,7 +300,8 @@ small { font-family: 'Lato', sans-serif; }
 	clear: both;
 	position: relative;
 	width: 100%;
-	margin: 4rem 0;
+	margin-top: 100px;
+    margin-bottom: 50px;
 	border-top: 1px solid #EEE;
 }
 
