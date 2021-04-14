@@ -901,6 +901,8 @@ textarea:-moz-placeholder {
 }
 
 .write_to_us-thanks-top-text {
+  margin: 0 auto 8px;
+  font-size: 54px;
   text-align: center;
   color: black;
   padding-top: 45px;
