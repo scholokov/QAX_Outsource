@@ -998,3 +998,7 @@ Footer
 a#mail-link2{
   white-space: nowrap;
 }
+
+#location-link{
+  color: rgba(255, 255, 255, 1);
+}
