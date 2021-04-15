@@ -968,6 +968,7 @@ Footer
 }
 
 .footer-links{
+  margin-bottom: 20px;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -982,4 +983,12 @@ Footer
 .col-1.col-sm-1 {
   padding-right: 18px;
   max-width: 20px;
+}
+
+.icons-footer{
+  margin-right: 8px;
+}
+
+.button-links{
+  margin-top: 31px;
 }
