@@ -745,9 +745,14 @@
 								</div>
 
 								<div class="form-group">
-									<input type="checkbox" id="form-agree" name="form-agree-name"
+								
+									<label for="form-agree" id="agree-checkbox" onclick="check_agree()">
+
+										<input type="checkbox" id="form-agree" name="form-agree-name"
 										value="form-agree-value">
-									<label for="form-agree" id="agree-checkbox" onclick="check_agree()">* I agree to the
+										<span id="checkbox-custom"></span>
+
+										* I agree to the
 										processing of personal data</label>
 									<div id='error_message_agree_empty' class="write_to_us-error-message no-display">
 										This field is required

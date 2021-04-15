@@ -933,7 +933,25 @@ textarea:-moz-placeholder {
   margin-bottom: 0px;
 }
 
+#form-agree{
+  display: none;
+}
 
+#checkbox-custom{
+  height: 24px;
+  width: 24px;
+  border: 1px solid gray;
+  display: inline-block;
+  position: relative;
+  background-color:#FFF;
+  border-radius:2px;
+  padding:3px;
+}
+
+[type=checkbox]:checked + span:before {/* <-- ставим иконку, когда чекбокс включен  */
+  background-image: url("images/checkbox-icon.svg");
+  
+}
 /* ----------------------------------------------------------------
 Footer
 -----------------------------------------------------------------*/
