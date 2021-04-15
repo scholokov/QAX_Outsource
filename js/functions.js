@@ -23,6 +23,20 @@ window.onload=function(){
 
 	phone_link.mouseover(function(){phone_icon.attr({"src":"images/phone-icon-hover.svg"});});
 	phone_link.mouseout(function(){phone_icon.attr({"src":"images/phone-icon.svg"})});
+	//............................
+
+	let phone_link2=$("#phone-link2");
+	let phone_icon2=$("#phone-icon2");
+
+	let mail_link2=$("#mail-link2");
+	let mail_icon2=$("#mail-icon2");
+
+	mail_link2.mouseover(function(){mail_icon2.attr({"src":"images/mail-icon2-hover.svg"});});
+	mail_link2.mouseout(function(){mail_icon2.attr({"src":"images/mail-icon2.svg"})});
+
+	phone_link2.mouseover(function(){phone_icon2.attr({"src":"images/call-icon-hover.svg"});});
+	phone_link2.mouseout(function(){phone_icon2.attr({"src":"images/call-icon.svg"})});
+
   };
 
 // Scrolled
