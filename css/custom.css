@@ -1002,3 +1002,7 @@ a#mail-link2{
 #location-link{
   color: rgba(255, 255, 255, 1);
 }
+
+#location-icon{
+  margin-right: 15px;
+}
