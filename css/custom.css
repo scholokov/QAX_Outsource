@@ -966,7 +966,6 @@ Footer
 }
 
 .footer-links{
-  margin-bottom: 20px;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -989,4 +988,8 @@ Footer
 
 .button-links{
   margin-top: 31px;
+}
+
+.footer-links-blocks{
+  margin-bottom: 20px;
 }
