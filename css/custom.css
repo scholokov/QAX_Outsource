@@ -293,13 +293,13 @@ Animation Bounce
 /* ----------------------------------------------------------------
 Header
 -----------------------------------------------------------------*/
-#logo {
-  /* font-weight: bold;
+/*#logo {
+   font-weight: bold;
   font-size: 32px;
   line-height: 124%;
   letter-spacing: 0.05em;
-  color: #FFFFFF; */
-}
+  color: #FFFFFF; 
+}*/
 
 #logo_white {
   display: none;
@@ -489,8 +489,6 @@ About US
 #about_us {
   margin-top: 50px;
 }
-
-#about_us-box {}
 
 #about_us3 {
   margin-top: 80px;
@@ -803,10 +801,10 @@ input[type=text] {
   font-size: 16px;
   color: #120C04;
 }
-
+/*
 input::-webkit-input-placeholder {
-  /* color: rgb(255, 255, 255); */
-}
+   color: rgb(255, 255, 255); 
+}*/
 
 input::-webkit-input-placeholder {
   opacity: 1;
@@ -856,13 +854,13 @@ input:-webkit-autofill:active {
   -webkit-text-fill-color: black;
 }
 
-textarea::-webkit-input-placeholder {
-  /* color: rgb(255, 255, 255); */
+/*textarea::-webkit-input-placeholder {
+   color: rgb(255, 255, 255); 
 }
 
 textarea:-moz-placeholder {
-  /* color: rgb(255, 255, 255); */
-}
+   color: rgb(255, 255, 255); *
+}*/
 
 
 
