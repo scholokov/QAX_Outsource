@@ -988,8 +988,13 @@ Footer
 
 .button-links{
   margin-top: 31px;
+  max-width: 180px;
 }
 
 .footer-links-blocks{
   margin-bottom: 20px;
+}
+
+a#mail-link2{
+  white-space: nowrap;
 }
