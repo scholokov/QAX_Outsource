@@ -3,6 +3,28 @@
 
 var $ = jQuery.noConflict();
 
+window.onload=function(){
+	let mail_link=$("#mail-link");
+	let mail_icon=$("#mail-icon");
+
+	let telegram_link=$("#telegram-link");
+	let telegram_icon=$("#telegram-icon");
+
+	let phone_link=$("#phone-link");
+	let phone_icon=$("#phone-icon");
+	//telegram_img.mouseover(function(){telegram_link.attr({"color":"#F66F5D"});});
+	//telegram_img.mouseout(function(){telegram_link.attr({"color":"#ffffff"});});
+
+	mail_link.mouseover(function(){mail_icon.attr({"src":"images/mail-icon-hover.svg"});});
+	mail_link.mouseout(function(){mail_icon.attr({"src":"images/mail-icon.svg"})});
+
+	telegram_link.mouseover(function(){telegram_icon.attr({"src":"images/telegram-icon-hover.svg"});});
+	telegram_link.mouseout(function(){telegram_icon.attr({"src":"images/telegram-icon.svg"})});
+
+	phone_link.mouseover(function(){phone_icon.attr({"src":"images/phone-icon-hover.svg"});});
+	phone_link.mouseout(function(){phone_icon.attr({"src":"images/phone-icon.svg"})});
+  };
+
 // Scrolled
 $.fn.scrollEnd = function (callback, timeout) {
 	$(this).scroll(function () {
