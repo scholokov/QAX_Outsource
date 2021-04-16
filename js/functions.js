@@ -40,7 +40,6 @@ window.onload=function(){
 
 
 	function checkboxImage(){
-	var 
 	var checkbox_icon = $("#checkbox-icon");
 	checkbox_icon.toggleClass("checkfalse","");
 }
