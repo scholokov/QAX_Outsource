@@ -3135,7 +3135,7 @@ html[xmlns] .slider-wrap {
 
 	.header-wrap-clone {
 		display: block;
-		height: calc( 100px + 1px );
+		height: calc( 80px + 1px );
 	}
 
 	.header-size-sm .header-wrap-clone {
