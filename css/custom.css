@@ -782,6 +782,14 @@ label {
   }
 }
 
+.form-group {
+  margin-top: 72px;
+  margin-bottom: 0;
+}
+#name-block{
+  margin-top: 52px;
+}
+
 #button_text {
   font-weight: bold;
 }
@@ -867,7 +875,6 @@ textarea:-moz-placeholder {
   width: 100%;
   overflow: hidden;
   resize: both;
-  margin-top: 40px;
   color: black;
 }
 
