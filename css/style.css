@@ -3813,7 +3813,6 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	}
 
 	.menu-link {
-		padding: 39px 15px;
 		-webkit-transition: margin .4s ease, padding .4s ease;
 		-o-transition: margin .4s ease, padding .4s ease;
 		transition: margin .4s ease, padding .4s ease;
