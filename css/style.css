@@ -3293,6 +3293,15 @@ html[xmlns] .slider-wrap {
 }
 
 @media (max-width: 991.98px) {
+	#logo {
+		position: relative;
+		display: -ms-flexbox;
+		display: flex;
+		align-items: center;
+		-ms-flex-align: center;
+		margin-right: auto;
+		max-height: 100%;
+	}
 
 	.sticky-header #header-wrap {
 		position: fixed;
@@ -3755,6 +3764,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 @media (min-width: 992px) {
 
 	.primary-menu {
+		margin: 0 auto;
 		-ms-flex: 0 0 auto;
 		flex: 0 0 auto;
 		-ms-flex-positive: 0;
