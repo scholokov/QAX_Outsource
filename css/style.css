@@ -3790,8 +3790,8 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 		/*border-right: 1px solid #EEE;*/
 	}
 
-/*	.transparent-header.full-header .primary-menu .menu-container { border-right-color: rgba(0,0,0,0.1); }
-*/
+	.transparent-header.full-header .primary-menu .menu-container { border-right-color: rgba(0,0,0,0.1); }
+
 	.mega-menu { position: inherit; }
 
 	.menu-container > .menu-item:not(:first-child) {
