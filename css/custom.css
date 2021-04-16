@@ -481,7 +481,9 @@ Non - disclosure
   margin-bottom: 30px;
 }
 
-
+#non-disclosure-block h3{
+  font-size: 40px;
+}
 
 /* ----------------------------------------------------------------
 About US
