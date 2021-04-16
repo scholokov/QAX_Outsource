@@ -41,7 +41,7 @@ window.onload=function(){
 
 	function checkboxImage(){
 	let checkbox_icon = $("#checkbox-icon");
-	checkbox_icon.toggle();
+	checkbox_icon.toggleClass("checkfalse","");
 }
   };
 
