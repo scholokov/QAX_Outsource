@@ -3349,7 +3349,6 @@ html[xmlns] .slider-wrap {
 	display: flex;
 	align-items: center;
 	-ms-flex-align: center;
-	margin-right: auto;
 	max-height: 100%;
 }
 
