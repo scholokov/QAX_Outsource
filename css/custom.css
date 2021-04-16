@@ -959,6 +959,7 @@ textarea:-moz-placeholder {
 }
 
 #checkbox-custom{
+  background-image: url("images/mail-icon-hover.svg");
   height: 24px;
   width: 24px;
   border: 1px solid gray;

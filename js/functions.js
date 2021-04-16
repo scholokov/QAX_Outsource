@@ -40,7 +40,8 @@ window.onload=function(){
 
 
 	function checkboxImage(){
-	let checkbox_icon = $("#checkbox-icon");
+	var 
+	var checkbox_icon = $("#checkbox-icon");
 	checkbox_icon.toggleClass("checkfalse","");
 }
   };
