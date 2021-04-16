@@ -7,32 +7,32 @@ Common
 
 
 h1 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik';
   font-weight: bold;
 }
 
 h2 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik';
   font-weight: 500;
   font-size: 80px;
   line-height: 95px;
 }
 
 h3 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik';
   font-size: 54px;
   color: #120C04;
 }
 
 /* JUST FOR TESTING */
 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   font-weight: normal;
 }
 
 /* Small text */
 h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
 
 }
 
@@ -48,7 +48,7 @@ h5 {
 
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   color: #120C04;
@@ -395,7 +395,7 @@ Our Services
 #our_services2_text1 {
   font-size: 24px;
   line-height: 190%;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik';
   font-weight: 500;
 }
 
@@ -403,7 +403,7 @@ Our Services
 #our_services2_text2 {
   font-size: 32px;
   line-height: 120%;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik';
   font-weight: 500;
 }
 
