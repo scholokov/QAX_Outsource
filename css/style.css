@@ -3488,15 +3488,15 @@ only screen and (                min-resolution: 2dppx) {
 	line-height: 50px;
 	justify-content: center;
 	align-items: center;
-	-webkit-transition: opacity .3s ease;
-	transition: opacity .3s ease;
+	/*-webkit-transition: opacity .3s ease;
+	transition: opacity .3s ease;*/
 }
 
 body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
-	opacity: 1;
+	/*opacity: 1;
 	-webkit-transition: opacity .2s .2s ease, top .4s ease;
 	-o-transition: opacity .2s .2s ease, top .4s ease;
-	transition: opacity .2s .2s ease, top .4s ease;
+	transition: opacity .2s .2s ease, top .4s ease;*/
 }
 
 .top-search-open .top-search-parent #primary-menu-trigger {
@@ -3504,7 +3504,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 }
 
 .svg-trigger {
-	width: 30px;
+	/*width: 30px;
 	height: 30px;
 	cursor: pointer;
 	-webkit-tap-highlight-color: transparent;
@@ -3512,7 +3512,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
-	user-select: none;
+	user-select: none;*/
 }
 
 .svg-trigger path {
