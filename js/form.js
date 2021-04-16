@@ -220,6 +220,7 @@ $(function () {
 
 // then clicked on check box
 function check_agree() {
+   // var checkbox_icon=$("#checkbox-icon");
     var error_message_agree_empty = $("#error_message_agree_empty");
     var unchecked = document.getElementById("form-agree").checked;
     console.log('error_message_agree_empty: ' + error_message_agree_empty);

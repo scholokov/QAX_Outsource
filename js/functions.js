@@ -37,11 +37,13 @@ window.onload=function(){
 	phone_link2.mouseover(function(){phone_icon2.attr({"src":"images/call-icon-hover.svg"});});
 	phone_link2.mouseout(function(){phone_icon2.attr({"src":"images/call-icon.svg"})});
 
-  };
-function checkboxImage(){
+
+
+	function checkboxImage(){
 	let checkbox_icon = $("#checkbox-icon");
-	checkbox_icon.toggleClass("checkfalse");
+	checkbox_icon.toggle();
 }
+  };
 
 // Scrolled
 $.fn.scrollEnd = function (callback, timeout) {
