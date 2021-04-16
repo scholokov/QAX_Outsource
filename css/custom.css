@@ -326,6 +326,7 @@ Header
 }
 */
 #header-contact-us-button {
+  font-family: 'Rubik';
   color: #120C04;
   border: 1px solid #F49422;
   border-style: solid;
@@ -333,8 +334,8 @@ Header
   line-height: 19px;
   Font-Weight: 500;
   margin: 16px 0px;
-  padding-left: 47px;
-  padding-right: 47px;
+  padding-left: 46px;
+  padding-right: 46px;
   padding-top: 14px;
   padding-bottom: 14px;
   max-width: 180px;
