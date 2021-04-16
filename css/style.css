@@ -3560,15 +3560,14 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 }
 
 .menu-link {
-	display: block;
-	line-height: 22px;
-	padding: 14px 5px;
-	color: #444;
-	font-weight: 700;
-	font-size: 0.8125rem;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-/*	font-family: 'Poppins', sans-serif; */
+	font-family: 'Rubik',sans-serif;
+    display: block;
+    line-height: 22px;
+    padding: 14px 5px;
+    color: #444;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .menu-link span {
