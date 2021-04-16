@@ -3159,6 +3159,7 @@ html[xmlns] .slider-wrap {
 	#header.transparent-header,
 	#header.transparent-header:not(.sticky-header) #header-wrap {
 		z-index: 299;
+		background: transparent;
 	}
 
 	#header.transparent-header.semi-transparent #header-wrap { background-color: rgba(255,255,255,0.8); }
