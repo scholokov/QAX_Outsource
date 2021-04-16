@@ -314,17 +314,17 @@ Header
   display: flex;
 }
 
-/*
+
 .not-dark #logo_dark{
 	display: -ms-flexbox;
 	display: flex;
 }
-*/
-/*
+
+
 .sticky-header #logo_light{
 	display: none;
 }
-*/
+
 #header-contact-us-button {
   font-family: 'Rubik';
   color: #120C04;
