@@ -38,7 +38,10 @@ window.onload=function(){
 	phone_link2.mouseout(function(){phone_icon2.attr({"src":"images/call-icon.svg"})});
 
   };
-
+function checkboxImage(){
+	let checkbox_icon = $("#checkbox-icon");
+	checkbox_icon.toggle();
+}
 // Scrolled
 $.fn.scrollEnd = function (callback, timeout) {
 	$(this).scroll(function () {
