@@ -3087,12 +3087,10 @@ html[xmlns] .slider-wrap {
 #header {
 	position: relative;
 	background-color: #FFF;
-	max-height: 80px;
 /*	border-bottom: 1px solid #F5F5F5; */
 }
 
 #header-wrap {
-	max-height: 80px;
 	position: relative;
 	background-color: #FFF;
 	width: 100%;
