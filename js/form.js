@@ -7,6 +7,8 @@ $('form').submit(function (e) {
     var comment = document.getElementById("comment_input").innerText;
     var result = true;
 
+    $("#error_online").hide();
+
     console.log('comment_input: ' + comment_input);
 
     var chech_agree_flag = check_agree_send();
@@ -25,7 +27,7 @@ $('form').submit(function (e) {
     console.log('check_email: ' + check_email_flag);
 
 
-    if (chech_agree_flag == false || check_name_flag == false || check_phone_flag == false || check_email_flag == false || check_comment_flag == false )
+    if (chech_agree_flag == false || check_name_flag == false || check_phone_flag == false || check_email_flag == false || check_comment_flag == false || navigator.onLine == false)
         return false;
 
 
@@ -36,6 +38,11 @@ $('form').submit(function (e) {
     /*
     '\nBrowser: ' + platform.name + ' v' + platform.version +
     '\nOS: ' + platform.os + */
+    if(navigator.onLine == false){
+        $("#error_online").show();
+    }else{
+        $("#error_online").hide();
+    }
 
     var sum_text = 'Hi!\nI`m QAX bot.\n' +
         'Enviroment: ' + envName +

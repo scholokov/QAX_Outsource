@@ -973,6 +973,7 @@ textarea:-moz-placeholder {
   display:none;
 }
 
+
 [type=checkbox]:checked + span:before {/* <-- ставим иконку, когда чекбокс включен  */
   background-image: url("images/checkbox-icon.svg");
   
