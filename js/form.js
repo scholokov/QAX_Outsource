@@ -262,7 +262,7 @@ function checkOnline(){
     var x="you are"+navigator.onLine;
     document.getElementById("error_online").innerHTML=x;
     };
-}
+
 
 function check_name() {
     var name_input = $("#name_input");
