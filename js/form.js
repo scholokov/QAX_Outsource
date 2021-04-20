@@ -259,9 +259,8 @@ function check_agree_send() {
 };
 
 function checkOnline(){
-    if(navigator.onLine == false){
-        document.getElementById("write_to_us").setAttribute("class", "no-display");
-        document.getElementById("error_online").setAttribute("class", "");
+    var x="you are"+navigator.onLine;
+    document.getElementById("error_online").innerHTML=x;
     };
 }
 
