@@ -259,8 +259,11 @@ function check_agree_send() {
 };
 
 function checkOnline(){
-    var x="you are"+navigator.onLine;
-    document.getElementById("error_online").innerHTML=x;
+    if (navigator.onLine == false){
+        $("#error_online").show();
+    }else{
+        $("#error_online").hide();
+    }
     };
 
 
