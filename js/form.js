@@ -38,10 +38,7 @@ $('form').submit(function (e) {
     /*
     '\nBrowser: ' + platform.name + ' v' + platform.version +
     '\nOS: ' + platform.os + */
-    if(navigator.onLine == false){
-        document.getElementById("write_to_us").setAttribute("class", "no-display");
-        document.getElementById("error_online").setAttribute("class", "");
-    };
+    
 
     var sum_text = 'Hi!\nI`m QAX bot.\n' +
         'Enviroment: ' + envName +
@@ -67,10 +64,6 @@ $('form').submit(function (e) {
             document.getElementById("write_to_us-thanks-block").setAttribute("class", "");
 
             /* alert('your message has been sent!'); */
-        },
-        error: function(){
-            document.getElementById("write_to_us").setAttribute("class", "no-display");
-            document.getElementById("error_online").setAttribute("class", "");
         }
     });
 });
@@ -265,6 +258,12 @@ function check_agree_send() {
     };
 };
 
+function checkOnline(){
+    if(navigator.onLine == false){
+        document.getElementById("write_to_us").setAttribute("class", "no-display");
+        document.getElementById("error_online").setAttribute("class", "");
+    };
+}
 
 function check_name() {
     var name_input = $("#name_input");
