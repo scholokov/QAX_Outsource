@@ -39,10 +39,9 @@ $('form').submit(function (e) {
     '\nBrowser: ' + platform.name + ' v' + platform.version +
     '\nOS: ' + platform.os + */
     if(navigator.onLine == false){
-        $("#error_online").show();
-    }else{
-        $("#error_online").hide();
-    }
+        document.getElementById("write_to_us").setAttribute("class", "no-display");
+        document.getElementById("error_online").setAttribute("class", "");
+    };
 
     var sum_text = 'Hi!\nI`m QAX bot.\n' +
         'Enviroment: ' + envName +
