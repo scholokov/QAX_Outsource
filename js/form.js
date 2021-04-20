@@ -1,5 +1,6 @@
 /* Submit text to Telegram */
 $('form').submit(function (e) {
+    window.addEventListener('offline', (e) => console.log(e, "you're offline"));
     tokenID = sessionStorage.getItem('tokenID');
     chatID = sessionStorage.getItem('chatID');
     envName = sessionStorage.getItem('envName');
