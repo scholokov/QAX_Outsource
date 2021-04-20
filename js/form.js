@@ -259,7 +259,7 @@ function check_agree_send() {
 };
 
 function checkOnline(){
-    var $("#error_online")=error_online;
+    var error_online=$("#error_online");
     if (navigator.onLine == false){
         error_online.show();
     }else{
