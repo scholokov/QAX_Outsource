@@ -67,6 +67,10 @@ $('form').submit(function (e) {
             document.getElementById("write_to_us-thanks-block").setAttribute("class", "");
 
             /* alert('your message has been sent!'); */
+        },
+        error: function(){
+            document.getElementById("write_to_us").setAttribute("class", "no-display");
+            document.getElementById("error_online").setAttribute("class", "");
         }
     });
 });
