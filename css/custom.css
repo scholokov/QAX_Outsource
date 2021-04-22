@@ -973,8 +973,9 @@ textarea:-moz-placeholder {
 }
 
 #checkbox-icon{
-  display: block;
-  margin: 3px auto;
+  position: absolute;
+    top: 25%;
+    left: 20%;
 }
 
 [type=checkbox]:checked + span:before {/* <-- ставим иконку, когда чекбокс включен  */
