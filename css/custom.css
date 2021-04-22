@@ -604,6 +604,10 @@ Cooperation procedure
   margin-top: 80px;
 }
 
+#cooperation-procedure-text{
+  font-size: 22px;
+}
+
 #cooperation-procedure-title{
   margin-bottom: 50px;
 }
