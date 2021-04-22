@@ -229,16 +229,16 @@ $(function () {
 function check_agree() {
    // var checkbox_icon=$("#checkbox-icon");
     var error_message_agree_empty = $("#error_message_agree_empty");
-    var unchecked = document.getElementById("form-agree").checked;
+    var is_checked = document.getElementById("form-agree").checked;
     console.log('error_message_agree_empty: ' + error_message_agree_empty);
     console.log('unchecked_status: ' + unchecked);
 
-    if (unchecked == true) {
-        error_message_agree_empty.show();
+    if (is_checked == true) {
+        error_message_agree_empty.hide();
         console.log('if: true');
         return false;
     } else {
-        error_message_agree_empty.hide();
+        error_message_agree_empty.show();
         console.log('if: ok');
         return true;
     };
@@ -251,11 +251,13 @@ function check_agree_send() {
     console.log('error_message_agree_empty: ' + error_message_agree_empty);
     console.log('unchecked_status: ' + unchecked);
 
-    if (unchecked == true) {
+    if (unchecked == false) {
+        document.getElementById("checkbox-icon").setAttribute("class", "");
         error_message_agree_empty.show();
         console.log('if: true');
         return false;
     } else {
+        document.getElementById("checkbox-icon").setAttribute("class", "no-display");
         error_message_agree_empty.hide();
         console.log('if: ok');
         return true;
