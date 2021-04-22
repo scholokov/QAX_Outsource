@@ -251,7 +251,7 @@ function check_agree_send() {
     console.log('error_message_agree_empty: ' + error_message_agree_empty);
     console.log('unchecked_status: ' + unchecked);
 
-    if (unchecked == false) {
+    if (unchecked == true) {
         error_message_agree_empty.show();
         console.log('if: true');
         return false;
@@ -261,15 +261,6 @@ function check_agree_send() {
         return true;
     };
 };
-
-function checkOnline(){
-    var error_online=$("#error_online");
-    if (navigator.onLine == false){
-        error_online.show();
-    }else{
-        error_online.hide();
-    }
-    };
 
 
 function check_name() {
