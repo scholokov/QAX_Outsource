@@ -109,9 +109,10 @@ body {
 }
 
 .container{
-  width: 100%;
-  margin-right: 80px;
-  margin-left: 80px;
+  width: 90%;
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
