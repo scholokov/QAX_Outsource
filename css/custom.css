@@ -493,6 +493,10 @@ Non - disclosure
   margin-bottom: 30px;
 }
 
+.non-disclosure-info-block {
+  padding-bottom: 100px;
+}
+
 #non-disclosure-block h3{
   font-size: 40px;
   line-height: 48px;
@@ -501,6 +505,7 @@ Non - disclosure
 .non-disclosure-text{
   font-size: 18px;
   line-height: 27px;
+  margin-bottom: 0;
 }
 /* ----------------------------------------------------------------
 About US
