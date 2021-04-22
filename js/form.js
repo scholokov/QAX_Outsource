@@ -252,14 +252,14 @@ function check_agree_send() {
     console.log('unchecked_status: ' + unchecked);
 
     if (unchecked == false) {
-        document.getElementById("checkbox-icon").setAttribute("class", "");
-        error_message_agree_empty.show();
-        console.log('if: true');
-        return false;
-    } else {
         document.getElementById("checkbox-icon").setAttribute("class", "no-display");
+        error_message_agree_empty.show();
+        console.log('if: false');
+        return false;
+    } else {;
+        document.getElementById("checkbox-icon").setAttribute("class", "")
         error_message_agree_empty.hide();
-        console.log('if: ok');
+        console.log('if: true');
         return true;
     };
 };

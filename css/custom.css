@@ -959,20 +959,23 @@ textarea:-moz-placeholder {
 }
 
 #checkbox-custom{
-  height: 24px;
-  width: 24px;
-  border: 1px solid gray;
+  height: 26px;
+  width: 26px;
+  border: 1px solid black;
   display: inline-block;
   position: relative;
-  background-color:#FFF;
-  border-radius:2px;
-  padding:3px;
+  border-radius: 4px;
+  padding: 3px;  
 }
 
 .checkfalse{
   display:none;
 }
 
+#checkbox-icon{
+  display: block;
+  margin: 3px auto;
+}
 
 [type=checkbox]:checked + span:before {/* <-- ставим иконку, когда чекбокс включен  */
   background-image: url("images/checkbox-icon.svg");
