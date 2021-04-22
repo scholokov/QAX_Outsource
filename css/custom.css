@@ -982,6 +982,13 @@ textarea:-moz-placeholder {
   background-image: url("images/checkbox-icon.svg");
   
 }
+
+#checkbox-text{
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 3px;
+  margin-left: 12px;
+}
 /* ----------------------------------------------------------------
 Footer
 -----------------------------------------------------------------*/
