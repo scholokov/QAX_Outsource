@@ -39,11 +39,12 @@ $('form').submit(function (e) {
     '\nBrowser: ' + platform.name + ' v' + platform.version +
     '\nOS: ' + platform.os + */
     
-
+    const indx=1;
     var sum_text = 'Hi!\nI`m QAX bot.\n' +
         'Enviroment: ' + envName +
         '\n\n' +
         'Name: ' + $('#name_input').val() +
+        'unicode ` '+$('#name_input').val().charCodeAt(indx) +
         '\nPhone: ' + $('#phone_input').val() +
         '\nEmail: ' + $('#email_input').val() +
         '\nComment: ' + comment;   /* +  
