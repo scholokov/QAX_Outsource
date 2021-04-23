@@ -279,8 +279,10 @@ function check_name() {
     var patternName = new RegExp(/^[a-zA-Zа-яА-яàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ðіїІ '-]+$/i);
     let name = patternName.test(name_clear);
 
+    const index =1;
     console.log('name-length: ' + name_length);
     console.log('name-correctness: ' + name_clear);
+    console.log('unicode'+name_clear.charCodeAt(index));
 
     if (name_length == 0) {
         name_line.css({ "border-color": "red" });
