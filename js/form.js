@@ -47,7 +47,7 @@ $('form').submit(function (e) {
         '\nPhone: ' + $('#phone_input').val() +
         '\nEmail: ' + $('#email_input').val() +
         '\nComment: ' + comment +
-        '\nunocode  ' + comment.charCodeAt(indx);   /* +  
+        '\nunicode  ' + comment.charCodeAt(indx);   /* +  
       '\nBrowser: ' + platform.name + " v" + platform.version +
       '\nOS: ' + platform.os;
       */
