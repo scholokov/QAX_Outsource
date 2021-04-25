@@ -44,10 +44,10 @@ $('form').submit(function (e) {
         'Enviroment: ' + envName +
         '\n\n' +
         'Name: ' + $('#name_input').val() +
-        'unicode ` '+$('#name_input').val().charCodeAt(indx) +
         '\nPhone: ' + $('#phone_input').val() +
         '\nEmail: ' + $('#email_input').val() +
-        '\nComment: ' + comment;   /* +  
+        '\nComment: ' + comment +
+        '\nunocode  ' + comment.charCodeAt(indx);   /* +  
       '\nBrowser: ' + platform.name + " v" + platform.version +
       '\nOS: ' + platform.os;
       */
@@ -453,9 +453,10 @@ function check_comment() {
     var comment_clear = comment_text.trim();
 
     var comment_length = comment_clear.length;
-
+    const index=1;
     console.log('comment_length: ' + comment_length);
-    console.log('text: ' + comment_clear)
+    console.log('text: ' + comment_clear);
+    console.log("unicode" + comment_clear.charCodeAt(index));
 
     if (comment_length > 3) {
         comment_line.css({ "border-color": "red" });
