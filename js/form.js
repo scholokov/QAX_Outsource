@@ -353,7 +353,7 @@ function check_email() {
         error_message_email_invalid.hide();
         error_message_email_long.hide();
         return false;
-    } else if (email_length > 50) {
+    } else if (email_length > 100) {
         email_line.css({ "border-color": "red" });
         error_message_email_empty.hide();
         error_message_email_invalid.hide();
@@ -458,7 +458,7 @@ function check_comment() {
     console.log('text: ' + comment_clear);
     console.log("unicode" + comment_clear.charCodeAt(index));
 
-    if (comment_length > 3) {
+    if (comment_length > 1000) {
         comment_line.css({ "border-color": "red" });
         error_message_comment_long.show();
         return false;
