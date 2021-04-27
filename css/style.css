@@ -3179,7 +3179,7 @@ html[xmlns] .slider-wrap {
 		width: 100%;
 	}
 
-	#header.header-size-sm + .include-header {
+	/*#header.header-size-sm + .include-header {
 		margin-top: calc( -60px - 2px );
 	}
 
@@ -3192,7 +3192,7 @@ html[xmlns] .slider-wrap {
 	}
 
 	#header.floating-header + .include-header {
-		margin-top: calc( -160px - 2px );
+		margin-top: calc( -160px - 2px );*/
 	}
 
 	#header.transparent-header + .page-title-parallax.include-header .container {
@@ -4587,12 +4587,12 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	.overlay-menu .primary-menu,
 	.overlay-menu .primary-menu > #overlay-menu-close {
 		opacity: 0 !important;
-		pointer-events: none;
+		/*pointer-events: none;
 		z-index: -2;
 		-webkit-transform: translateY(-80px);
 		transform: translateY(-80px);
 		-webkit-transition: opacity .4s ease, transform .45s ease !important;
-		transition: opacity .4s ease, transform .45s ease !important;
+		transition: opacity .4s ease, transform .45s ease !important;*/
 	}
 
 	.overlay-menu.primary-menu-open .primary-menu,
@@ -7011,7 +7011,7 @@ body:not(.device-touch) .portfolio {
 	position: relative;
 	height: 600px;
 	overflow: hidden;
-	margin: -80px 0 80px !important;
+	/*margin: -80px 0 80px !important;*/
 }
 
 .portfolio-single-video { height: auto !important; }
