@@ -1015,6 +1015,7 @@ textarea:-moz-placeholder {
 }
 
 #checkbox-text{
+  line-height: 19.2px;
   vertical-align: top;
   display: inline-block;
   padding-top: 3px;
