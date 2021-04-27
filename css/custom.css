@@ -773,7 +773,7 @@ label {
 }
 
 .write_to_us-button-send {
-  margin-top: 82px;
+  margin-top: 76px;
   text-align: center;
   padding-left: 45px;
   padding-right: 45px;
@@ -812,11 +812,11 @@ label {
 }
 
 .form-group {
-  margin-top: 72px;
+  margin-top: 76px;
   margin-bottom: 0;
 }
 #name-block{
-  margin-top: 52px;
+  margin-top: 48px;
 }
 
 #button_text {
@@ -844,7 +844,11 @@ input[type=text] {
 }
 
 #checkbox-block{
-  margin-top: 62px;
+  margin-top: 59px;
+}
+
+#agree-checkbox{
+  margin-bottom: 0;
 }
 /*
 input::-webkit-input-placeholder {
