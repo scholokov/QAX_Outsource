@@ -1044,6 +1044,15 @@ Footer
   margin-top: 55px;
 }
 
+#footer-date{
+  font-family: 'Rubik';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #FFFFFF, 50 %;
+
+}
+
 .footer-links{
   color: rgba(255, 255, 255, 1);
 }
