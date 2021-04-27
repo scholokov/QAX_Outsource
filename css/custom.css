@@ -515,7 +515,7 @@ Non - disclosure
 About US
 -----------------------------------------------------------------*/
 #about_us {
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 #about_us3 {
@@ -577,6 +577,10 @@ About US
 
 #about-us-after-arrow {
   margin-bottom: 50px;
+}
+
+#about{
+  margin-top: 87px;
 }
 /* ----------------------------------------------------------------
 Why US
