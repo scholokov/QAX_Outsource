@@ -333,6 +333,7 @@ Header
 }
 
 #header-contact-us-button {
+  white-space: nowrap;
   font-family: 'Rubik';
   color: #120C04;
   border: 1px solid #F49422;
