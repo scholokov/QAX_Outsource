@@ -1049,7 +1049,7 @@ Footer
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
-  color: #FFFFFF, 50%;
+  color: hsl(0, 0%, 50%);
 }
 
 .footer-links{
