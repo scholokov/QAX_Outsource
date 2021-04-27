@@ -595,6 +595,10 @@ Why US
   padding: 0px;
   
 }
+
+#why_us_box-block{
+  padding-bottom: 130px;
+}
 div#why_us1-box  div {
   font-weight: 500;
   margin: 0;
