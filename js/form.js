@@ -339,7 +339,7 @@ function check_email() {
     var error_message_email_invalid = $("#error_message_email_invalid");
     var error_message_email_long = $("#error_message_email_long");
     
-    var patternEmail = new RegExp(/^[A-Z0-9._%+-]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i);
+    var patternEmail = new RegExp(/^[A-Z0-9._+-\\(\\)]+@[A-Z0-9-]+.+.[A-Z]{2,4}$/i);
     var email_clear = email_input.val().trim();
     let email = patternEmail.test(email_clear);
     var email_length = email_clear.length;
