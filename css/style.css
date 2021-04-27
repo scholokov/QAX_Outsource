@@ -3179,7 +3179,7 @@ html[xmlns] .slider-wrap {
 		width: 100%;
 	}
 
-	/*#header.header-size-sm + .include-header {
+	#header.header-size-sm + .include-header {
 		margin-top: calc( -60px - 2px );
 	}
 
@@ -3192,7 +3192,7 @@ html[xmlns] .slider-wrap {
 	}
 
 	#header.floating-header + .include-header {
-		margin-top: calc( -160px - 2px );*/
+		margin-top: calc( -160px - 2px );
 	}
 
 	#header.transparent-header + .page-title-parallax.include-header .container {
