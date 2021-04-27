@@ -569,8 +569,10 @@ About US
 }
 
 #about_us-after-text {
+  font-size: 22px;
   margin-top: 50px;
   margin-bottom: 80px;
+  line-height: 33px;
 }
 
 #about-us-after-arrow {
