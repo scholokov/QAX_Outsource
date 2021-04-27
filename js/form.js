@@ -416,7 +416,7 @@ function check_phone() {
     }
     */
     
-    if (phone_length > 25) {
+    if (phone_length > 20) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_long.show();
         error_message_phone_empty.hide();
