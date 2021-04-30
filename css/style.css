@@ -3122,6 +3122,10 @@ html[xmlns] .slider-wrap {
 		backface-visibility: hidden;
 		will-change: left, top, transform;
 	}
+	
+	.header-misc{
+		display: none;
+	}
 
 	#top-bar + #header:not(.sticky-header) #header-wrap,
 	#slider + #header:not(.sticky-header) #header-wrap,
