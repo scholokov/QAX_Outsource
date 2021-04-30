@@ -973,6 +973,14 @@ textarea:-moz-placeholder {
     flex-direction: column;
 }
 
+#thank_you-text{
+  font-family: 'Rubik';
+  font-size: 54px;
+  line-height: 65px;
+  font-weight: 400;
+
+}
+
 #write_to_us-done-img {
   padding-top: 80px;
   display: block;
