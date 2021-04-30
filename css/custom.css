@@ -378,6 +378,14 @@ Hero
   max-width: 629px;
 }
 
+@media (max-width: 500px){
+  max-height: 200px;
+  background-image: url(images/hero.svg);
+  background-size: cover;
+  background-position: center center;
+}
+  
+
 /* ----------------------------------------------------------------
 Our Services
 -----------------------------------------------------------------*/
