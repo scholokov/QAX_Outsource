@@ -3305,7 +3305,7 @@ html[xmlns] .slider-wrap {
 	}
 
 	#main_logo{
-		background-image: url("images/logo-mobile.svg");
+		background: url("images/logo-mobile.svg");
 	}
 
 	#header-contact-us-button{
