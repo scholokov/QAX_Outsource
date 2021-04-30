@@ -49,7 +49,7 @@ window.onload=function(){
   var windowWidth = $(window).width();
   var logo = $('#main_logo');
   if (windowWidth < 900) {
-	  logo.attr({"src":"images/logo-mobile.svg"});
+	  logo.attr({"src":"images/logo-mobile.svg"})};
 
   window.onresize=function(){
 	    var windowWidth = $(window).width();
