@@ -44,7 +44,13 @@ window.onload=function(){
 	checkbox_icon.toggleClass("checkfalse","");
 	}
     
+ 	
   //logo
+  var windowWidth = $(window).width();
+  var logo = $('#main_logo');
+  if (windowWidth < 900) {
+	  logo.attr({"src":"images/logo-mobile.svg"});
+
   window.onresize=function(){
 	    var windowWidth = $(window).width();
 		var logo = $('#main_logo');
