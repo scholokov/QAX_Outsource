@@ -3309,7 +3309,7 @@ html[xmlns] .slider-wrap {
 	}
 
 	#main_logo{
-		background: url("images/logo-mobile.svg");
+		background-image: url("images/logo-mobile.svg");
 	}
 
 	#header-contact-us-button{
