@@ -44,12 +44,7 @@ window.onload=function(){
 	checkbox_icon.toggleClass("checkfalse","");
 	}
     
-  //logo
-  var checkHeight = window.innerWidth;
-  var header_logo = $("#logo_white");
-  if(checkHeight < 900){
-	header_logo.attr({"src":"images/logo-mobile.svg"})
-  }
+
 };
 
 // Scrolled
