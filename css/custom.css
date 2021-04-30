@@ -381,7 +381,7 @@ Hero
 @media (max-width: 500px){
   #page-title{
     padding: 0px !important; 
-    max-height: 200px;
+    min-height: 200px;
     background-image: url(images/hero.svg);
     background-size: cover;
     background-position: center center;
