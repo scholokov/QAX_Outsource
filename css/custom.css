@@ -967,6 +967,10 @@ textarea:-moz-placeholder {
   padding-bottom: 60px;
   /* background: linear-gradient(105.97deg, #FEB692 0%, #EA5455 100%); */
   min-height: 494px;
+
+  display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #write_to_us-done-img {
