@@ -386,9 +386,15 @@ Our Services
 }
 
 .our_services-sub-title {
+  margin-bottom: 50px;
   font-weight: 500;
   font-size: 40px;
   line-height: 120%;
+}
+
+.our_services-text{
+  font-size: 18px;
+  line-height: 27px;
 }
 
 #our_services_block2 {
