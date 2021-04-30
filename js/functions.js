@@ -42,8 +42,14 @@ window.onload=function(){
 	function checkboxImage(){
 	var checkbox_icon = $("#checkbox-icon");
 	checkbox_icon.toggleClass("checkfalse","");
-}
-  };
+	}
+    
+  //logo
+  checkHeight = window.innerHeight;
+  if(checkHeight < 900){
+	  $("#logo_white").attr({"src":"images/logo-mobile.svg"})
+  }
+};
 
 // Scrolled
 $.fn.scrollEnd = function (callback, timeout) {
