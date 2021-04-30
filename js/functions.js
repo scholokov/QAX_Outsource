@@ -45,9 +45,10 @@ window.onload=function(){
 	}
     
   //logo
-  checkHeight = window.innerHeight;
+  var checkHeight = window.innerHeight;
+  var header_logo = $("#logo_white");
   if(checkHeight < 900){
-	  $("#logo_white").attr({"src":"images/logo-mobile.svg"})
+	header_logo.attr({"src":"images/logo-mobile.svg"})
   }
 };
 
