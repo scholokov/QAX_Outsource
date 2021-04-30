@@ -379,10 +379,13 @@ Hero
 }
 
 @media (max-width: 500px){
-  max-height: 200px;
-  background-image: url(images/hero.svg);
-  background-size: cover;
-  background-position: center center;
+  #page-title{
+    max-height: 200px;
+    background-image: url(images/hero.svg);
+    background-size: cover;
+    background-position: center center;
+  }
+  
 }
   
 
