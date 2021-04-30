@@ -595,6 +595,10 @@ Why US
   background-color: #F7F7F7;
   padding-top: 146px;
 }
+#why-us-title{
+  margin-bottom: 4px;
+}
+
 #why_us_box {
   padding-top: 100px;
 }
