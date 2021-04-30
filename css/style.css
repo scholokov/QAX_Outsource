@@ -3123,9 +3123,6 @@ html[xmlns] .slider-wrap {
 		will-change: left, top, transform;
 	}
 	
-	.header-misc{
-		display: none;
-	}
 
 	#top-bar + #header:not(.sticky-header) #header-wrap,
 	#slider + #header:not(.sticky-header) #header-wrap,
@@ -3305,6 +3302,10 @@ html[xmlns] .slider-wrap {
 		-ms-flex-align: center;
 		margin-right: auto;
 		max-height: 100%;
+	}
+
+	.header-misc{
+		display: none;
 	}
 
 	.sticky-header #header-wrap {
