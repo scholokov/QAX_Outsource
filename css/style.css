@@ -3227,9 +3227,6 @@ html[xmlns] .slider-wrap {
 		transition: height .4s ease, padding .4s ease, margin .4s ease, opacity .3s ease;
 	}
 
-	#main_logo{
-		background-image: url("images/logo.svg");
-	}
 
 	#logo img { max-height: 100%; }
 
@@ -3308,9 +3305,6 @@ html[xmlns] .slider-wrap {
 		max-height: 100%;
 	}
 
-	#main_logo{
-		background-image: url("images/logo-mobile.svg");
-	}
 
 	#header-contact-us-button{
 		display: none;
