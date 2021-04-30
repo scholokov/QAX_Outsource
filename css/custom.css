@@ -676,6 +676,10 @@ our-support
   padding-bottom: 150px;
 }
 
+#our-support-main-block{
+  max-width: 1280px;
+}
+
 #our-support-title {
   color: #FFFFFF;
 }
