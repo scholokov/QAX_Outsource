@@ -447,8 +447,13 @@ Header
 .primary-menu-open #header-wrap{
   height: 100vh;
   background-color: #F49422;
+
 }
+
+.primary-menu-open #page-title, #content{
+  display: none;
 }
+
 /* ----------------------------------------------------------------
 Hero
 -----------------------------------------------------------------*/
