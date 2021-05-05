@@ -436,9 +436,14 @@ Header
 
 }
 
-.primary-menu-open #header-contact-us-button, #logo img{
+.primary-menu-open #header-contact-us-button{
   display: none;
 }
+
+.primary-menu-open #logo img{
+  display: none;
+}
+
 /* ----------------------------------------------------------------
 Hero
 -----------------------------------------------------------------*/
