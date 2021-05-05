@@ -394,6 +394,10 @@ Hero
   #hero-longread{
     font-size: 12px;
   }
+
+  #page-title .container{
+    padding-top: 80px;
+  }
 }
   
 
