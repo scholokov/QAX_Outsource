@@ -3680,6 +3680,9 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 }
 
 @media (max-width: 991.98px) {
+	#mobile-contacy-us-icon{
+		display: block;
+	}
 
 	.primary-menu {
 		max-width: 100%;
@@ -3768,6 +3771,9 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 }
 
 @media (min-width: 992px) {
+	#mobile-contacy-us-icon{
+		display: none;
+	}
 
 	.primary-menu {
 		margin: 0 auto;
