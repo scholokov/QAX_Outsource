@@ -3305,11 +3305,6 @@ html[xmlns] .slider-wrap {
 		max-height: 100%;
 	}
 
-
-	#header-contact-us-button{
-		display: none;
-	}
-
 	.sticky-header #header-wrap {
 		position: fixed;
 		top: 0;

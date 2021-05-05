@@ -389,6 +389,12 @@ Header
   #mobile-contacy-us-icon{
 		display: block;
 	}
+
+  
+	#header-contact-us-button{
+		display: none;
+	}
+
 }
 
 @media (max-width: 991.98px) {
