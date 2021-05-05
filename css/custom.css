@@ -359,6 +359,10 @@ Header
   padding-right: 80px;
 }
 
+#mobile-contacy-us-icon{
+  display: none;
+}
+
 /*header diff width*/
 
 @media (max-width: 320px){
