@@ -450,7 +450,7 @@ Header
 
 }
 
-.primary-menu-open #page-title, #content{
+.primary-menu-open #page-title{
   display: none;
 }
 
