@@ -436,9 +436,8 @@ Header
 
 }
 
-.primary-menu-open #header-contact-us-button,#logo_white{
+.primary-menu-open #header-contact-us-button, #logo img{
   display: none;
-
 }
 /* ----------------------------------------------------------------
 Hero
