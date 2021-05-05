@@ -359,26 +359,9 @@ Header
   padding-right: 80px;
 }
 
-/* ----------------------------------------------------------------
-Hero
------------------------------------------------------------------*/
-#hero-box {
-  color: #FFFFFF;
-  height: 100%;
-}
+/*header diff width*/
 
-#hero-text {
-  font-weight: bold;
-  line-height: 100%;
-}
-
-#hero-longread {
-  font-size: 22px;
-  line-height: 150%;
-  max-width: 629px;
-}
-
-@media (max-width: 500px){
+@media (max-width: 320px){
   #page-title{
     padding: 0px !important; 
     min-height: 200px;
@@ -398,8 +381,64 @@ Hero
   #page-title .container{
     padding-top: 80px;
   }
+
+  #mobile-contacy-us-icon{
+		display: block;
+	}
 }
-  
+
+@media (max-width: 991.98px) {
+	
+
+	.primary-menu {
+		max-width: 100%;
+	}
+
+	.primary-menu > .container {
+		max-width: none;
+		padding: 0;
+	}
+
+	.mega-menu-content .sub-menu-container {
+		border-top: 1px solid #EEE;
+	}
+
+	.mega-menu-content .sub-menu-container:not(.mega-menu-dropdown) {
+		display: block !important;
+	}
+
+	.mega-menu-content .mega-menu-column {
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding-right: 0;
+	}
+
+	.mega-menu-column .widget {
+		padding: 30px 0;
+	}
+
+}
+/* ----------------------------------------------------------------
+Hero
+-----------------------------------------------------------------*/
+#hero-box {
+  color: #FFFFFF;
+  height: 100%;
+}
+
+#hero-text {
+  font-weight: bold;
+  line-height: 100%;
+}
+
+#hero-longread {
+  font-size: 22px;
+  line-height: 150%;
+  max-width: 629px;
+}
+
+
 
 /* ----------------------------------------------------------------
 Our Services
