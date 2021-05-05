@@ -6545,6 +6545,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 
 
 #content {
+	display: block;
 	position: relative;
 	background-color: #FFF;
 }
