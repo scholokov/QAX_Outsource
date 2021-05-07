@@ -1192,10 +1192,11 @@ Footer
   font-size: 16px;
   Color: #120C04;
   background-color: #120C04;
+  height: 100%;
 }
 
 #footer-block{
-  margin-top: 55px;
+  padding-top: 55px;
 }
 
 #footer-date{
