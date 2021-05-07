@@ -1233,7 +1233,15 @@ Footer
   max-width: 180px;
 }
 
+.footer-links-blocks1{
+  line-height: 19px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+
 .footer-links-blocks{
+  font-weight: 500;
+  line-height: 24px;
   margin-bottom: 20px;
 }
 
