@@ -1193,6 +1193,7 @@ Footer
   Color: #120C04;
   background-color: #120C04;
   height: 100%;
+  min-height: 237px;
 }
 
 #footer-block{
