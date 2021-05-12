@@ -70,20 +70,14 @@
 						<!-- Logo
 						============================================= -->
 						<div id="logo">
-
-
-							<a id="logo_white" href="index.html" class="standard-logo"
-								data-dark-logo="images/logo.svg"><img id="main_logo" src="images/logo.svg" alt="Logo"></a>
+							<a id="logo_white" href="index.html" class="standard-logo">
+								<img id="main_logo" src="images/logo.svg" alt="Logo"></a>
 							<!-- <a id="logo_dark" href="index.html" class="standard-logo"
 								data-dark-logo="images/logo.svg"><img src="images/logo.svg" alt="Logo"></a>-->
-
-
 							<!-- 
 							<a href="index.html" class="retina-logo" data-dark-logo="images/logo_black.svg"><img
 									src="images/logo_black.svg" alt="Logo"></a>
 							-->
-
-
 						</div><!-- #logo end LqdWSvFy)6&eFg_   -->
 
 						<div class="header-misc">
@@ -95,7 +89,7 @@
 							<a href="#write_to_us"><img id="mail-icon-header" src="images/header-mail-icon.svg" alt="Logo"></a>
 						</div>
 						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100">
+							<svg class="svg-trigger" viewBox="0 0 100 100" onclick="myFunction(this)">
 								<path
 									d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20">
 								</path>
@@ -124,6 +118,11 @@
 								<li class="menu-item">
 									<a class="menu-link" href="#about_us">
 										<div>About US</div>
+									</a>
+								</li>
+								<li id="mobile_contact_us" class="menu-item">
+									<a href="#write_to_us">
+										<div id="header-contact-us-button">Contact Us</div>
 									</a>
 								</li>
 							</ul>
@@ -881,26 +880,37 @@
 	<script src="js/process-form.js"></script>
 	<script src="js/form.js"></script>
 
-	<!-- 
 	<script>
-		var tpj = jQuery;
-		tpj.noConflict();
-		var $ = jQuery.noConflict();
+		/*function myFunction(x) {
+        x.classList.toggle("change");
+        var y = document.getElementById("header-block");
+        if (y.className === "header-menu") {
+        y.className += " responsive";
+		$("body").css({ "overflow": "hidden" });
+		$("#footer-block").css({ "display": "none" });
+		$("#cources").css({ "display": "none" });
+		$("#content").css({ "display": "none" });
+		
+    } else {
+        y.className = "header-menu";
+		$("body").css({ "overflow": "visible" });
+		$("#footer-block").css({ "display": "flex" });
+		$("#cources").css({ "display": "block" });
+		$("#content").css({ "display": "block" });
+    }
+}
+function goToForm(){
+		$(".burger-icon").removeClass("change");
+		$("#header-block").removeClass("responsive");
+	    $("body").css({ "overflow": "visible" });
+		$("#footer-block").css({ "display": "flex" });
+		$("#cources").css({ "display": "block" });
+		$("#content").css({ "display": "block" });
+		
 
-		// for email sending
-		/*
-		Email.send({
-			SecureToken: "d694b3af-9be7-4ca8-a285-05a8b271046a",
-			To: 'scholokov@gmail.com',
-			From: "scholokov@gmail.com",
-			Subject: "New mail from QAX",
-			Body: "And this is the body"
-		}).then(
-			message => alert(message)
-		);
-		*/
+}*/
 	</script>
-	-->
+	
 
 </body>
 

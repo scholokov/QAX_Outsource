@@ -332,6 +332,10 @@ Header
 	display: none;
 }
 
+#mobile_contact_us{
+  display: none;
+}
+
 #header-contact-us-button {
   white-space: nowrap;
   font-family: 'Rubik';
@@ -448,6 +452,11 @@ Header
   height: 100vh;
   background-color: #F49422;
 
+}
+
+
+.primary-menu-open #mobile_contact_us{
+  display: block;
 }
 
 .primary-menu-open #page-title{
