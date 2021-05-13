@@ -1463,6 +1463,7 @@ textarea:-moz-placeholder {
   }
 
   #checkbox-text {
+    white-space: normal;
     font-size: 14px;
     line-height: 17px;
     padding-top: 3px;
@@ -1473,6 +1474,21 @@ textarea:-moz-placeholder {
     height: 24px;
     width: 24px;
   }
+  
+  #agree-checkbox {
+    white-space: nowrap;
+  }
+
+  .write_to_us-button-send{
+    margin-top: 24px;
+  }
+
+  #button_send {
+    width: 150px;
+    height: 53px;
+    font-size: 16px;
+    line-height: 19px;
+}
 }
 
 
@@ -1638,4 +1654,9 @@ a#mail-link2{
   #phone-icon2, #mail-icon2, #location-icon{
     display: none;
   }
+
+  .footer-long-item{
+    padding-bottom: 0;
+  }
+
 }
