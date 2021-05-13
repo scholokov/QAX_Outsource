@@ -1657,7 +1657,13 @@ a#mail-link2{
   }
 
   .footer-long-item{
+    margin-top: 24px;
     padding-bottom: 0 !important; 
+  }
+
+  .footer-item{
+    height: 88px;
+    padding-bottom: 0 !important;
   }
 
 }
