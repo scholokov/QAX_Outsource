@@ -584,6 +584,22 @@ Our Services
     display: none;
   }
 
+  #our_services_text-block2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0;
+  }
+
+  #our_services2_text1 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  #our_services2_text2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
 }
 
 
