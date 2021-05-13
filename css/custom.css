@@ -554,6 +554,10 @@ Our Services
 
 @media (max-width:574px){
 
+  #our_services{
+    margin-top: 0;
+  }
+
   #our-services-title{
     font-size: 36px;
     line-height: 43px;
