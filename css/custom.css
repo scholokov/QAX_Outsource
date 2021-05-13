@@ -635,6 +635,31 @@ Non - disclosure
   line-height: 27px;
   margin-bottom: 0;
 }
+
+/*--------------------------------Non Disclosure Mobile---------------------------------------------*/
+
+
+@media (max-width:574px){
+  
+  #non-disclosure-block h3{
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .non-disclosure-line{
+    margin-top: 29px;
+    margin-bottom: 20px;
+  }
+
+  .non-disclosure-text{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+}
+
+
+
 /* ----------------------------------------------------------------
 About US
 -----------------------------------------------------------------*/
