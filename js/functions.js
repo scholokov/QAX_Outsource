@@ -67,6 +67,14 @@ window.onload=function(){
 };
 
 //footer mobile design
+var width = $('body').innerWidth();
+if (width < 574) {
+	$('.footer-item').removeClass('col-sm-3 offset-md-0').addClass('col-5');
+	$('.footer-long-item').addClass('col-12');
+}else{
+	$('.footer-item').removeClass('col-5').addClass('col-sm-3 offset-md-0')
+}
+
 $(window).resize(function () { 
 	var width = $('body').innerWidth();
 	if (width < 574) {

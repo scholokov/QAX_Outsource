@@ -1217,6 +1217,7 @@ Footer
 -----------------------------------------------------------------*/
 
 #footer-contact-us-button {
+  display: block;
   color: #FFFFFF;
   border: 1px solid rgba(244, 148, 34, 1);
   border-style: solid;
@@ -1316,7 +1317,10 @@ a#mail-link2{
   #footer-contact-us-button{
     display: none;
   }
-
   
+  .button-links{
+    max-width: 800px;
+  }
+
 
 }
