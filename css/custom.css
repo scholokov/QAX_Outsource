@@ -751,6 +751,8 @@ About US
 
   #about-us-img-mobile{
     display: block;
+    max-width: 900px;
+    width: 100%;
   }
 
 }
