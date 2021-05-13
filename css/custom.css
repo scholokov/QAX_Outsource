@@ -115,6 +115,14 @@ body {
   margin-left: auto;
 }
 
+@media (min-width: 1200px) {
+  .container{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
 
 /* ----------------------------------------------------------------
 Animation fadeIn
