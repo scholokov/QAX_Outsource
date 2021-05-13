@@ -1616,7 +1616,7 @@ a#mail-link2{
 
 /*------ Footer mobile -------*/
 
-@media (max-width:574px){
+@media (max-width:768px){
 
   .footer-links{
     font-size: 14px;
