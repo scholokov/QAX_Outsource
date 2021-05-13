@@ -721,6 +721,8 @@ About US
 }
 
 
+
+
 /*---------------------------------------- About us mobile ---------------------------------------------*/
 
 @media (max-width:574px){
@@ -751,6 +753,10 @@ About US
 
   #about-us-img-mobile{
     display: block;
+    
+  }
+
+  #about-us-mob-img{
     max-width: 900px;
     width: 100%;
   }
