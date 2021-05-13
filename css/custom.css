@@ -727,6 +727,11 @@ About US
 
 @media (max-width:574px){
 
+  #about_us-box{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   #about_us{
     margin-top: 40px;
   }
@@ -766,6 +771,8 @@ About US
     width: 100%;
     min-height: 240px;
     font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 }
