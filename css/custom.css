@@ -708,8 +708,26 @@ About US
   line-height: 33px;
 }
 
-#about{
+#about-us-line{
   margin-top: 92px;
+}
+
+
+/*---------------------------------------- About us mobile ---------------------------------------------*/
+
+@media (max-width:574px){
+  #about-us-title{
+    font-size: 36px;
+  }
+  
+  #about-us-line{
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .about-us-text{
+    font-size: 16px;
+  }
 }
 /* ----------------------------------------------------------------
 Why US
