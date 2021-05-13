@@ -1303,6 +1303,10 @@ a#mail-link2{
   color: rgba(255, 255, 255, 1);
 }
 
+#phone-icon2, #mail-icon2, #location-icon{
+  display: block;
+}
+
 #location-icon{
   margin-right: 15px;
 }
@@ -1313,7 +1317,7 @@ a#mail-link2{
   width: 100%;
   border-top: 1px solid #EEE;
   margin-top: 14px;
-  margin-bottom: 72px;
+  margin-bottom: 14px;
 }
 
 #footer-date-mobile{
@@ -1323,6 +1327,9 @@ a#mail-link2{
   font-weight: 400;
   line-height: 17px;
   color: hsl(0, 0%, 50%);
+  margin-bottom: 41px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*------ Footer mobile -------*/
@@ -1351,5 +1358,13 @@ a#mail-link2{
 
   #footer-date-mobile{
     display: block;
+  }
+
+  .footer-links-blocks1{
+    margin-bottom: 20px;
+  }
+
+  #phone-icon2, #mail-icon2, #location-icon{
+    display: none;
   }
 }
