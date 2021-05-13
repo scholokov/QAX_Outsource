@@ -761,6 +761,13 @@ About US
     width: 100%;
   }
 
+  #about_us1-box{
+    min-width: 300px;
+    width: 100%;
+    min-height: 240px;
+    font-size: 18px;
+  }
+
 }
 /* ----------------------------------------------------------------
 Why US
