@@ -1304,3 +1304,13 @@ a#mail-link2{
 #location-icon{
   margin-right: 15px;
 }
+
+/*------ Footer mobile -------*/
+
+@media (max-width:574px){
+
+  .footer-links{
+    font-size: 14px;
+  }
+
+}
