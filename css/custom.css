@@ -1437,6 +1437,7 @@ textarea:-moz-placeholder {
   .write_to_us-block{
     margin-top: 0;
     padding: 0 37px;
+    margin-bottom: 40px;
   }
 
   .write_to_us-title-form{
@@ -1656,7 +1657,7 @@ a#mail-link2{
   }
 
   .footer-long-item{
-    padding-bottom: 0;
+    padding-bottom: 0 !important; 
   }
 
 }
