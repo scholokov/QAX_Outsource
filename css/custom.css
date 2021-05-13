@@ -941,7 +941,10 @@ our-support
 /*------------------------------Our Suppor Mobile-----------------------------------------------------*/
 
 @media (max-width:574px){
-
+  #our-support-title{
+    font-size: 27px;
+    line-height: 32px;
+  }
   #our-support-text{
     font-size: 18px;
     line-height: 27px;
