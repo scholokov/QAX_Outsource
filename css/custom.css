@@ -785,7 +785,7 @@ padding-right: 0;
   }
 
   #why_us1-box {
-    padding-left: 20px;
+    max-width: 600px;
   }
 }
 
