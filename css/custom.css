@@ -1316,6 +1316,15 @@ a#mail-link2{
   margin-bottom: 72px;
 }
 
+#footer-date-mobile{
+  display: none;
+  font-family: 'Rubik';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: hsl(0, 0%, 50%);
+}
+
 /*------ Footer mobile -------*/
 
 @media (max-width:574px){
@@ -1340,4 +1349,7 @@ a#mail-link2{
     display: block;
   }
 
+  #footer-date-mobile{
+    display: block;
+  }
 }
