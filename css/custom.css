@@ -754,7 +754,7 @@ div#why_us1-box  div {
   
 }
 
-.why-us-boxes{
+.why-us-boxes1,.why-us-boxes2 {
   max-width: 620px;
 font-style: normal;
 font-weight: normal;
@@ -773,6 +773,16 @@ padding-right: 0;
   margin-left: 0;
   margin-right: 0;
   padding-bottom: 20px;
+}
+
+@media(max-width:1410px){
+  .why-us-boxes1{
+    padding-right: 20px;
+  }
+
+  .why-us-boxes2{
+    padding-left: 20px;
+  }
 }
 
 /* ----------------------------------------------------------------
