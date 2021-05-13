@@ -614,9 +614,9 @@ Non - disclosure
 }
 
 .non-disclosure-line {
-  opacity: 20%;
   position: relative;
   width: 100%;
+  opacity: 20%;
   border-top: 1px solid #000000;
   margin-top: 50px;
   margin-bottom: 30px;
@@ -669,7 +669,12 @@ Non - disclosure
 
   .non-disclosure-img-mob{
     display: block;
+    padding-bottom: 20px;
   }
+
+  .non-disclosure-info-block {
+    padding-bottom: 20px;
+}
 }
 
 
@@ -776,6 +781,8 @@ About US
   }
 
   #about-us-title{
+    opacity: 20%;
+    border-top: 1px solid #000000;
     line-height: 43px;
     font-size: 36px;
     margin-bottom: 0;
