@@ -781,14 +781,14 @@ About US
   }
 
   #about-us-title{
-    opacity: 20%;
-    border-top: 1px solid #000000;
     line-height: 43px;
     font-size: 36px;
     margin-bottom: 0;
   }
   
   #about-us-line{
+    opacity: 20%;
+    border-top: 1px solid #000000;
     margin-top: 30px;
     margin-bottom: 20px;
   }
