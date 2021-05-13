@@ -716,8 +716,15 @@ About US
 /*---------------------------------------- About us mobile ---------------------------------------------*/
 
 @media (max-width:574px){
+
+  #about_us{
+    margin-top: 40px;
+  }
+
   #about-us-title{
+    line-height: 43px;
     font-size: 36px;
+    margin-bottom: 0;
   }
   
   #about-us-line{
