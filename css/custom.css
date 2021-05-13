@@ -767,12 +767,12 @@ About US
   }
 
   #about_us1-box{
+
     min-width: 300px;
     width: 100%;
-    min-height: 240px;
     font-size: 18px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 40px 20px;
+    margin-right: 0;
   }
 
 }
