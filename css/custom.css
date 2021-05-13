@@ -1313,4 +1313,10 @@ a#mail-link2{
     font-size: 14px;
   }
 
+  #footer-contact-us-button{
+    display: none;
+  }
+
+  
+
 }
