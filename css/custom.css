@@ -1360,8 +1360,12 @@ a#mail-link2{
     display: block;
   }
 
+  .footer-links-blocks{
+    margin-bottom: 8px;
+  }
+
   .footer-links-blocks1{
-    margin-bottom: 20px;
+    margin-bottom: 14px;
   }
 
   #phone-icon2, #mail-icon2, #location-icon{
