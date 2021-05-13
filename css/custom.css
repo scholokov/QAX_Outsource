@@ -1448,6 +1448,31 @@ textarea:-moz-placeholder {
   #form-img-mail{
     height: 18px;
   }
+
+  .form-group {
+    margin-top: 32px;
+    margin-bottom: 0;
+  }
+
+  #name-block {
+    margin-top: 24px;
+  }
+
+  #checkbox-block {
+    margin-top: 24px;
+  }
+
+  #checkbox-text {
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 3px;
+    margin-left: 12px;
+  }
+
+  #checkbox-custom {
+    height: 24px;
+    width: 24px;
+  }
 }
 
 
