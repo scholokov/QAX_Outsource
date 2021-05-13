@@ -941,13 +941,28 @@ our-support
 /*------------------------------Our Suppor Mobile-----------------------------------------------------*/
 
 @media (max-width:574px){
+  #our-support{
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+
   #our-support-title{
     font-size: 27px;
     line-height: 32px;
   }
+
   #our-support-text{
     font-size: 18px;
     line-height: 27px;
+  }
+
+  #our-support-button{
+    font-size: 18px;
+    margin-top: 24px;
+    padding: 12px 45px;
+    width: 187px;
+    line-height: 22px;
+    height: 45px;
   }
 
 }
