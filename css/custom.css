@@ -775,6 +775,15 @@ About US
     margin-right: 0;
   }
 
+  #about_us2-box{
+
+    min-width: 300px;
+    width: 100%;
+    font-size: 18px;
+    padding: 40px 20px;
+    margin-right: 0;
+  }
+
 }
 /* ----------------------------------------------------------------
 Why US
