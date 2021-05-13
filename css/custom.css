@@ -636,6 +636,9 @@ Non - disclosure
   margin-bottom: 0;
 }
 
+.non-disclosure-img-mob{
+  display: none;
+}
 /*--------------------------------Non Disclosure Mobile---------------------------------------------*/
 
 
@@ -660,6 +663,9 @@ Non - disclosure
     display: none;
   }
 
+  .non-disclosure-img-mob{
+    display: block;
+  }
 }
 
 
