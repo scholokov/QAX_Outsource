@@ -736,8 +736,10 @@ Why US
 }
 
 #why_us_box-block{
+  justify-content: space-between;
   padding-bottom: 130px;
 }
+
 div#why_us1-box  div {
   font-weight: 500;
   margin: 0;
@@ -751,7 +753,6 @@ div#why_us1-box  div {
 
 .why-us-boxes{
   max-width: 620px;
-  padding-right: 40px;
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
