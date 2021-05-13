@@ -503,6 +503,11 @@ Our Services
   margin-top: 100px;
 }
 
+#our_services_line{
+  opacity: 20%;
+  border-top: 1px solid #000000;
+}
+
 .our_services-sub-title {
   margin-bottom: 50px;
   font-weight: 500;
@@ -543,6 +548,42 @@ Our Services
   font-family: 'Rubik';
   font-weight: 500;
 }
+
+/*--------------------------------Our Services Mobile---------------------------------------------*/
+
+
+@media (max-width:574px){
+
+  #our-services-title{
+    font-size: 36px;
+    line-height: 43px;
+  }
+
+  #our_services_line{
+    opacity: 20%;
+    border-top: 1px solid #000000;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .our_services-sub-title{
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .our_services-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+  .arrows{
+    display: none;
+  }
+
+}
+
+
+
 
 /* ----------------------------------------------------------------
 Cooperation Offer
