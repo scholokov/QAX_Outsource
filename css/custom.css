@@ -769,6 +769,10 @@ padding-right: 0;
   margin-right: 0;
 }
 
+#why-us-orange{
+  background: linear-gradient(270deg, #F49422 0%, #ED8100 100%);
+}
+
 .why-us-img{
   margin-left: 0;
   margin-right: 0;
