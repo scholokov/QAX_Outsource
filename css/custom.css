@@ -692,6 +692,14 @@ About US
   }
 }
 
+#about-us-img{
+  display: block;
+}
+
+#about-us-img-mobile{
+  display: none;
+}
+
 #about_us-after-text {
   font-size: 22px;
   margin-top: 50px;
@@ -735,6 +743,16 @@ About US
   .about-us-text{
     font-size: 16px;
   }
+
+    #about-us-img
+  {
+    display: none;
+  }
+
+  #about-us-img-mobile{
+    display: block;
+  }
+
 }
 /* ----------------------------------------------------------------
 Why US
