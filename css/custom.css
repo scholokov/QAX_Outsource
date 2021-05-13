@@ -738,6 +738,9 @@ Why US
 #why_us_box-block{
   justify-content: space-between;
   padding-bottom: 130px;
+  margin-right: 0;
+  margin-left: 0;
+
 }
 
 div#why_us1-box  div {
@@ -757,6 +760,8 @@ font-style: normal;
 font-weight: normal;
 font-size: 22px;
 line-height: 150%;
+padding-left: 0;
+padding-right: 0;
 }
 
 .why-us-img{
