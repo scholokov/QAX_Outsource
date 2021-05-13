@@ -1284,6 +1284,7 @@ Footer
 }
 
 .footer-links-blocks1{
+  white-space: nowrap;
   line-height: 19px;
   font-weight: 500;
   margin-bottom: 13px;

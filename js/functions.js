@@ -69,10 +69,10 @@ window.onload=function(){
 //footer mobile design
 var width = $('body').innerWidth();
 if (width < 574) {
-	$('.footer-item').removeClass('col-sm-3 offset-md-0').addClass('col-5');
+	$('.footer-item').removeClass('col-sm-3 offset-md-0').addClass('col-6');
 	$('.footer-long-item').addClass('col-12');
 }else{
-	$('.footer-item').removeClass('col-5').addClass('col-sm-3 offset-md-0')
+	$('.footer-item').removeClass('col-6').addClass('col-sm-3 offset-md-0')
 }
 
 $(window).resize(function () { 
