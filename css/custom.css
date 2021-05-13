@@ -1249,6 +1249,7 @@ Footer
 }
 
 #footer-date{
+  display: block;
   font-family: 'Rubik';
   font-size: 14px;
   font-weight: 400;
@@ -1306,6 +1307,15 @@ a#mail-link2{
   margin-right: 15px;
 }
 
+#footer-line{
+  display: none;
+  position: relative;
+  width: 100%;
+  border-top: 1px solid #EEE;
+  margin-top: 14px;
+  margin-bottom: 72px;
+}
+
 /*------ Footer mobile -------*/
 
 @media (max-width:574px){
@@ -1322,5 +1332,12 @@ a#mail-link2{
     max-width: 800px;
   }
 
+  #footer-date{
+    display: none;
+  }
+
+  #footer-line{
+    display: block;
+  }
 
 }
