@@ -614,9 +614,10 @@ Non - disclosure
 }
 
 .non-disclosure-line {
+  opacity: 20%;
   position: relative;
   width: 100%;
-  border-top: 1px solid #EEE;
+  border-top: 1px solid #000000;
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -643,7 +644,10 @@ Non - disclosure
 
 
 @media (max-width:574px){
-  
+  #non-disclosure-block {
+    margin-top: 40px;
+  }
+
   #non-disclosure-block h3{
     font-size: 20px;
     line-height: 24px;
