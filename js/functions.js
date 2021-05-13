@@ -72,7 +72,6 @@ if (width < 574) {
 	$('.footer-item').removeClass('col-sm-3 offset-md-0').addClass('col-6');
 	$('.footer-long-item').addClass('col-12');
 	$('#footer-logo').attr("src","images/logo-footer-mobile.svg");
-	$('#our_services_block').removeClass('col-mb-80');
 
 }else{
 	$('.footer-item').removeClass('col-6').addClass('col-sm-3 offset-md-0')
