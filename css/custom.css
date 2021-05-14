@@ -1586,7 +1586,7 @@ a#mail-link2{
 }
 
 #phone-icon2, #mail-icon2, #location-icon{
-  display: block;
+  display: inline;
 }
 
 #location-icon{
