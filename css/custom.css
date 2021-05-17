@@ -1088,7 +1088,8 @@ About US
 
     min-width: 300px;
     width: 100%;
-    font-size: 18px;
+    font-size: 22px;
+    line-height: 33px;
     padding: 40px 20px;
     margin-right: 0;
   }
@@ -1097,13 +1098,14 @@ About US
 
     min-width: 300px;
     width: 100%;
-    font-size: 18px;
-    padding: 60px 20px;
+    font-size: 22px;
+    line-height: 33px;
+    padding: 115px 50px;
     margin-right: 0;
   }
 
   #about_us3 {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
 }
