@@ -1253,13 +1253,8 @@ padding-right: 0;
   }
   
   .why-us-boxes1,.why-us-boxes2 {
-    max-width: 620px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 150%;
-  padding-left: 0;
-  padding-right: 0;
+    max-width: 900px;
+    width: 100%;
   }
   
   .why-us-text{
