@@ -924,7 +924,7 @@ About US
   max-width: 460px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #about_us1 {
     width: 100%;
     margin-right: 0%;
@@ -968,7 +968,7 @@ About US
 
 /*---------------------------------------- About us mobile ---------------------------------------------*/
 
-@media (max-width:574px){
+@media (max-width:767px){
 
   #about_us-box{
     margin-left: 0;
@@ -1035,6 +1035,81 @@ About US
   }
 
 }
+
+
+/*---------------------------------------- About us Tablet ---------------------------------------------*/
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+  #about_us-box{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #about_us{
+    margin-top: 70px;
+  }
+
+  #about-us-title{
+    line-height: 59px;
+    font-size: 50px;
+    margin-bottom: 0;
+  }
+  
+  #about-us-line{
+    opacity: 20%;
+    border-top: 1px solid #000000;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .about-us-text{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+    #about-us-img
+  {
+    display: none;
+  }
+
+  #about-us-img-mobile{
+    display: block;
+    
+  }
+
+  #about-us-mob-img{
+    max-width: 900px;
+    width: 100%;
+  }
+
+  #about_us1-box{
+
+    min-width: 300px;
+    width: 100%;
+    font-size: 18px;
+    padding: 40px 20px;
+    margin-right: 0;
+  }
+
+  #about_us2-box{
+
+    min-width: 300px;
+    width: 100%;
+    font-size: 18px;
+    padding: 60px 20px;
+    margin-right: 0;
+  }
+
+  #about_us3 {
+    margin-top: 20px;
+  }
+
+}
+
+
+
 /* ----------------------------------------------------------------
 Why US
 -----------------------------------------------------------------*/
