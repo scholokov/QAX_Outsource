@@ -756,11 +756,11 @@ Cooperation Offer
   .cooperation_offer-normal-text {
     font-size: 18px;
     line-height: 27px;
-}
+  }
 
-.cooperation-offer-text{
-  padding-bottom: 0;
-}
+  .cooperation-offer-text{
+    padding-bottom: 0  !important;
+  }
 
 }
 
