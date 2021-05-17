@@ -552,7 +552,7 @@ Our Services
 /*--------------------------------Our Services Mobile---------------------------------------------*/
 
 
-@media (max-width:574px){
+@media (max-width:767px){
 
   #our_services{
     margin-top: 20px;
@@ -604,8 +604,59 @@ Our Services
 
 }
 
+/*--------------------------------Our Services Mobile---------------------------------------------*/
 
+@media (min-width: 768px) and (max-width: 991px){
 
+  #our_services{
+    margin-top: 70px;
+  }
+
+  #our-services-title{
+    font-size: 50px;
+    line-height: 59px;
+  }
+
+  #our_services_line{
+    opacity: 20%;
+    border-top: 1px solid #000000;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .our_services-sub-title{
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .our_services-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+  .arrows{
+    display: none;
+  }
+
+  #our_services_text-block2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0;
+  }
+
+  #our_services2_text1 {
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 30px;
+  }
+
+  #our_services2_text2 {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 0;
+  }
+
+}
 
 /* ----------------------------------------------------------------
 Cooperation Offer
@@ -706,7 +757,7 @@ Non - disclosure
 /*--------------------------------Non Disclosure Mobile---------------------------------------------*/
 
 
-@media (max-width:574px){
+@media (max-width:767px){
   #non-disclosure-block {
     margin-top: 40px;
   }
@@ -1049,7 +1100,7 @@ our-support
 
 /*------------------------------Our Suppor Mobile-----------------------------------------------------*/
 
-@media (max-width:574px){
+@media (max-width:767px){
   #our-support{
     margin-top: 0;
     padding-top: 40px;
@@ -1433,7 +1484,7 @@ textarea:-moz-placeholder {
 
 /*--------------------------------Our Services Mobile---------------------------------------------*/
 
-@media (max-width:574px){
+@media (max-width:767px){
   .write_to_us-block{
     margin-top: 0;
     padding: 0 37px;
