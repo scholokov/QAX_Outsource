@@ -1251,15 +1251,8 @@ padding-right: 0;
   
   }
   
-  div#why_us1-box  div {
-    font-weight: 500;
-    margin: 0;
-    padding-top: 70px; 
-    padding-bottom: 70px;
-    padding-left: 110px;
-    padding-right: 110px;
-    text-align: left;
-    
+  .why-us-boxes2 {
+   padding-left: 0px; 
   }
   
   .why-us-boxes1,.why-us-boxes2 {
@@ -1267,20 +1260,7 @@ padding-right: 0;
     width: 100%;
   }
   
-  .why-us-text{
-    margin-left: 0;
-    margin-right: 0;
-  }
   
-  #why-us-orange{
-    background: linear-gradient(270deg, #F49422 0%, #ED8100 100%);
-  }
-  
-  .why-us-img{
-    margin-left: 0;
-    margin-right: 0;
-    padding-bottom: 20px;
-  }
 
 }
 
