@@ -1094,6 +1094,10 @@ About US
     margin-right: 0;
   }
 
+  #about-us1-text{
+    float: none;
+  }
+
   #about_us2-box{
 
     min-width: 300px;
