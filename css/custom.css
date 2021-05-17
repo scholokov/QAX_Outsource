@@ -762,6 +762,10 @@ Cooperation Offer
     padding-bottom: 0  !important;
   }
 
+  #cooperation_offer_line2 {
+    margin-top: -20px;
+}
+
 }
 
 /* ----------------------------------------------------------------
