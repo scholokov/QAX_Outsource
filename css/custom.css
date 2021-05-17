@@ -627,6 +627,7 @@ Our Services
   .our_services-sub-title{
     font-size: 20px;
     line-height: 24px;
+    margin-bottom: 30px;
   }
 
   .our_services-text {
@@ -639,9 +640,9 @@ Our Services
   }
 
   #our_services_text-block2 {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 10px;
   }
 
   #our_services2_text1 {
