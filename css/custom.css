@@ -1291,6 +1291,23 @@ Cooperation procedure
   max-height: 339px;
 }
 
+.cooperation_procedure-img-tablet{
+  display: none;
+}
+
+/*---------------------------------Cooperation Procedure Tablet ---------------------------------------------*/
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+  .cooperation_procedure-img-tablet{
+    display: block;
+  }
+
+  #cooperation_procedure-img{
+    display: none;
+  }
+}
 /* ----------------------------------------------------------------
 our-support
 -----------------------------------------------------------------*/
