@@ -66,6 +66,27 @@ window.onload=function(){
   
 };
 
+//non-disclosure tablet
+var width = $('body').innerWidth();
+if (width <= 991 || width >= 768) {
+	$('.non-disclosure-info-block').removeClass('offset-md-1');
+	$('.non-disclosure-img-mob').removeClass('offset-md-1');
+
+}else{
+	$('.non-disclosure-info-block').addClass('offset-md-1');
+	$('.non-disclosure-img-mob').addClass('offset-md-1');
+}
+
+$(window).resize(function () { 
+	var width = $('body').innerWidth();
+	if (width <= 991 || width >= 768) {
+		$('.non-disclosure-info-block').removeClass('offset-md-1');
+	
+	}else{
+		$('.non-disclosure-info-block').addClass('offset-md-1');
+	}
+ });
+
 //footer mobile design
 var width = $('body').innerWidth();
 if (width < 574) {
