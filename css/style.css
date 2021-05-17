@@ -302,6 +302,7 @@ small { font-family: 'Lato', sans-serif; }
 	width: 100%;
 	margin-top: 100px;
     margin-bottom: 50px;
+	opacity: 20%;
 	border-top: 1px solid #000000;
 }
 

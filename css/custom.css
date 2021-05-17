@@ -676,7 +676,7 @@ Cooperation Offer
 
 .cooperation_offer-small-text {
   font-size: 16px;
-  line-height: 130%;
+  line-height: 24px;
 }
 
 .cooperation_offer-advantage-text {
@@ -752,6 +752,11 @@ Cooperation Offer
   .cooperation_offer-subtitle{
     padding-bottom: 20px;
   }
+
+  .cooperation_offer-normal-text {
+    font-size: 18px;
+    line-height: 27px;
+}
 
 }
 
