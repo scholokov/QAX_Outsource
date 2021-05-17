@@ -1240,6 +1240,7 @@ padding-right: 0;
   #why_us1-box {
     color: #FFFFFF;
     text-align: center;
+    padding-bottom: 0;
     
   }
   
@@ -1306,6 +1307,21 @@ Cooperation procedure
 
   #cooperation_procedure-img{
     display: none;
+  }
+
+  #Cooperation_procedure {
+    margin-top: 50px;
+  }
+
+  #cooperation-procedure-title{
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 30px;
+  }
+
+  #cooperation-procedure-text{
+    font-size: 18px;
+    line-height: 27px;
   }
 }
 /* ----------------------------------------------------------------
