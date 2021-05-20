@@ -318,7 +318,7 @@ Animation Bounce
 /* ----------------------------------------------------------------
 Header
 -----------------------------------------------------------------*/
-#logo {
+/*#logo {
    font-weight: bold;
   font-size: 32px;
   line-height: 124%;
@@ -386,7 +386,7 @@ Header
 }
 
 /*header diff width*/
-
+/*
 @media (max-width: 320px){
   #page-title{
     padding: 0px !important; 
@@ -483,7 +483,7 @@ Header
 
 .primary-menu-open #content{
   display: none;
-}
+}*/
 
 
 /* -------------------------------new heder -------------------------------*/
