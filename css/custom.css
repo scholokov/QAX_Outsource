@@ -632,6 +632,9 @@ color: #F49422;
 
 }
 
+#primary-menu-trigger{
+  display: none;
+}
 
 @media screen and (max-width: 900px) {
   .header-menu .header-menu-links,#sendButtonText,#mobile-menu-fullscreen,.header-menu-mobile {
@@ -654,7 +657,7 @@ color: #F49422;
 }
 
 @media screen and (max-width: 900px) {
-  .header-menu.responsive #mobile-menu-fullscreen,#sendButtonText-mobile,.header-menu-mobile{
+  .header-menu.responsive #mobile-menu-fullscreen,#sendButtonText-mobile,.header-menu-mobile,#primary-menu-trigger{
       display: block;
   }
 
