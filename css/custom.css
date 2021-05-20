@@ -730,6 +730,64 @@ Cooperation Offer
 #cooperation_offer-small-text{
   font-size: 22px;
 }
+/*--------------------------------------Сooperation Offer Mobile-----------------------------------------*/
+@media (max-width:767px){
+
+  #cooperation_offer-small-text{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .cooperation_offer-title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+  }
+  
+  .cooperation_offer-normal-text {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  
+  .cooperation_offer-small-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .cooperation_offer-advantage-text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  
+  #cooperation_offer_line1 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  #cooperation_offer_line2 {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  
+  #cooperation_offer_line3 {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  
+  .image-padding {
+    max-width: 50px;
+  }
+  
+  .row-magrin {
+    margin-top: -30px;
+  }
+  
+  #cooperation_offer {
+    padding-top: 40px;
+  }
+  
+
+}
 
 /*--------------------------------------Cooperation Offer Tablet-------------------------------------*/
 
