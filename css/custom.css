@@ -485,6 +485,206 @@ Header
   display: none;
 }
 
+
+/* -------------------------------new heder -------------------------------*/
+#header-block {
+  display:block;
+  height: 80px;
+  width: 100%;
+  background: #FFFFFF;
+  align-items: center;
+}
+
+.header-menu {
+  color: white;
+  line-height: 21px;
+  font-family: Raleway;
+}
+
+.header-menu-links{
+  color:#191919;
+  display: block;
+  float: left;
+  margin-left: 6%;
+  margin-top: 28px;
+}
+
+#logo {
+  display:block;
+  float: left;
+  margin-top: 16px;
+  margin-left: 5%;
+}
+
+
+
+a#menuCources:hover{
+color: #F49422;
+}
+
+#sendButtonText:hover {
+  background: transparent;
+  color: #222222;
+  border-color: #F49422;
+}
+
+#sendButtonText:focus {
+  background: transparent;
+  color: #222222;
+  border-color: #F49422;
+}
+
+#sendButtonText {
+  display: block;
+  float: right;
+  margin-right: 7%;
+
+  margin-top: 18px;
+  margin-left: 2%;
+  padding-top: 10px;
+
+  border-width: 1px;
+  border-style: solid;
+
+  width: 35%;
+  max-width: 202px;
+  height: 44px;
+  text-align: center;
+
+  color: #222222;
+
+  border: 1px solid #F49422;
+  box-sizing: border-box;
+  font-family: Raleway;
+}
+
+.header-menu #letter-icon{
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 86px;
+  top: 24px;
+}
+
+.header-menu .burger-icon {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 36px;
+  top: 26px;
+}
+
+
+#mobile-menu-fullscreen{
+  left: 0;
+  top: 80px;
+  bottom: 0;
+  background-color: white;
+  min-height: 100vh;
+  width: 100vw;
+  position: absolute;
+  height: 100%;
+  display: none;
+}
+
+.header-menu-mobile{
+
+  text-transform: none;
+  
+  color:black;
+  display: none;
+  float: left;
+  margin-left: 6%;
+  margin-top: 28px;
+}
+
+#sendButtonText-mobile{
+
+  display: none;
+  
+  cursor:pointer;
+  
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border-width: 1px;
+  border-style: solid;
+  padding-top: 10px;
+
+  width: 100%;
+  max-width: 300px;
+  height: 44px;
+  text-align: center;
+
+  background: #F66F5D;
+  color: #222222;
+
+  border: 1px solid #F66F5D;
+  box-sizing: border-box;
+
+}
+
+
+@media screen and (max-width: 900px) {
+  .header-menu .header-menu-links,#sendButtonText,#mobile-menu-fullscreen,.header-menu-mobile {
+    display: none;
+  }
+  .header-menu .burger-icon {
+      display: inline-block;
+      cursor: pointer;
+      position: absolute;
+      right: 36px;
+      top: 26px;
+  }
+  .header-menu #letter-icon {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 86px;
+    top: 24px;
+}
+}
+
+@media screen and (max-width: 900px) {
+  .header-menu.responsive #mobile-menu-fullscreen,#sendButtonText-mobile,.header-menu-mobile{
+      display: block;
+  }
+
+  .header-menu.responsive #letter-icon{
+    display: none;
+  }
+
+  .header-menu.responsive .burger-icon {
+    position: absolute;
+    right: 36px;
+    top: 26px;
+  }
+  .header-menu.responsive .header-menu-mobile {
+    max-width: 150px;
+    margin: 0 30px;
+    padding-top: 20px;
+    float: none;
+    display: block;
+    font-size: 18px;
+  }
+  .header-menu.responsive #sendButtonText-mobile{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21,94px;
+  }
+}
+
+
+
+
 /* ----------------------------------------------------------------
 Hero
 -----------------------------------------------------------------*/
