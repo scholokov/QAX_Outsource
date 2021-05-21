@@ -488,7 +488,8 @@ Header
 
 /* -------------------------------new heder -------------------------------*/
 #header-block {
-  display:block;
+  display:flex;
+  justify-content: space-between;
   height: 80px;
   width: 100%;
   background: #FFFFFF;
