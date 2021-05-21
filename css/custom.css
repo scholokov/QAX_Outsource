@@ -503,17 +503,11 @@ Header
 
 .header-menu-links{
   color:#191919;
-  display: block;
-  float: left;
-  margin-left: 6%;
-  margin-top: 28px;
+  display: flex;
 }
 
 #logo {
   display:block;
-  float: left;
-  margin-top: 16px;
-  margin-left: 5%;
 }
 
 
@@ -536,17 +530,12 @@ color: #F49422;
 
 #sendButtonText {
   display: block;
-  float: right;
-  margin-right: 7%;
 
-  margin-top: 18px;
-  margin-left: 2%;
   padding-top: 10px;
 
   border-width: 1px;
   border-style: solid;
 
-  width: 35%;
   max-width: 202px;
   height: 44px;
   text-align: center;
@@ -635,6 +624,26 @@ color: #F49422;
 #primary-menu-trigger{
   display: none;
 }
+
+.links-block{
+  max-width: 505px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.logo-block{
+  margin-left: 80px;
+}
+
+.send-block{
+  margin-right: 80px;
+  max-width: 202px;
+  width: 100%;
+}
+
 
 @media screen and (max-width: 900px) {
   .header-menu .header-menu-links,#sendButtonText,#mobile-menu-fullscreen,.header-menu-mobile {
