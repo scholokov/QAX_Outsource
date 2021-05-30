@@ -515,7 +515,7 @@ Header
   display: none;
 }
 
-a#menuCources:hover{
+a.header-menu-links:hover{
 color: #F49422;
 }
 
