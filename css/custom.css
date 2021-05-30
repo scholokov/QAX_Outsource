@@ -503,6 +503,7 @@ Header
 }
 
 .header-menu-links{
+  font-weight: 500;
   color:#191919;
   display: flex;
 }
@@ -547,7 +548,8 @@ color: #F49422;
 
   border: 1px solid #F49422;
   box-sizing: border-box;
-  font-family: Raleway;
+  font-family: Rubik;
+  font-weight: 500;
 }
 
 .header-menu #letter-icon{
