@@ -520,13 +520,13 @@ a.header-menu-links:hover{
 color: #F49422;
 }
 
-#sendButtonText:hover {
+div#sendButtonText:hover {
   background: transparent;
   color: #222222;
   border-color: #F49422;
 }
 
-#sendButtonText:focus {
+div#sendButtonText:focus {
   background: transparent;
   color: #222222;
   border-color: #F49422;
