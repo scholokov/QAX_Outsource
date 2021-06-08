@@ -668,36 +668,23 @@ div#sendButtonText:focus {
     top: 24px;
 }
 }
+/*--------------------------------Header Mobile---------------------------------------------*/
 
-@media screen and (max-width: 900px) {
-  .header-menu.responsive #mobile-menu-fullscreen,#sendButtonText-mobile,.header-menu-mobile,#primary-menu-trigger{
-      display: block;
+@media screen and (max-width: 700px) {
+  div#header-block {
+    height: 38px;
   }
-
-  .header-menu.responsive #mobile-contacy-us-icon{
-    display: block;
+  .logo-block {
+    margin-left: 18px;
   }
-
-  .header-menu.responsive .burger-icon {
-    position: absolute;
-    right: 36px;
-    top: 26px;
+  #logo {
+    max-height: 35px;
   }
-  .header-menu.responsive .header-menu-mobile {
-    max-width: 150px;
-    margin: 0 30px;
-    padding-top: 20px;
-    float: none;
-    display: block;
-    font-size: 18px;
-  }
-  .header-menu.responsive #sendButtonText-mobile{
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 21,94px;
-  }
+  .header-menu .burger-icon {
+    right: 20px;
+    top: 11px;
 }
-
+}
 
 
 
@@ -774,6 +761,8 @@ Our Services
   font-family: 'Rubik';
   font-weight: 500;
 }
+
+
 
 /*--------------------------------Our Services Mobile---------------------------------------------*/
 
