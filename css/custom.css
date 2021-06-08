@@ -722,7 +722,21 @@ Hero
   max-width: 629px;
 }
 
+/*--------------------------------Hero Mobile---------------------------------------------*/
 
+@media screen and (max-width: 700px) {
+  section#page-title {
+    min-height: 196px;
+  }  
+  #hero-longread {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+  h1#main-title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
 
 /* ----------------------------------------------------------------
 Our Services
