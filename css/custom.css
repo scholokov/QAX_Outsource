@@ -740,7 +740,7 @@ Hero
     line-height: 30px;
   }
   #open-mobile-menu{
-    eight: 100vh;
+    height: 100vh;
     width: 100vw;
     background-color: bisque;
   }
