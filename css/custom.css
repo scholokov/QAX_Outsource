@@ -683,7 +683,14 @@ div#sendButtonText:focus {
   .header-menu .burger-icon {
     right: 20px;
     top: 11px;
-}
+  }
+  #mobile-contacy-us-icon {
+    display: block;
+  }
+  #primary-menu-trigger {
+    display: block;
+  }
+  
 }
 
 
