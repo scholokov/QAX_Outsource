@@ -486,7 +486,7 @@ Header
 }*/
 
 
-/* -------------------------------new heder -------------------------------*/
+/* -------------------------------new header -------------------------------*/
 #header-block {
   display:flex;
   justify-content: space-between;
@@ -888,6 +888,12 @@ Our Services
 /* ----------------------------------------------------------------
 Cooperation Offer
 -----------------------------------------------------------------*/
+h2#cooperation-offer-main-title {
+  font-size: 80px;
+  margin-bottom: 30px;
+  line-height: 95px;
+}
+
 .cooperation_offer-title {
   font-weight: 500;
   font-size: 54px;
