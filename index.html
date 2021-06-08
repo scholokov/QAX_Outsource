@@ -127,8 +127,9 @@
 					</a>
 		    	</div>
 			</div>
+			<div id="open-mobile-menu">
 
-
+			</div>
 
 		<!-- Header
 		============================================= -->
@@ -987,6 +988,7 @@
         var y = document.getElementById("header-block");
         if (y.className === "header-menu") {
         y.className += " responsive";
+		$("#open-mobile-menu").css({"display":"block"});
 		$("body").css({ "overflow": "hidden" });
 		$("#footer-block").css({ "display": "none" });
 		$("#cources").css({ "display": "none" });
@@ -994,6 +996,7 @@
 		$("#page-title").css({ "display": "none" });
     } else {
         y.className = "header-menu";
+		$("#open-mobile-menu").css({"display": "none"});
 		$("body").css({ "overflow": "visible" });
 		$("#footer-block").css({ "display": "flex" });
 		$("#cources").css({ "display": "block" });
