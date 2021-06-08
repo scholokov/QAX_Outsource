@@ -726,6 +726,8 @@ Hero
 
 @media screen and (max-width: 700px) {
   section#page-title {
+    padding-top: 82px;
+    padding-bottom: 10px;
     min-height: 196px;
   }  
   #hero-longread {
