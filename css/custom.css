@@ -625,6 +625,13 @@ div#sendButtonText:focus {
 
 }
 
+#open-mobile-menu{
+  display: none;
+  height: 100vh;
+  width: 100vw;
+  background-color: #F49422;
+}
+
 #primary-menu-trigger{
   display: none;
 }
