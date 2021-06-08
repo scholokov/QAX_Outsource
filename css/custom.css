@@ -694,6 +694,10 @@ div#sendButtonText:focus {
     right: 64px;
     top: 11px;
 }
+#primary-menu-trigger, #page-menu-trigger {
+  width: 30px;
+  height: 30px;
+  line-height: 0px;
 
 }
 
