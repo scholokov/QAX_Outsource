@@ -781,7 +781,7 @@ Our Services
 @media (max-width:767px){
 
   #our_services{
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   #our-services-title{
@@ -797,6 +797,7 @@ Our Services
   }
 
   .our_services-sub-title{
+    margin-bottom: 14px;
     font-size: 20px;
     line-height: 24px;
   }
