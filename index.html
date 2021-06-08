@@ -989,8 +989,11 @@
         if (y.className === "header-menu") {
         y.className += " responsive";
 		$("#open-mobile-menu").css({"display":"block"});
+		$("#header-block").css({"background":"#F49422"});
 		$("body").css({ "overflow": "hidden" });
 		$("#footer-block").css({ "display": "none" });
+		$("#logo-block").css({ "display": "none" });
+		$("#mobile-contacy-us-icon").css({ "display": "none" });
 		$("#cources").css({ "display": "none" });
 		$("#content").css({ "display": "none" });
 		$("#page-title").css({ "display": "none" });
@@ -998,6 +1001,8 @@
         y.className = "header-menu";
 		$("#open-mobile-menu").css({"display": "none"});
 		$("body").css({ "overflow": "visible" });
+		$("#logo-block").css({ "display": "block" });
+		$("#mobile-contacy-us-icon").css({ "display": "block" });
 		$("#footer-block").css({ "display": "flex" });
 		$("#cources").css({ "display": "block" });
 		$("#content").css({ "display": "block" });
