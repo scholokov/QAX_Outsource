@@ -1836,6 +1836,10 @@ label {
     font-size: 14px;
     line-height: 16px;
   }
+  input[type=text] {
+    font-size: 14px;
+    line-height: 16px;
+  }
 
   
 }
