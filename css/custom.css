@@ -2161,6 +2161,7 @@ textarea:-moz-placeholder {
   }
   .write_to_us-block{
     max-width: 580px;
+    padding: 50px 0;
   }
   #write_to_us-block-small {
     max-width: 472px;
