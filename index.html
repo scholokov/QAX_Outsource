@@ -130,7 +130,7 @@
 				<div class="menu-mobile-line"></div>
 
 				<a href="#write_to_us">
-					<div id="sendButtonText-mobile">Contact Us</div>
+					<div id="sendButtonText-mobile" onclick="goToForm()">Contact Us</div>
 				</a>
 				
 			</div>
@@ -1017,12 +1017,17 @@
     }
 }
 function goToForm(){
-		$(".burger-icon").removeClass("change");
 		$("#header-block").removeClass("responsive");
-	    $("body").css({ "overflow": "visible" });
+	    $("#open-mobile-menu").css({"display": "none"});
+		$("#header-block").css({"background":"#FFFFFF"});
+		$("body").css({ "overflow": "visible" });
+		$("#logo-block").css({ "display": "block" });
+		$("#mobile-contacy-us-icon").css({ "display": "block" });
 		$("#footer-block").css({ "display": "flex" });
 		$("#cources").css({ "display": "block" });
 		$("#content").css({ "display": "block" });
+		$("#page-title").css({ "display": "block" });
+		$("#logo").css({ "display": "block" });
 		
 
 }
