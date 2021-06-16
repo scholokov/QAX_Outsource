@@ -676,6 +676,26 @@ div#sendButtonText:focus {
     top: 24px;
 }
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  #sendButtonText {
+    display: block;
+  }
+  .header-menu .burger-icon {
+      display: inline-block;
+      cursor: pointer;
+      position: absolute;
+      right: 36px;
+      top: 26px;
+  }
+  .header-menu #letter-icon {
+    display: none;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 86px;
+    top: 24px;
+}
+}
 /*--------------------------------Header Mobile---------------------------------------------*/
 
 @media screen and (max-width: 700px) {
