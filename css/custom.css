@@ -704,6 +704,9 @@ div#sendButtonText:focus {
   #sendButtonText {
     display: none;
   }
+  .send-block{
+    display: none;
+  }
 }
 
 /*--------------------------------Header Mobile---------------------------------------------*/
