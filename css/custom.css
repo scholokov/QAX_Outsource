@@ -668,7 +668,7 @@ div#sendButtonText:focus {
       top: 26px;
   }
   .header-menu #letter-icon {
-    display: block;
+    display: none;
     display: inline-block;
     cursor: pointer;
     position: absolute;
@@ -679,6 +679,9 @@ div#sendButtonText:focus {
 /*--------------------------------Header Mobile---------------------------------------------*/
 
 @media screen and (max-width: 700px) {
+  .header-menu #letter-icon{
+    display: block;
+  }
   div#header-block {
     height: 38px;
   }
