@@ -554,6 +554,7 @@ div#sendButtonText:focus {
 
 .header-menu #letter-icon{
   cursor: pointer;
+  display: none;
   position: absolute;
   right: 86px;
   top: 24px;
@@ -667,6 +668,7 @@ div#sendButtonText:focus {
       top: 26px;
   }
   .header-menu #letter-icon {
+    display: block;
     display: inline-block;
     cursor: pointer;
     position: absolute;
