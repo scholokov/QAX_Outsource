@@ -608,9 +608,8 @@ div#sendButtonText:focus {
   left: 50%;
   transform: translateX(-50%);
 
-  border-width: 1px;
-  border-style: solid;
-  padding-top: 10px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 
   width: 100%;
   max-width: 271px;
@@ -619,7 +618,7 @@ div#sendButtonText:focus {
 
   background: #FFFFFF;
   color: #120C04;
-  background-color: #FFFFFF;
+  border-color: #FFFFFF;
 
   box-sizing: border-box;
 
