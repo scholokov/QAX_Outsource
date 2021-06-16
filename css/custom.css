@@ -661,7 +661,7 @@ div#sendButtonText:focus {
     display: none;
   }
   .header-menu .burger-icon {
-      display: block;
+      display: block !important;
       cursor: pointer;
       position: absolute;
       right: 36px;
