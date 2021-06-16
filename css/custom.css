@@ -700,7 +700,7 @@ div#sendButtonText:focus {
 }
 }
 
-@media (min-width: 768px){
+@media (max-width: 767px){
   #sendButtonText {
     display: none;
   }
