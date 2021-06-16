@@ -684,7 +684,7 @@ div#sendButtonText:focus {
     display: none;
   }
   .header-menu .burger-icon {
-      display: inline-block;
+      display: block;
       cursor: pointer;
       position: absolute;
       right: 36px;
@@ -692,11 +692,6 @@ div#sendButtonText:focus {
   }
   .header-menu #letter-icon {
     display: none;
-    display: inline-block;
-    cursor: pointer;
-    position: absolute;
-    right: 86px;
-    top: 24px;
 }
 }
 
@@ -711,7 +706,7 @@ div#sendButtonText:focus {
 
 /*--------------------------------Header Mobile---------------------------------------------*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   .header-menu #letter-icon{
     display: block;
   }
