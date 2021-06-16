@@ -2162,6 +2162,10 @@ textarea:-moz-placeholder {
   .write_to_us-block{
     max-width: 580px;
   }
+  #write_to_us-block-small {
+    max-width: 472px;
+    width: 100%;
+  }
 }
 
 /*--------------------------------Our Services Mobile---------------------------------------------*/
