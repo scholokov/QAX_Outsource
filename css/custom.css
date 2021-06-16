@@ -696,6 +696,13 @@ div#sendButtonText:focus {
     top: 24px;
 }
 }
+
+@media (min-width: 768px){
+  #sendButtonText {
+    display: none;
+  }
+}
+
 /*--------------------------------Header Mobile---------------------------------------------*/
 
 @media screen and (max-width: 700px) {
