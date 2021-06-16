@@ -593,7 +593,7 @@ div#sendButtonText:focus {
 
 #sendButtonText-mobile{
 
-  display: none;
+  display: block;
   
   cursor:pointer;
   
@@ -617,10 +617,9 @@ div#sendButtonText:focus {
   height: 44px;
   text-align: center;
 
-  background: #F66F5D;
-  color: #222222;
+  background: #FFFFFF;
+  color: #120C04;
 
-  border: 1px solid #F66F5D;
   box-sizing: border-box;
 
 }
