@@ -1826,6 +1826,18 @@ label {
   color: #EA5455;
 }
 
+.menu-mobile-line {
+  border: 2px solid #FFFFFF;
+}
+
+a.menu-mobile {
+  font-family: Rubik;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+
+}
+
 @media (max-width: 767px) {
   .write_to_us-personal-data {
     width: 100%;
