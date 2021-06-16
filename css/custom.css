@@ -2152,6 +2152,17 @@ textarea:-moz-placeholder {
   padding-top: 3px;
   margin-left: 12px;
 }
+/*---------------------------------Contact us Tablet ---------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px){
+  .write_to_us-title-form{
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .write_to_us-block{
+    max-width: 580px;
+  }
+}
 
 /*--------------------------------Our Services Mobile---------------------------------------------*/
 
