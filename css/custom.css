@@ -1837,11 +1837,12 @@ label {
     line-height: 16px;
   }
   input[type=text] {
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 14px !important;
+    line-height: 16px !important;
   }
   ::placeholder{
-    font-size: 14px;
+    font-size: 14px !important;
+    line-height: 16px !important;
   }
 
   
