@@ -660,6 +660,8 @@ div#sendButtonText:focus {
   .header-menu .header-menu-links,#mobile-menu-fullscreen,.header-menu-mobile {
     display: none;
   }
+
+  
   .header-menu .burger-icon {
       display: block !important;
       cursor: pointer;
@@ -680,6 +682,12 @@ div#sendButtonText:focus {
   #header-block{
     height: 72px;
   }
+
+  #logo {
+    max-width: 90px;
+    display: block;
+  }
+
   #sendButtonText {
     display: block;
   }
