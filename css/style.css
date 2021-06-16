@@ -3732,7 +3732,7 @@ only screen and (                min-resolution: 2dppx) {
 
 }
 
-@media (min-width: 900px) {
+@media (min-width: 991px) {
 
 	.primary-menu {
 		margin: 0 auto;
