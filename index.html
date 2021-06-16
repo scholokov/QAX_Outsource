@@ -112,7 +112,7 @@
 			</div>
 			<div id="open-mobile-menu">
 				<a class="menu-mobile" href="#our_services">
-					<div>Our Services</div>
+					<div onclick="goToForm()">Our Services</div>
 				</a>
 
 				<div class="menu-mobile-line"></div>
@@ -1017,6 +1017,7 @@
     }
 }
 function goToForm(){
+		$(".svg-trigger").click();
 		$("#header-block").removeClass("responsive");
 	    $("#open-mobile-menu").css({"display": "none"});
 		$("#header-block").css({"background":"#FFFFFF"});
