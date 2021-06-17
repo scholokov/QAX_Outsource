@@ -1762,6 +1762,7 @@ our-support
   height: 64px;
   text-align: center;
   font-family: 'Rubik';
+  font-weight: 500;
 }
 
 #our-support-button:hover {
