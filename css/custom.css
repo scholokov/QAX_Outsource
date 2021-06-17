@@ -2119,6 +2119,7 @@ textarea:-moz-placeholder {
 }
 
 #thank_you-text{
+  height: 135px;
   margin-top: 60px;
   max-width: 729px;
   font-family: 'Rubik';
