@@ -787,7 +787,7 @@ Hero
 
 /*--------------------------------Hero Mobile---------------------------------------------*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 767px) {
   section#page-title {
     padding-top: 82px !important;
     padding-bottom: 10px;
@@ -806,6 +806,10 @@ Hero
     height: 100vh;
     width: 100vw;
     background-color: #F49422;
+  }
+  div#hero-box{
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
