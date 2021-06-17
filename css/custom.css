@@ -1799,6 +1799,27 @@ our-support
 
 }
 
+/*--------------------------------Hero Tablet---------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #our-support-title{
+    font-size: 32px;
+    line-height: 38px;
+  }
+  #our-support-text{
+    font-size: 18px;
+    line-height: 27px;
+  }
+  #our-support-button{
+    font-size: 18px;
+    margin-top: 24px;
+    padding: 22px 54px;
+    width: 202px;
+    line-height: 21px;
+    height: 64px;
+  }
+}
+
 /* ----------------------------------------------------------------
 Form
 -----------------------------------------------------------------*/
