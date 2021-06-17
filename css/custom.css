@@ -1823,6 +1823,10 @@ our-support
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  div#our-support-block {
+    max-width: 472px;
+    margin: auto;
+}
 }
 
 /* ----------------------------------------------------------------
