@@ -1989,7 +1989,7 @@ a.menu-mobile {
 }
 
 .form-group {
-  margin-top: 76px;
+  margin-top: 79px;
   margin-bottom: 0;
 }
 #name-block{
@@ -2463,4 +2463,12 @@ a#mail-link2{
     padding-bottom: 0 !important;
   }
 
+}
+
+/*------------------------- Footer Tablet -----------------------*/
+@media (min-width: 768px) and (max-width: 991px){
+  a#phone-link2{
+      white-space: nowrap;
+    }
+  }
 }
