@@ -2245,6 +2245,7 @@ textarea:-moz-placeholder {
 
   #form-img-mail{
     height: 18px;
+    margin-bottom: 10px !important;
   }
 
   .form-group {
@@ -2471,5 +2472,4 @@ a#mail-link2{
   a#phone-link2{
       white-space: nowrap;
     }
-  }
 }
