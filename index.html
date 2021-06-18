@@ -517,7 +517,7 @@
 								</div>
 
 								<div class="non-disclosure-img col-md-5 offset-md-1">
-									<div class=" boarder-margin images-animation animation-fade-in ">
+									<div class=" boarder-margin " id="img-animation1">
 										<img src="images/Non_Disclosure.png" alt="Image"><br>
 									</div>
 								</div>
@@ -1060,13 +1060,13 @@ function goToForm(){
 						// add class to reveal
 						.addTo(controller);
 		new ScrollMagic.Scene({
-							triggerElement: ".images-animation",
+							triggerElement: "#img-animation1",
 							triggerHook: 0.9,
 							duration: "80%",
 							offset: 50, // move trigger to center of element
 							reverse: false, // only do once
 						})
-						.setClassToggle(".images-animation", "animation-fade-in") 
+						.setClassToggle("#img-animation1", "animation-fade-in") 
 						.addIndicators()// add class to reveal
 						.addTo(controller);
 	
