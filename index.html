@@ -1047,7 +1047,15 @@ function goToForm(){
 							offset: 50 // move trigger to center of element
 						})
 						.setClassToggle("#main-title", "animation-fade-in") // add class to reveal
-					
+						.addTo(controller);
+
+	    new ScrollMagic.Scene({
+							triggerElement: "our_services2_text1",
+							triggerHook: 0.9, // show, when scrolled 10% into view
+							duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
+							offset: 50 // move trigger to center of element
+						})
+						.setClassToggle("our_services2_text1", "pulse") // add class to reveal
 						.addTo(controller);
 	</script>
 
