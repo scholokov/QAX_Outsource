@@ -517,19 +517,19 @@
 								</div>
 
 								<div class="non-disclosure-img col-md-5 offset-md-1">
-									<div class=" boarder-margin animation-fade-in">
+									<div class=" boarder-margin images-animation animation-fade-in ">
 										<img src="images/Non_Disclosure.png" alt="Image"><br>
 									</div>
 								</div>
 
 								<div class="non-disclosure-img col-md-5 offset-md-0 ">
-									<div class="boarder-margin animation-fade-in">
+									<div class="boarder-margin animation-fade-in ">
 										<img src="images/Non_Disclosure2.png" alt="Image" id="img2-non-disclosure"><br>
 									</div>
 								</div>
 
 								<div class="non-disclosure-img-mob col-md-12 col-lg-5 offset-md-1">
-									<div class=" boarder-margin animation-fade-in">
+									<div class=" boarder-margin images-animation animation-fade-in">
 										<img src="images/non-disclosure-mobile1.png" alt="Image"><br>
 									</div>
 								</div>
@@ -1059,6 +1059,17 @@ function goToForm(){
 						.setClassToggle("#our_services2_text1", "pulse") 
 						// add class to reveal
 						.addTo(controller);
+		new ScrollMagic.Scene({
+							triggerElement: ".images-animation",
+							triggerHook: 0.9,
+							duration: "80%",
+							offset: 50, // move trigger to center of element
+							reverse: false, // only do once
+						})
+						.setClassToggle(".images-animation", "animation-fade-in") 
+						// add class to reveal
+						.addTo(controller);
+	
 	</script>
 
 </body>
