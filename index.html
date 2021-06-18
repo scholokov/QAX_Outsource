@@ -303,7 +303,7 @@
 						<div id="our_services_block2" class="">
 							<div class="container">
 								<div id="our_services_text-block2" class="row col-mb-50 mb-0">
-									<div id="our_services2_text1" class="col-md-6">
+									<div id="our_services2_text1" class="col-md-6 pulse">
 										Desktop, Web and Mobile testing<br>
 										Requirements testing<br>
 										Functional testing<br>
@@ -1051,11 +1051,12 @@ function goToForm(){
 
 	    new ScrollMagic.Scene({
 							triggerElement: "#our_services2_text1",
-							triggerHook: 0.9, // show, when scrolled 10% into view
-							duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
+							triggerHook: 0.9,
+							offset: 50, // move trigger to center of element
+							reverse: false, // only do once
 							offset: 50 // move trigger to center of element
 						})
-						.setClas("#our_services2_text1", "pulse") 
+						.setClassToggle("#our_services2_text1", "pulse") 
 						// add class to reveal
 						.addTo(controller);
 	</script>
