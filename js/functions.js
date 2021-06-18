@@ -3,6 +3,10 @@
 
 var $ = jQuery.noConflict();
 
+//scroll animation
+
+
+
 window.onload=function(){
 	let mail_link=$("#mail-link");
 	let mail_icon=$("#mail-icon");
