@@ -769,6 +769,11 @@ div#sendButtonText:focus {
 /* ----------------------------------------------------------------
 Hero
 -----------------------------------------------------------------*/
+#main-title{
+  line-height: 120px;
+  margin-bottom: 33px;
+}
+
 #hero-box {
   color: #FFFFFF;
   height: 100%;
