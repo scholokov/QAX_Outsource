@@ -1084,6 +1084,9 @@ Cooperation Offer
 }
 /*--------------------------------------Сooperation Offer Mobile-----------------------------------------*/
 @media (max-width:767px){
+  .cooperation-offer-text{
+    padding-bottom: 30px;
+  }
   h2#cooperation-offer-main-title{
     font-size: 36px;
     line-height: 43px;
