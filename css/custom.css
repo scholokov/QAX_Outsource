@@ -2441,7 +2441,7 @@ a#mail-link2{
 
 /*------ Footer mobile -------*/
 
-@media (max-width:768px){
+@media (max-width:767px){
 
   .footer-links{
     font-size: 14px;
