@@ -2465,6 +2465,9 @@ a#mail-link2{
 /*------ Footer mobile -------*/
 
 @media (max-width:767px){
+  #footer-block {
+    padding-top: 50px;
+}
   #footer-main-block {
       margin-left: 20px;
       margin-right: 20px;
@@ -2509,7 +2512,6 @@ a#mail-link2{
   }
 
   .footer-long-item{
-    margin-top: 24px;
     padding-bottom: 0 !important; 
   }
 
