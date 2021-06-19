@@ -953,7 +953,7 @@ Our Services
 
 }
 
-/*--------------------------------Our Services Mobile---------------------------------------------*/
+/*--------------------------------Our Services Tablet---------------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 991px){
 
@@ -982,6 +982,7 @@ Our Services
   .our_services-text {
     font-size: 16px;
     line-height: 24px;
+    max-width: 256px;
 }
 
   .arrows{
@@ -992,6 +993,13 @@ Our Services
     padding-top: 60px;
     padding-bottom: 60px;
     margin-top: 10px;
+  }
+  #our_services-text1{
+    padding-left: 34px;
+  }
+
+  #our_services-text2{
+    padding-right: 34px;
   }
 
   #our_services2_text1 {
