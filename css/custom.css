@@ -2526,10 +2526,21 @@ a#mail-link2{
   }
   #footer-block {
     padding-top: 48px;
+    min-width: 580px;
   }
   #footer-main-block{
     margin-left: 94px;
     margin-right: 94px;
   }
+  .footer-long-item{
+    max-width: 86px;
+    font-size: 12px;
+  }
+  #footer_2nd_column{
+    max-width: 130px;
+  }
+  #footer-contact-us-button-block {
+    min-width: 148px;}
+
 
 }
