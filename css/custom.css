@@ -2517,5 +2517,8 @@ a#mail-link2{
   .button-links {
     margin-top: 18px;
   }
+  #footer_4hg_column{
+    max-width: 148px;
+  }
 
 }
