@@ -1175,11 +1175,11 @@ Cooperation Offer
   }
 
   .cooperation_offer-subtitle{
-    padding-bottom: 20px;
+    padding-bottom: 20px !important;
   }
 
   .cooperation_offer-normal-text {
-    margin-bottom: 30px;
+    margin-bottom: 18px;
     font-size: 18px;
     line-height: 27px;
   }
@@ -1190,6 +1190,9 @@ Cooperation Offer
 
   #cooperation_offer_line2 {
     margin-top: -20px;
+}
+.cooperation_offer-advantage-text {
+  margin-bottom: 14px;
 }
 
 }
