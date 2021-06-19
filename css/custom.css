@@ -2300,6 +2300,10 @@ textarea:-moz-placeholder {
 /* ----------------------------------------------------------------
 Footer
 -----------------------------------------------------------------*/
+#footer-main-block{
+  margin-left: 80px;
+  margin-right: 80px;
+}
 
 #footer-contact-us-button {
   display: block;
@@ -2519,6 +2523,13 @@ a#mail-link2{
   }
   #footer_4hg_column{
     max-width: 148px;
+  }
+  #footer-block {
+    padding-top: 48px;
+  }
+  #footer-main-block{
+    margin-left: 94px;
+    margin-right: 94px;
   }
 
 }
