@@ -2491,13 +2491,16 @@ a#mail-link2{
 
 /*------------------------- Footer Tablet -----------------------*/
 @media (min-width: 768px) and (max-width: 991px){
+  #footer{
+    min-height: 206px;
+  }
   a#phone-link2{
       white-space: nowrap;
     }
   .footer-long-item , .footer-item, #footer_4hg_column{
     padding-left: 0;
     padding-right: 0;
-    
+
   }
 
 }
