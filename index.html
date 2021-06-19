@@ -1112,6 +1112,16 @@ function goToForm(){
 						.setClassToggle("#form-img-mail", "pulse") 
 						.addIndicators()// add class to reveal
 						.addTo(controller);
+		new ScrollMagic.Scene({
+							triggerElement: ".arrows",
+							triggerHook: 0.7,
+							duration: "80%",
+							offset: 50, // move trigger to center of element
+							 // only do once
+						})
+						.setClassToggle(".arrows", "pulse") 
+						.addIndicators()// add class to reveal
+						.addTo(controller);
 	</script>
 
 </body>
