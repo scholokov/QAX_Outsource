@@ -2431,6 +2431,10 @@ a#mail-link2{
   width: 100%;
 }
 
+#footer-logo{
+  margin-bottom: 44px;
+}
+
 /*------ Footer mobile -------*/
 
 @media (max-width:768px){
