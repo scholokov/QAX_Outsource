@@ -2367,6 +2367,7 @@ Footer
 .button-links{
   margin-top: 31px;
   max-width: 180px;
+  width: 100%;
 }
 
 .footer-links-blocks1{
@@ -2417,6 +2418,17 @@ a#mail-link2{
   margin-bottom: 41px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#footer_4hg_column{
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+#footer-contact-us-button-block{
+  max-width: 180px;
+  width: 100%;
 }
 
 /*------ Footer mobile -------*/
