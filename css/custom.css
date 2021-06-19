@@ -1089,6 +1089,10 @@ Cooperation Offer
     line-height: 43px;
   }
 
+  .cooperation_offer-subtitle{
+    padding-bottom: 14px;
+  }
+
   #cooperation_offer-small-text{
     font-size: 16px;
     line-height: 24px;
@@ -1097,11 +1101,6 @@ Cooperation Offer
     font-weight: 500;
     font-size: 25px;
     line-height: 30px;
-  }
-  
-  #cooperation-offer-main-title{
-    font-size: 36px;
-    line-height: 43px;
   }
 
   .cooperation_offer-normal-text {
@@ -1115,14 +1114,13 @@ Cooperation Offer
   }
   
   .cooperation_offer-advantage-text {
-    font-weight: bold;
     font-size: 18px;
     line-height: 30px;
   }
   
   #cooperation_offer_line1 {
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
   
   #cooperation_offer_line2 {
