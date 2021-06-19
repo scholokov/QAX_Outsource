@@ -1490,11 +1490,9 @@ About US
     line-height: 27px;
   }
 
-    #about-us-img
-  {
+    #about-us-img{
     display: none;
   }
-
 
   #about-us-mob-img{
     max-width: 900px;
@@ -1513,6 +1511,7 @@ About US
 
   #about_us1-text{
     float: none;
+    max-width: 510px;
   }
 
   #about_us2-box{
