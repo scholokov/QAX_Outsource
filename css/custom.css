@@ -1090,7 +1090,7 @@ Cooperation Offer
   }
 
   .cooperation_offer-subtitle{
-    padding-bottom: 14px;
+    padding-bottom: 14px !important;
   }
 
   #cooperation_offer-small-text{
@@ -1106,6 +1106,7 @@ Cooperation Offer
   .cooperation_offer-normal-text {
     font-size: 18px;
     line-height: 27px;
+    margin-bottom: 8px;
   }
   
   .cooperation_offer-small-text {
