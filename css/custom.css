@@ -1381,6 +1381,9 @@ About US
   margin-top: 92px;
 }
 
+#about-us-img-tablet{
+  display: none;
+}
 
 
 
@@ -1492,10 +1495,6 @@ About US
     display: none;
   }
 
-  #about-us-img-mobile{
-    display: block;
-    
-  }
 
   #about-us-mob-img{
     max-width: 900px;
@@ -1539,6 +1538,9 @@ About US
 
   #about-us-after-arrow{
     display: none;
+  }
+  #about-us-img-tablet{
+    display: block;
   }
 
 }
