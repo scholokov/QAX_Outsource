@@ -2503,7 +2503,22 @@ a#mail-link2{
   .footer-long-item , .footer-item, #footer_4hg_column{
     padding-left: 0;
     padding-right: 0;
-
+  }
+  #footer-logo{
+    margin-bottom: 28px;
+  }
+  #footer-logo{
+  margin-bottom: 44px;
+  }
+  .footer-links-blocks1 {
+    line-height: 18px;
+    margin-bottom: 22px;
+  }
+  .footer-links-blocks {
+    margin-bottom: 14px;
+  }
+  .button-links {
+    margin-top: 18px;
   }
 
 }
