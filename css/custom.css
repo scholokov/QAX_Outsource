@@ -1763,6 +1763,7 @@ our-support
   text-align: center;
   font-family: 'Rubik';
   font-weight: 500;
+  white-space: nowrap;
 }
 
 #our-support-button:hover {
