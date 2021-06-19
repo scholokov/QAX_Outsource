@@ -223,7 +223,7 @@
 			<div id="hero-box" class="container clearfix">
 
 				<div class="col-xl-2-12">
-					<h1 class="animation-fade-in" id="main-title">Quality Assurance Experts</h1>
+					<h1 class="" id="main-title">Quality Assurance Experts</h1>
 					<p id="hero-longread" class="animated animatedFadeInUp fadeInUp">We provide our clients with
 						qualified assistance during product
 						development
@@ -620,7 +620,7 @@
 							place! Each of our clients and projects won't stay without attention and will be
 							accurately verified.
 						</p>
-						<div class="boarder-margin animation-fade-in" id="about-us-img">
+						<div class="boarder-margin" id="about-us-img">
 							<img src="images/about-us.jpg" alt="Image"><br>
 						</div>
 					</div>
@@ -1040,14 +1040,15 @@ function goToForm(){
 	</script>
 	<script>
 		var controller = new ScrollMagic.Controller();
-		/*new ScrollMagic.Scene({
+		new ScrollMagic.Scene({
 							triggerElement: "#main-title",
 							triggerHook: 0.9, // show, when scrolled 10% into view
 							duration: "80%", // hide 10% before exiting view (80% + 10% from bottom)
-							offset: 50 // move trigger to center of element
+							offset: 50,
+							reverse: false // move trigger to center of element
 						})
 						.setClassToggle("#main-title", "animation-fade-in") // add class to reveal
-						.addTo(controller);*/
+						.addTo(controller);
 
 	    new ScrollMagic.Scene({
 							triggerElement: "#our_services2_text1",
@@ -1079,7 +1080,18 @@ function goToForm(){
 						.setClassToggle("#img2-non-disclosure", "animation-fade-in") 
 						.addIndicators()// add class to reveal
 						.addTo(controller);
-						
+				
+		new ScrollMagic.Scene({
+							triggerElement: "#about-us-img",
+							triggerHook: 0.7,
+							duration: "80%",
+							offset: 50, // move trigger to center of element
+							reverse: false, // only do once
+						})
+						.setClassToggle("#about-us-img", "animation-fade-in") 
+						.addIndicators()// add class to reveal
+						.addTo(controller);
+
 	</script>
 
 </body>
