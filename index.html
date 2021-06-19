@@ -783,7 +783,7 @@
 						<div id="write_to_us-block-small">
 							<div>
 								<h3 class="write_to_us-title-form">Contact Us</h3>
-								<img src="images/envelope.svg" alt="Image" class="mb-4 pulse" id="form-img-mail">
+								<img src="images/envelope.svg" alt="Image" class="mb-4" id="form-img-mail">
 							</div>
 							<form novalidate>
 								<div class="row col-mb-50 mb-0 row-cols-1">
@@ -1100,6 +1100,16 @@ function goToForm(){
 							reverse: false, // only do once
 						})
 						.setClassToggle("#cooperation_procedure-img", "animation-fade-in") 
+						.addIndicators()// add class to reveal
+						.addTo(controller);
+		new ScrollMagic.Scene({
+							triggerElement: "#form-img-mail",
+							triggerHook: 0.7,
+							duration: "80%",
+							offset: 50, // move trigger to center of element
+							reverse: false, // only do once
+						})
+						.setClassToggle("#form-img-mail", "pulse") 
 						.addIndicators()// add class to reveal
 						.addTo(controller);
 	</script>
