@@ -1091,7 +1091,17 @@ function goToForm(){
 						.setClassToggle("#about-us-img", "animation-fade-in") 
 						.addIndicators()// add class to reveal
 						.addTo(controller);
-
+						
+		new ScrollMagic.Scene({
+							triggerElement: "#cooperation_procedure-img",
+							triggerHook: 0.7,
+							duration: "80%",
+							offset: 50, // move trigger to center of element
+							reverse: false, // only do once
+						})
+						.setClassToggle("#cooperation_procedure-img", "animation-fade-in") 
+						.addIndicators()// add class to reveal
+						.addTo(controller);
 	</script>
 
 </body>
