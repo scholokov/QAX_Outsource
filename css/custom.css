@@ -2496,7 +2496,10 @@ a#mail-link2{
   }
   a#phone-link2{
       white-space: nowrap;
-    }
+  }
+  .footer-item{
+    font-size: 15px;
+  }
   .footer-long-item , .footer-item, #footer_4hg_column{
     padding-left: 0;
     padding-right: 0;
