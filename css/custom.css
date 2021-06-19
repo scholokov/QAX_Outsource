@@ -994,12 +994,9 @@ Our Services
     padding-bottom: 60px;
     margin-top: 10px;
   }
-  #our_services-text1{
-    padding-right: 34px;
-  }
 
   #our_services-text2{
-    padding-left: 34px;
+    max-width: 258px;
   }
 
   #our_services2_text1 {
