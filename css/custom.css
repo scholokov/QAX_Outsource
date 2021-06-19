@@ -1089,7 +1089,7 @@ Cooperation Offer
   }
 
   .cooperation-offer-text{
-    padding-bottom: 30px;
+    padding-bottom: 30px !important;
   }
   h2#cooperation-offer-main-title{
     font-size: 36px;
