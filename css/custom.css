@@ -1085,7 +1085,7 @@ Cooperation Offer
 /*--------------------------------------Сooperation Offer Mobile-----------------------------------------*/
 @media (max-width:767px){
 .cooperation_offer-advantages{
-  padding-bottom: 8px;
+  padding-bottom: 8px !important;
   }
 
   .cooperation-offer-text{
