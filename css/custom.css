@@ -1040,9 +1040,11 @@ h2#cooperation-offer-main-title {
 }
 
 .cooperation_offer-advantage-text {
-  font-weight: bold;
+  font-family: Rubik;
   font-size: 18px;
+  font-weight: 500;
   line-height: 30px;
+
 }
 
 #cooperation_offer_line1 {
@@ -1177,6 +1179,7 @@ Cooperation Offer
   }
 
   .cooperation_offer-normal-text {
+    margin-bottom: 30px;
     font-size: 18px;
     line-height: 27px;
   }
