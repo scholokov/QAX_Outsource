@@ -1800,6 +1800,9 @@ our-support
   color: #120C04;
 }
 
+#our-support-write-to-us{
+  color: #FFFFFF !important;
+}
 /*------------------------------Our Suppor Mobile-----------------------------------------------------*/
 
 @media (max-width:767px){
