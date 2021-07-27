@@ -1800,6 +1800,10 @@ our-support
   color: #120C04 !important;
 }
 
+#our-support-write-to-us:hover{
+  color: #120C04 ;
+}
+
 #our-support-write-to-us{
   color: #FFFFFF ;
 }
