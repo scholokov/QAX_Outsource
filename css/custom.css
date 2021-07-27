@@ -1797,7 +1797,7 @@ our-support
 
 #our-support-button:hover {
   background: #FFFFFF;
-  color: #120C04;
+  color: #120C04 !important;
 }
 
 #our-support-write-to-us{
