@@ -1795,17 +1795,14 @@ our-support
   white-space: nowrap;
 }
 
-#our-support-button:hover,#our-support-write-to-us:hover {
+#our-support-button:hover {
   background: #FFFFFF;
   color: #120C04 !important;
 }
 
-#our-support-write-to-us:hover{
-  color: #120C04 ;
-}
-
-#our-support-write-to-us{
-  color: #FFFFFF ;
+#our-support-contact{
+  display: block;
+  max-width: max-content;
 }
 /*------------------------------Our Suppor Mobile-----------------------------------------------------*/
 
