@@ -1303,14 +1303,14 @@ Non - disclosure
     line-height: 27px;
   }
 
-  .non-disclosure-img{
+  /*.non-disclosure-img{
     display: none;
-  }
+  }*/
 
-  .non-disclosure-img-mob{
+  /*.non-disclosure-img-mob{
     display: block;
     padding-bottom: 20px;
-  }
+  }*/
 
   .non-disclosure-info-block {
     padding-bottom: 20px;
