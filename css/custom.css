@@ -2510,6 +2510,7 @@ a#mail-link2{
   
   .button-links{
     max-width: 800px;
+    justify-content: space-between;
   }
 
   #footer-date{
@@ -2545,6 +2546,15 @@ a#mail-link2{
   .footer-item{
     height: 88px;
     padding-bottom: 0 !important;
+  }
+
+  div#footer_2nd_column {
+    margin-right: 29px;
+    padding-right: 0;
+  }
+
+  #footer_3nd_column {
+    padding-left: 0;
   }
 
 }
