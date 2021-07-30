@@ -2558,6 +2558,7 @@ a#mail-link2{
   }
 
   div#footer_2nd_column {
+    max-height: 79px;
     max-width: 121px;
     width: 100%;
     margin-right: 29px;
