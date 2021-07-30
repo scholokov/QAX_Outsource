@@ -1781,10 +1781,20 @@ Cooperation procedure
 
 
 @media (max-width: 768px) {
-
-
   #Cooperation_procedure {
     margin-top: 40px;
+  }
+
+  #cooperation_procedure_main_block{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #cooperation_procedure_block{
+    padding-left: 0;
+    padding-right: 0;
   }
 
   #cooperation-procedure-title{
@@ -1796,6 +1806,7 @@ Cooperation procedure
   #cooperation-procedure-text{
     font-size: 18px;
     line-height: 27px;
+    max-width: 280px;
   }
 }
 
