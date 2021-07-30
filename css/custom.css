@@ -2513,6 +2513,10 @@ a#mail-link2{
     display: none;
   }
   
+  .footer-links-blocks1 {
+    line-height: 17px;
+}
+
   .button-links{
     max-width: 800px;
     justify-content: space-between;
