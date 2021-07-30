@@ -1813,6 +1813,7 @@ Cooperation procedure
   }
   .cooperation-procedure-text-blocks{
     margin-bottom: 14px;
+    min-width: 280px;
   }
 }
 
