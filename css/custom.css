@@ -2492,6 +2492,11 @@ a#mail-link2{
 /*------ Footer mobile -------*/
 
 @media (max-width:767px){
+
+  #footer-logo {
+    margin-bottom: 28px;
+}
+
   #footer-block {
     padding-top: 50px;
 }
