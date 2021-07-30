@@ -1798,6 +1798,8 @@ Cooperation procedure
   }
 
   #cooperation-procedure-title{
+    display: block;
+    max-width: 208px;
     font-size: 25px;
     line-height: 30px;
     margin-bottom: 14px;
