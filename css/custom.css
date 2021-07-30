@@ -1776,6 +1776,30 @@ Cooperation procedure
     line-height: 27px;
   }
 }
+
+/*---------------------------------Cooperation Procedure Mobile ---------------------------------------------*/
+
+
+@media (max-width: 768px) {
+
+
+  #Cooperation_procedure {
+    margin-top: 40px;
+  }
+
+  #cooperation-procedure-title{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 14px;
+  }
+
+  #cooperation-procedure-text{
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+
 /* ----------------------------------------------------------------
 our-support
 -----------------------------------------------------------------*/
