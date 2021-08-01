@@ -1745,8 +1745,6 @@ padding-right: 0;
   }
   
   #why_us_box-block{
-    font-size: 16px;
-    line-height: 24px;
     justify-content: space-between;
     padding-bottom: 70px;
     margin-right: 0;
@@ -1761,6 +1759,8 @@ padding-right: 0;
   .why-us-boxes1,.why-us-boxes2 {
     max-width: 900px;
     width: 100%;
+    font-size: 16px;
+    line-height: 24px;
   }
   
   
