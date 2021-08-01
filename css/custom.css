@@ -1717,6 +1717,55 @@ padding-right: 0;
 
 }
 
+
+/*---------------------------------------- Why us Mobile ---------------------------------------------*/
+
+
+@media (max-width: 768px){
+
+  #why_us {
+    padding-top: 30px;
+  }
+
+  #why-us-title{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 4px;
+  }
+  
+  #why_us_box {
+    padding-top: 20px;
+  }
+  
+  #why_us1-box {
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 0;
+    
+  }
+  
+  #why_us_box-block{
+    font-size: 16px;
+    line-height: 24px;
+    justify-content: space-between;
+    padding-bottom: 70px;
+    margin-right: 0;
+    margin-left: 0;
+  
+  }
+  
+  .why-us-boxes2 {
+   padding-left: 0px !important; 
+  }
+  
+  .why-us-boxes1,.why-us-boxes2 {
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  
+
+}
 /* ----------------------------------------------------------------
 Cooperation procedure
 -----------------------------------------------------------------*/
