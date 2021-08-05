@@ -2600,7 +2600,9 @@ a#mail-link2{
 /*------ Footer mobile -------*/
 
 @media (max-width:767px){
-
+  footer#footer {
+    max-height: 350px;
+  }
   #footer-logo {
     margin-bottom: 28px;
 }
