@@ -1083,6 +1083,10 @@ Cooperation Offer
 #cooperation_offer-small-text{
   font-size: 22px;
 }
+
+.cooperation_offer-advantages.col-10.col-sm-10 {
+  padding-left: 9px;
+}
 /*--------------------------------------Сooperation Offer Mobile-----------------------------------------*/
 @media (max-width:767px){
 .cooperation_offer-advantages{
