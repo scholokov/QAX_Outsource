@@ -13564,8 +13564,8 @@ h3.titular-title { font-size: 2rem; }
 	display: none;
 	z-index: 599;
 	position: fixed;
-	width: 40px;
-	height: 40px;
+	width: 60px;
+	height: 60px;
 	background-color: #333;
 	background-color: rgba(0,0,0,0.3);
 	font-size: 1.25rem;
@@ -13588,7 +13588,7 @@ body:not(.device-touch) #gotoTop {
 
 .stretched #gotoTop { bottom: 30px; }
 
-#gotoTop:hover { background-color: #1ABC9C; }
+#gotoTop:hover { background-color: #F49422; }
 
 
 /* ----------------------------------------------------------------
