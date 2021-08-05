@@ -1794,6 +1794,10 @@ padding-right: 0;
     height: 100%;
   }
 
+  #why-us-people{
+    padding-right: 0;
+  }
+
 }
 
 @media (max-width: 580px){
