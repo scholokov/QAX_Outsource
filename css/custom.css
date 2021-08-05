@@ -1262,6 +1262,8 @@ Non - disclosure
   }
 
   #non-disclosure-block h3{
+    display: block;
+    max-width: 150px;
     font-size: 20px;
     line-height: 24px;
   }
