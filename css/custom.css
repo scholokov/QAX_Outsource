@@ -2430,6 +2430,10 @@ textarea:-moz-placeholder {
     margin-top: 24px;
   }
 
+  div#comment-block {
+    margin-top: 34px;
+  }
+
   #checkbox-block {
     margin-top: 24px;
   }
