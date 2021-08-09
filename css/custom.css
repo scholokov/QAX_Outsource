@@ -2154,6 +2154,16 @@ a.menu-mobile {
 }
 
 @media (max-width: 767px) {
+  div#thank_you-text {
+    font-size: 27px;
+    line-height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 235px;
+}
+div#write_to_us-thanks {
+  padding: 50px 0 50px;
+}
   .write_to_us-personal-data {
     width: 100%;
   }
