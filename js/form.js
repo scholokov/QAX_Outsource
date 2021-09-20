@@ -448,6 +448,7 @@ function check_phone() {
 function check_comment() {
     var comment_line = $("#comment_line");
     var error_message_comment_long = $("#error_message_comment_long");
+    var error_message_required=$("#error_message_required");
     
     var comment_text = document.getElementById("comment_input").textContent;
     var comment_clear = comment_text.trim();
@@ -462,9 +463,14 @@ function check_comment() {
         comment_line.css({ "border-color": "red" });
         error_message_comment_long.show();
         return false;
-    } else {
+    } else if(comment_length<1){
+        comment_line.css({ "border-color": "red" });
+        error_message_required.show();
+        return false;
+    }else{
         comment_line.css({ "border-color": "#B9B6B6" });
         error_message_comment_long.hide();
+        error_message_required.hide();
         return true;
     };
 };
