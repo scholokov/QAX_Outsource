@@ -2299,6 +2299,7 @@ textarea:-moz-placeholder {
 
 
 .textarea {
+  border-bottom: 1px solid #B9B6B6;
   display: block;
   width: 100%;
   overflow: hidden;
