@@ -805,6 +805,7 @@ Hero
     font-size: 12px;
   }
   h1#main-title {
+    min-width: 276px;
     font-size: 30px;
     line-height: 30px;
   }
