@@ -446,6 +446,7 @@ function check_phone() {
 
 
 function check_comment() {
+    var comment_input=$("#comment_input");
     var comment_line = $("#comment_line");
     var error_message_comment_long = $("#error_message_comment_long");
     var error_message_required=$("#error_message_required");
@@ -460,15 +461,15 @@ function check_comment() {
     console.log("unicode" + comment_clear.charCodeAt(index));
 
     if (comment_length > 1000) {
-        comment_line.css({ "border-color": "red" });
+        comment_input.css({ "border-bottom": "1px solid red" });
         error_message_comment_long.show();
         return false;
     } else if(comment_length<1){
-        comment_line.css({ "border-color": "red" });
+        comment_input.css({ "border-bottom": "1px solid red" });
         error_message_required.show();
         return false;
     }else{
-        comment_line.css({ "border-color": "#B9B6B6" });
+        comment_line.css({ "border-bottom": "1px solid #B9B6B6" });
         error_message_comment_long.hide();
         error_message_required.hide();
         return true;
