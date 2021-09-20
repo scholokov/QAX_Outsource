@@ -469,7 +469,7 @@ function check_comment() {
         error_message_required.show();
         return false;
     }else{
-        comment_line.css({ "border-bottom": "1px solid #B9B6B6" });
+        comment_input.css({ "border-bottom": "1px solid #B9B6B6" });
         error_message_comment_long.hide();
         error_message_required.hide();
         return true;
