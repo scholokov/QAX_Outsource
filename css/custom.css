@@ -2429,6 +2429,10 @@ textarea:-moz-placeholder {
     font-size: 50px;
     line-height: 60px;
   }
+  .form-group {
+    margin-top: 65px;
+    margin-bottom: 0;
+  }
   .write_to_us-button-send {
     margin-top: 56px;
   }
