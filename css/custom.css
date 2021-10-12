@@ -1857,7 +1857,12 @@ Cooperation procedure
 @media (min-width: 768px) and (max-width: 991px){
 
 
-
+  p.cooperation-procedure-text-blocks {
+    margin-bottom: 18px;
+    height: 108px;
+    max-width: 581px;
+    width: 100%;
+}
 
   #Cooperation_procedure {
     margin-top: 50px;
