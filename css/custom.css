@@ -1855,13 +1855,8 @@ Cooperation procedure
 
 @media (min-width: 768px) and (max-width: 991px){
 
-  .cooperation_procedure-img-tablet{
-    display: block;
-  }
 
-  #cooperation_procedure-img{
-    display: none;
-  }
+
 
   #Cooperation_procedure {
     margin-top: 50px;
