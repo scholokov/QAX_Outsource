@@ -2027,6 +2027,7 @@ our-support
     padding-top: 60px;
     padding-bottom: 60px;
   }
+  
   div#our-support-block {
     max-width: 472px;
     margin: auto;
@@ -2061,7 +2062,10 @@ Form
   display: inline-block;
   margin-right: 40px;
 }
-
+.iti.iti--allow-dropdown {
+  width: 100%;
+  max-width: 620px;
+}
 #write_to_us-block-small {
     max-width: 620px;
     margin: 0 auto;
@@ -2461,6 +2465,10 @@ img#form-img-mail{
     max-width: 580px;
     padding: 50px 0 100px;
   }
+  .iti.iti--allow-dropdown {
+    width: 100%;
+    max-width: 472px;
+}
   #write_to_us-block-small {
     max-width: 472px;
     width: 100%;
