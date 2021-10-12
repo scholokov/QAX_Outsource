@@ -2436,6 +2436,11 @@ textarea:-moz-placeholder {
     margin-bottom: 70px;
 }
 
+#checkbox-block {
+  height: 26px;
+  margin-top: 52px;
+}
+
 img#form-img-mail{
   margin-bottom: 0 !important;
     margin-top: -1.5em;
