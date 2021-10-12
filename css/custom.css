@@ -2426,6 +2426,7 @@ textarea:-moz-placeholder {
 
 @media (min-width: 768px) and (max-width: 991px){
   .write_to_us-title-form{
+    margin-bottom: 0;
     font-size: 50px;
     line-height: 60px;
   }
@@ -2435,6 +2436,10 @@ textarea:-moz-placeholder {
     margin-bottom: 70px;
 }
 
+img#form-img-mail{
+  margin-bottom: 0 !important;
+    margin-top: -1.5em;
+}
   .form-group {
     margin-top: 65px;
     margin-bottom: 0;
