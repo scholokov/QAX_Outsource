@@ -38,7 +38,12 @@ $('form').submit(function (e) {
     /*
     '\nBrowser: ' + platform.name + ' v' + platform.version +
     '\nOS: ' + platform.os + */
-    
+    var input = $("#phone_input");
+    input.intlTelInput({
+        nationalMode: true,
+        utilsScript: "utils.js" //для форматирования/плейсхолдера и т.д.
+      });
+    var intlNumber = input.intlTelInput("getNumber");
     const indx=1;
     var sum_text = 'Hi!\nI`m QAX bot.\n' +
         'Enviroment: ' + envName +
