@@ -383,30 +383,30 @@ function check_phone() {
     var phone_line = $("#phone_input");
     var error_message_phone_empty = $("#error_message_phone_empty");
     var error_message_phone_short = $("#error_message_phone_short");
+    var error_message_phone_plugin = $("#error_message_phone_plugin");
     var error_message_phone_long = $("#error_message_phone_long");
     var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
-    
-    //var patternPhone = new RegExp(/^\d{10}$/);
-    var phone_clear = phone_input.val().trim();
-    let phone = patternPhone.test(phone_clear);
-    var phone_length = countDigits(phone_clear);
 
-    console.log('phone-digits-length: ' + phone_length);
-    console.log('phone-correctness: ' + phone);
-    console.log('phone: ' + phone_clear);
+    //    var patternPhone = new RegExp(/((\+)?\b(38)?(0[\d-]{2}))([\d-]{5,8})([\d-]{2})/);
+    // var patternPhone = new RegExp(/^(?:\+38)?(?:\(044\)[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[ .-]?[0-9]{3}[ .-]?[0-9]{2}[ .-]?[0-9]{2}|044[0-9]{7})$/);
+
+    var phone_clear = phone_input.val().trim();
+//    let phone = patternPhone.test(phone_clear);
     var phone_length_all = phone_clear.length;
-/*
+    console.log('phone-length: ' + phone_length_all);
+//    console.log('phone-correctness: ' + phone);
+
     if (phone_length_all == 0) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_empty.show();
         error_message_phone_short.hide();
         error_message_phone_long.hide();
         error_message_phone_only_numbers.hide();
+        error_message_phone_plugin.hide();
         return false;
     }
-    */
-   /*
-    if (phone == false) {
+    /*
+    else if (phone == false) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_only_numbers.show();
         error_message_phone_empty.hide();
@@ -415,8 +415,8 @@ function check_phone() {
         return false;
     }
     */
-    
-    if (phone_length > 20) {
+   /*
+    else if (phone_length_all > 22) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_long.show();
         error_message_phone_empty.hide();
@@ -424,24 +424,45 @@ function check_phone() {
         error_message_phone_only_numbers.hide();
         return false;
     }
-    else if (phone_length < 7 && phone_length > 0 ) {
+    */
+   /* else if (phone_length_all < 9) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_short.show();
         error_message_phone_empty.hide();
         error_message_phone_long.hide();
+        error_message_phone_plugin.hide();
         error_message_phone_only_numbers.hide();
         return false;
+    }*/
+    else if ($.trim(phone_input.val())) {
+          if (phone_input.intlTelInput("isValidNumber")) {
+            phone_line.css({ "border-color": "#212121" });
+            error_message_phone_empty.hide();
+            error_message_phone_plugin.hide();
+            error_message_phone_short.hide();
+            error_message_phone_long.hide();
+            error_message_phone_only_numbers.hide();
+            return true;
+          } else {
+            phone_line.css({ "border-color": "red" });
+            error_message_phone_plugin.show();
+            error_message_phone_short.hide();
+            error_message_phone_empty.hide();
+            error_message_phone_long.hide();
+            error_message_phone_only_numbers.hide();
+            return false;
+          }
     }
-    else {
-        phone_line.css({ "border-color": "#B9B6B6" });
+    else{
+        phone_line.css({ "border-color": "#212121" });
         error_message_phone_empty.hide();
+        error_message_phone_plugin.hide();
         error_message_phone_short.hide();
         error_message_phone_long.hide();
         error_message_phone_only_numbers.hide();
         return true;
     };
 };
-
 
 
 
