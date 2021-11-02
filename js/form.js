@@ -386,7 +386,7 @@ function check_phone() {
     var error_message_phone_long = $("#error_message_phone_long");
     var error_message_phone_only_numbers = $("#error_message_phone_only_numbers");
     
-    var patternPhone = new RegExp(/^\d{10}$/);
+    //var patternPhone = new RegExp(/^\d{10}$/);
     var phone_clear = phone_input.val().trim();
     let phone = patternPhone.test(phone_clear);
     var phone_length = countDigits(phone_clear);
