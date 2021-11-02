@@ -396,7 +396,7 @@ function check_phone() {
     console.log('phone-length: ' + phone_length_all);
 //    console.log('phone-correctness: ' + phone);
 
-    if (phone_length_all == 0) {
+    /*if (phone_length_all == 0) {
         phone_line.css({ "border-color": "red" });
         error_message_phone_empty.show();
         error_message_phone_short.hide();
@@ -404,7 +404,7 @@ function check_phone() {
         error_message_phone_only_numbers.hide();
         error_message_phone_plugin.hide();
         return false;
-    }
+    }*/
     /*
     else if (phone == false) {
         phone_line.css({ "border-color": "red" });
@@ -434,9 +434,9 @@ function check_phone() {
         error_message_phone_only_numbers.hide();
         return false;
     }*/
-    else if ($.trim(phone_input.val())) {
+     if ($.trim(phone_input.val())) {
           if (phone_input.intlTelInput("isValidNumber")) {
-            phone_line.css({ "border-color": "#212121" });
+            phone_line.css({ "border-color": "#B9B6B6" });
             error_message_phone_empty.hide();
             error_message_phone_plugin.hide();
             error_message_phone_short.hide();
@@ -454,7 +454,7 @@ function check_phone() {
           }
     }
     else{
-        phone_line.css({ "border-color": "#212121" });
+        phone_line.css({ "border-color": "#B9B6B6" });
         error_message_phone_empty.hide();
         error_message_phone_plugin.hide();
         error_message_phone_short.hide();
