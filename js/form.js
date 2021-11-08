@@ -45,9 +45,9 @@ $('form').submit(function (e) {
       });
     var intlNumber = input.intlTelInput("getNumber");
     const indx=1;
-    var sum_text = 'Hi!\nI`m QAX bot.\n' +
+    var sum_text = 
         'Enviroment: ' + envName +
-        '\n\n' +
+        '\n\n\n' +
         'Name: ' + $('#name_input').val() +
         '\nPhone: ' + intlNumber +
         '\nEmail: ' + $('#email_input').val() +
