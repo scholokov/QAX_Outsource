@@ -2164,6 +2164,17 @@ a.menu-mobile {
   margin-bottom: 14px;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 @media (max-width: 767px) {
   div#thank_you-text {
     font-size: 27px;
@@ -2185,6 +2196,10 @@ div#write_to_us-thanks {
     line-height: 16px;
   }
   input[type=text] {
+    font-size: 14px !important;
+    line-height: 16px !important;
+  }
+  input[type=number] {
     font-size: 14px !important;
     line-height: 16px !important;
   }
@@ -2219,6 +2234,16 @@ div#write_to_us-thanks {
 }
 
 input[type=text] {
+  border-bottom: 1px solid #B9B6B6;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #120C04;
+}
+
+input[type=number] {
   border-bottom: 1px solid #B9B6B6;
   border-top: 0px;
   border-left: 0px;
