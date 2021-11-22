@@ -515,7 +515,7 @@ $("#phone_input").intlTelInput({
     
     excludeCountries: [],
     
-    formatOnDisplay:true,
+    formatOnDisplay:false,
     
     hiddenInput:"",
     
