@@ -795,6 +795,11 @@ Hero
 /*--------------------------------Hero Mobile---------------------------------------------*/
 
 @media screen and (max-width: 767px) {
+
+  h1#main-title{
+    margin-bottom: 6px;
+    padding-bottom: 0;
+  }
   section#page-title {
     padding-top: 82px !important;
     padding-bottom: 10px;
