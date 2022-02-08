@@ -820,6 +820,14 @@ Hero
     padding-right: 0;
   }
 }
+@media (max-width: 360px)  {
+  h1#main-title {
+    max-width: 276px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
 /*--------------------------------Hero Tablet---------------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 991px) {
