@@ -801,6 +801,8 @@ Hero
     padding-bottom: 0;
   }
   section#page-title {
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 82px !important;
     padding-bottom: 10px;
     min-height: 196px;
