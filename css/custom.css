@@ -1725,6 +1725,7 @@ padding-right: 0;
     color: #FFFFFF;
     text-align: center;
     padding-bottom: 0;
+    padding-bottom: 0;
     
   }
   
@@ -1744,6 +1745,18 @@ padding-right: 0;
     max-width: 900px;
     width: 100%;
   }
+
+  div#why_us1-box div {
+    font-weight: 500;
+    margin: 0;
+    line-height: 33px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 97px;
+    padding-right: 97px;
+    text-align: left;
+    font-size: 22px;
+}
   
   
 
