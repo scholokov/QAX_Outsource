@@ -2361,10 +2361,11 @@ textarea:-moz-placeholder {
 
 
 .textarea {
+  overflow-y: scroll;
+  max-height: 201px;
   border-bottom: 1px solid #B9B6B6;
   display: block;
   width: 100%;
-  overflow: hidden;
   resize: both;
   color: black;
 }
