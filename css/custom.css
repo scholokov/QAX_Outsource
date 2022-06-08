@@ -2918,9 +2918,15 @@ a#mail-link2{
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+  .pp-logo-block{
+    margin-left: 0px;
+    margin-top: 9px;
+    margin-bottom: 49px;
+  }
+
   #pp-content{
-    margin-left: 80px;
-    margin-right: 110px;
+    margin-left: 94px;
+    margin-right: 94px;
     font-family: Rubik;
     font-size: 18px;
     font-weight: 400;
@@ -2949,6 +2955,48 @@ a#mail-link2{
     margin-left: 0px;
     margin-top: 13px;
     margin-bottom: 60px;
+  }
+
+}
+
+@media (max-width:767px){
+  .pp-logo-block{
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 32px;
+  }
+
+  #pp-content{
+    margin-left: 18px;
+    margin-right: 184px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  .pp-titles{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  
+  #pp-main-title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+  }
+  
+  .pp-logo-block{
+    margin-left: 0px;
+    margin-top: 13px;
+    margin-bottom: 60px;
+    max-width: 166px;
   }
 
 }
