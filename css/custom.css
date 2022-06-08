@@ -2895,6 +2895,7 @@ a#mail-link2{
   line-height: 21px;
   letter-spacing: 0em;
   text-align: left;
+  margin-bottom: 30px;
 }
 
 #pp-main-title{
@@ -2914,4 +2915,40 @@ a#mail-link2{
 
 #intro{
   font-weight: 500;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  #pp-content{
+    margin-left: 80px;
+    margin-right: 110px;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .pp-titles{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  
+  #pp-main-title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+  }
+  
+  .pp-logo-block{
+    margin-left: 0px;
+    margin-top: 13px;
+    margin-bottom: 60px;
+  }
+
 }
