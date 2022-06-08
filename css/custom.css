@@ -1935,6 +1935,7 @@ div#cooperation_procedure_block {
   }
 
   #cooperation-procedure-title{
+    max-width: 208px;
     display: block;
     font-size: 25px;
     line-height: 30px;
