@@ -2874,3 +2874,18 @@ a#mail-link2{
 
 
 }
+
+/*------------------------- Privacy Policy -----------------------*/
+
+#pp-content{
+  margin-left: 80px;
+  margin-right: 110px;
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
