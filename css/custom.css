@@ -2897,4 +2897,12 @@ a#mail-link2{
   text-align: left;
 }
 
+#pp-main-title{
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 76px;
+  margin-bottom: 35px;
+}
 
