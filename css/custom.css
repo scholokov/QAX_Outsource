@@ -2726,6 +2726,7 @@ a#mail-link2{
 }
 
 #footer_4hg_column{
+  margin-top: 29px;
   display: flex;
   align-items: flex-end;
   flex-direction: column;
