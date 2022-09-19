@@ -1182,6 +1182,10 @@ Cooperation Offer
 /*--------------------------------------Cooperation Offer Tablet-------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 991px){
+
+  div#cooperation_offer_box {
+    padding-bottom: 46px;
+}
   .cooperation_offer-advantages.col-10.col-sm-11 {
     padding-bottom: 14px;
 }
