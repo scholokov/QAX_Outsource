@@ -1906,6 +1906,9 @@ Cooperation procedure
 
 
 @media (min-width: 768px) and (max-width: 991px){
+  div#cooperation_procedure-img {
+    margin-top: 26px;
+}
 
 
   p.cooperation-procedure-text-blocks {
