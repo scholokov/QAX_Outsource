@@ -1070,13 +1070,17 @@ h2#cooperation-offer-main-title {
 }
 
 #cooperation_offer_line2 {
-  margin-top: 0px;
-  margin-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 
 #cooperation_offer_line3 {
-  margin-top: 0px;
-  margin-bottom: 40px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.cooperation_offer-advantages.col-10.col-sm-11 {
+  padding-bottom: 20px;
 }
 
 .image-padding {
@@ -1102,6 +1106,7 @@ Cooperation Offer
 
 .cooperation_offer-advantages.col-10.col-sm-10 {
   padding-left: 9px;
+  padding-bottom: 20px;
 }
 /*--------------------------------------Сooperation Offer Mobile-----------------------------------------*/
 @media (max-width:767px){
