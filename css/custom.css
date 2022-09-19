@@ -1067,7 +1067,7 @@ h2#cooperation-offer-main-title {
 
 #cooperation_offer_line1 {
   margin-top: 90px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 #cooperation_offer_line2 {
@@ -1789,6 +1789,7 @@ padding-right: 0;
 
   #why_us {
     padding-top: 30px;
+    padding-bottom: 70px;
   }
 
   #why-us-title{
