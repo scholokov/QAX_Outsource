@@ -1949,6 +1949,7 @@ div#cooperation_procedure_block {
   }
 
   #cooperation-procedure-title{
+    padding: 0 20px;
     max-width: 208px;
     display: block;
     font-size: 25px;
@@ -1963,6 +1964,7 @@ div#cooperation_procedure_block {
   .cooperation-procedure-text-blocks{
     margin-bottom: 14px;
     min-width: 280px;
+    padding: 0 20px;
   }
 }
 
