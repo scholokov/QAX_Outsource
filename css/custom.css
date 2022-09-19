@@ -1182,6 +1182,9 @@ Cooperation Offer
 /*--------------------------------------Cooperation Offer Tablet-------------------------------------*/
 
 @media (min-width: 768px) and (max-width: 991px){
+  .cooperation_offer-advantages.col-10.col-sm-11 {
+    padding-bottom: 15px;
+}
 
   #cooperation_offer {
     padding-top: 70px;
@@ -1214,6 +1217,11 @@ h2#cooperation-offer-main-title{
     padding-bottom: 20px !important;
   }
 
+  #cooperation_offer_line3 {
+    margin-top: 35px;
+    margin-bottom: 30px;
+  }
+
   .cooperation_offer-normal-text {
     margin-bottom: 18px;
     font-size: 18px;
@@ -1225,7 +1233,7 @@ h2#cooperation-offer-main-title{
   }
 
   #cooperation_offer_line2 {
-    margin-top: -20px;
+    margin-top: 50px;
 }
 .cooperation_offer-advantage-text {
   margin-bottom: 14px;
