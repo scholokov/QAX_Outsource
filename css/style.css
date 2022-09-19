@@ -1602,10 +1602,10 @@ a.h-text-dark:hover {
 	margin-bottom: -50px;
 }
 
-.col-mb-50 > .col,
+/*.col-mb-50 > .col,
 .col-mb-50 > [class*="col-"] {
 	padding-bottom: 50px;
-}
+}*/
 
 .col-mb-80 {
 	margin-bottom: -80px;
