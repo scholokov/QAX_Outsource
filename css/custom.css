@@ -770,6 +770,7 @@ div#sendButtonText:focus {
 Hero
 -----------------------------------------------------------------*/
 #main-title{
+    height: 265px;
     max-width: 1100px;
     padding-bottom: 15px;
     line-height: 120px;
