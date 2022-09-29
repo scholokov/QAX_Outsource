@@ -864,12 +864,17 @@ Hero
 Our Services
 -----------------------------------------------------------------*/
 #our_services {
-  margin-top: 100px;
+  margin-top: 150px;
+    margin-bottom: 50px;
 }
 
 #our_services_line{
   opacity: 20%;
   border-top: 1px solid #000000;
+}
+
+h2#our-services-title {
+  margin-bottom: 0;
 }
 
 .our_services-sub-title {
